@@ -1,0 +1,179 @@
+/*
+*	display grid
+*/
+
+.cat_190 #news {
+	margin: 30px 0px 0px 30px;
+	padding: 0px;
+}
+
+.cat_190 #newswrap {
+	width: auto;
+}
+
+.cat_190 #newswrap div.post {
+	width: 149px;
+	margin: 0px 6px 6px 0px;
+	padding: 0px;
+	float: left;
+	background-color: #fefcf2;
+	border: 1px dotted #ffcf5d;
+}
+
+.cat_190 .pcont {
+	border: none;
+	margin: 0px;	
+}
+
+.cat_190 .pcont .entry {
+	float: left;
+	padding: 0px;
+}
+
+.cat_190 .pcont .catfloat {
+	display: none;
+}
+
+.cat_190 .pcon small,
+.cat_190 .pcont small {
+	display: none;
+}
+
+.cat_190 .pcont .pthumb {
+	padding: 10px 12px;
+}
+
+.cat_190 .pcont img {
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.cat_190 h1.posttitle {
+	background: none;
+	font-size: 15px;
+	line-height: 15px;
+	padding: 10px 3px 0px;
+	margin: 0px;
+	height: 35px;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.cat_190 h1.posttitle a {
+	font: bold 10pt/130% verdana,helvetica,sans-serif;
+	color: #7890FE;
+	text-align: center;
+	display: block;
+}
+
+.cat_190 .thumbcontent {
+	display: none;	
+	position: absolute;
+	z-index: 1000;
+	font-size: 8pt;
+	background-color: #fdf3c4;
+	border: 1px solid #ffb608;
+	padding: 5px 7px;
+	width: 200px;
+}
+
+.cat_190 #news div.post .thumbcontent p,
+.cat_190 .thumbcontent p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.cat_190 .thumbcontent a.more-link {
+	display: none;		
+}
+
+.cat_190 .navigation {
+	clear: both;
+}
+
+/*
+*	categorybox
+*/
+#leftcol #categorybox {
+	background-color: #fefcf2;
+	border: 1px solid #ffcf5d;
+	padding: 0px 0px 15px;
+	margin-top: 0px;
+	width: 627px;
+}
+
+#leftcol #categorybox li {
+	width: 275px;
+	padding: 0px 10px 0px 20px;
+	margin-left: 5px;
+	background: transparent url(images/bull_lines.gif) no-repeat 0px 5px;
+}
+
+#leftcol #categorybox li h2 {
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 1px dotted #dcdcdc;
+}
+
+#leftcol #categorybox li a {
+	color: #7890FE; 
+	font: normal 10pt/130% verdana,helvetica,sans-serif;
+	padding: 2px 0px;
+	display: block;
+}
+
+#leftcol #categorybox .categoryDescription  {
+	background: transparent;
+	border: none;
+	margin: 0px;
+	padding: 0px 8px;
+	width: auto;
+	font-size: 8pt;
+}
+
+#leftcol .cattitle {
+  background-color: #fdf3c4;
+  margin: 10px 30px 0px;
+  padding: 5px 8px;
+  width: 611px;
+  color: #000000;
+  font-size: 12pt;
+  font-weight: bold;
+  border:1px solid white;
+  border-bottom:none;
+}
+
+#leftcol .cattitle b {
+	color: #000000;
+	font-size: 10pt;
+}
+
+#leftcol .cattitle .cattitle-collapse {
+	display: block;
+	float: right;
+	height: 13px;
+	width: 13px;
+	background: transparent url(images/expand_collapse_ico.gif) no-repeat 0px -17px;
+	margin-top: 3px;
+	cursor: pointer;
+}
+
+#leftcol .cattitle .cattitle-collapse.collapse {
+	background-position: 0px 0px;
+}
+
+/*
+*	collapse a list of links in the category id 190
+*/
+.cat_190#leftcol  #category-list {
+	display: none;
+}
+
+.cat_190#leftcol .cattitle .cattitle-collapse {
+	background-position: 0px 0px;
+}
+
+.cat_190#leftcol .cattitle .cattitle-collapse.collapse {
+	background-position: 0px -17px;
+}

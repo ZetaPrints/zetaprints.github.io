@@ -1,0 +1,531 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="verify-v1" content="GACnn9+1c3JzusKbMwxWr+f9dKvqx8As8sbHI8tNyxA=" />
+  <meta name="keywords" content="web-to-print, online printing, zetaprints, online print ordering" />
+  <title>   Custom theme: integration | Magento web-to-print &amp; dynamic imaging</title>
+  <script type="text/javascript" src="/magentohelp/wp-content/themes/water-zp-3/jslib.js"></script>
+  <meta name="generator" content="ZetaPrints"/> <!-- leave this for stats -->
+  <link rel="stylesheet" href="/magentohelp/wp-content/themes/water-zp-3/style.css" type="text/css" media="all" />
+  <link href="/magentohelp/wp-content/themes/water-zp-3/style-fixed.css" rel="stylesheet" type="text/css" />
+  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/magentohelp/feed/" />
+  <link rel="alternate" type="text/xml" title="RSS .92" href="/magentohelp/feed/rss/" />
+  <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="/magentohelp/feed/atom/" />
+  <!--link rel="pingback" href="/magentohelp/xmlrpc.php" /-->
+  		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.zetaprints.com\/magentohelp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.1"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='cat-post-tree-ajax-css'  href='/magentohelp/wp-content/plugins/cat-post-tree-ajax/cat-post-tree-ajax.css?ver=0.7' type='text/css' media='screen' />
+<link rel='stylesheet' id='top_css-css'  href='/magentohelp/wp-content/themes/water-zp-3/top-menu.css?ver=4.4.1' type='text/css' media='all' />
+<!--[if IE]>
+<link rel='stylesheet' id='top_css_ie-css'  href='/magentohelp/wp-content/themes/water-zp-3/top-menu-ie.css?ver=4.4.1' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='codecolorer-css'  href='/magentohelp/wp-content/plugins/codecolorer/codecolorer.css?ver=0.9.9' type='text/css' media='screen' />
+<script type='text/javascript' src='/magentohelp/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='/magentohelp/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='/magentohelp/wp-content/themes/water-zp-3/js/top-menu.js?ver=4.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CatPostAjax = {"ajaxurl":"http:\/\/www.zetaprints.com\/magentohelp\/wp-admin\/admin-ajax.php","nice_ajax_tree_img":"http:\/\/www.zetaprints.com\/magentohelp\/wp-content\/plugins\/cat-post-tree-ajax\/img\/","type":"post","id":"11686","cat":"1157"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/magentohelp/wp-content/plugins/cat-post-tree-ajax/cat-post-tree-ajax.js?ver=4.4.1'></script>
+<link rel='https://api.w.org/' href='/magentohelp/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/magentohelp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/magentohelp/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='FAQ for web-to-print' href='/magentohelp/faq-2/' />
+<link rel='next' title='Custom theme: two-step' href='/magentohelp/custom-2step-theme/' />
+<meta name="generator" content="WordPress 4.4.1" />
+<link rel="canonical" href="/magentohelp/custom-theme-integration/" />
+<link rel='shortlink' href="/magentohelp/?p=11686/" />
+<link rel="alternate" type="application/json+oembed" href="/magentohelp/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.zetaprints.com%2Fmagentohelp%2Fcustom-theme-integration%2F" />
+<link rel="alternate" type="text/xml+oembed" href="/magentohelp/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.zetaprints.com%2Fmagentohelp%2Fcustom-theme-integration%2F&#038;format=xml" />
+<meta property="og:site_name" content="Magento web-to-print &amp;amp; dynamic imaging" />
+<meta property="og:title" content="Custom theme: integration" />
+<meta property="og:url" content="/magentohelp/custom-theme-integration/" />
+<meta property="og:type" content="article" />
+  <!--[if IE]>
+  <style>
+  
+  </style>
+  <![EndIf]-->
+  <style type="text/css" media="print">
+  #header, #footer, #rightcol, #logo, .social_bookmark, .post-rel, .postmetadata, #questionMark, p.nocomments {display:none}
+  </style>
+  <link media="screen" type="text/css" href="/magentohelp/wp-content/themes/water-zp-3/grid.css" rel="stylesheet"/>
+  <script type='text/javascript' src="/magentohelp/wp-content/themes/water-zp-3/js/grid.js" ></script>
+</head>
+
+<body>
+  <div id="header-container" class="clearfix container">
+    <div id="header">
+      <div class="logo">
+        <a href="http://www.zetaprints.com"><img src="/magentohelp/wp-content/themes/water-zp-3/images/logo.gif" alt="ZetaPrints Web-to-print home"/></a>
+        <h1><a href="/magentohelp/"><span>ZetaPrints</span> magento</a></h1>
+        <h3>Web-to-Print &amp; dynamic imaging</h3>
+      </div>
+      <div class="nav">
+    <ul class="main" id="top-drop-menu">
+        <li>
+            <a href="/" title="Zetaprints home">Home</a>
+        </li><li class="drop">
+            <a href="/help/" class="drop-down-link">Help</a>
+            <ul>
+                <li>
+                    <a href="/help/" class="drop-down-link">Web-to-print help</a>
+                </li>
+                <li>
+                    <a href="/magentohelp/" class="drop-down-link">Magento help</a>
+                </li>
+				<li>
+					<a href="/directory/" class="drop-down-link">Resources</a>
+				</li>
+				<li class="last">
+					<a href="/userhelp/" class="drop-down-link">End user help</a>
+				</li>
+            </ul>
+        </li><li>
+            <a href="/blog/" title="Web to print blog">Blog</a>
+        </li><li>
+            <a href="/packages/sign-up-for-web-to-print/" title="Sign up for web-to-print">Sign up</a>
+        </li><li class="no_border">
+            <a href="http://zetaprints.com" title="Web to print system">Log in</a>
+        </li>
+    </ul>
+</div>
+<!-- nav -->
+    </div> <!-- header -->
+  </div> <!-- container -->
+
+<link href="/magentohelp/wp-content/themes/water-zp-3/js/jquery-ui-1.8.2.custom.css" rel="stylesheet" type="text/css"/>
+<script src="/magentohelp/wp-content/themes/water-zp-3/js/jquery-ui-1.8.2.custom.min.js"></script>
+<script>
+  jQuery(document).ready(function(){
+    // init jQuery for tabs div
+    jQuery("#featuretabs").tabs({
+      select: function(event, ui){
+        jQuery( "a" ).blur(); // remove border for selected tab
+      }
+    })
+  });
+</script>
+<div id="content-container" class="container clearfix">
+      <div id="rightcol">
+      <ul>
+        <li id="niceajaxtree-widget-3" class="widget cat-post-ajax-tree"><div class="nat-menu-li">
+<h2 class="head"><a
+	href="/magentohelp/category/overview/"
+	title="View all posts in Overview">Overview</a>
+<span
+	class="arrow cat-item-917">&nbsp;</span>
+</h2>
+<div class="cat-post-ajax-tree-submenu" id="submenu-917" style="display:none;">
+<ul><li><a href='/magentohelp/free-magento-ami-on-aws/' class='di__12388 postlink'>Free Magento AMI on AWS</a></li><li><a href='/magentohelp/magento/' class='di__9281 postlink'>Get started</a></li><li><a href='/magentohelp/magento-web-to-print-overview/' class='di__7783 postlink'>Magento web-to-print overview</a></li><li><a href='/magentohelp/magento-web-to-print-site-map/' class='di__12291 postlink'>Site map</a></li><li><a href='/magentohelp/web-to-print-demo-installation-on-magento/' class='di__13658 postlink'>Web-to-print express demo installation on Magento</a></li><li><a href='/magentohelp/04-release-notes/' class='di__11651 postlink'>Web-to-print release notes</a></li></ul></div>
+</div>
+<div class="nat-menu-li">
+<h2 class="head"><a
+	href="/magentohelp/category/installation-steps/"
+	title="View all posts in Web-to-print installation">Web-to-print installation</a>
+<span
+	class="arrow cat-item-1">&nbsp;</span>
+</h2>
+<div class="cat-post-ajax-tree-submenu" id="submenu-1" style="display:none;">
+<ul><li><a href='/magentohelp/web-to-print-extension-prerequisites/' class='di__7812 postlink'>01. Prerequisites</a></li><li><a href='/magentohelp/install-magento/' class='di__10345 postlink'>02. Install Magento</a></li><li><a href='/magentohelp/web-to-print-magento-install/' class='di__7818 postlink'>03. Install web-to-print extension</a></li><li><a href='/magentohelp/theme-configuration/' class='di__7926 postlink'>04. Theme configuration</a></li><li><a href='/magentohelp/clear-magento-cache/' class='di__10348 postlink'>05. Clear Magento cache</a></li><li><a href='/magentohelp/zetaprints-synchronization-settings/' class='di__7847 postlink'>06. ZetaPrints synchronization settings</a></li><li><a href='/magentohelp/import-web-to-print-data/' class='di__7866 postlink'>07. Import data</a></li><li><a href='/magentohelp/create-simple-web-to-print-products/' class='di__8279 postlink'>08. Create products</a></li><li><a href='/magentohelp/register-a-master-account/' class='di__10339 postlink'>09. Register a master account</a></li><li><a href='/magentohelp/set-up-your-domain/' class='di__10343 postlink'>10. Set up your domain</a></li><li><a href='/magentohelp/configure-product-attributes/' class='di__10350 postlink'>11. Configure product attributes</a></li></ul></div>
+</div>
+<div class="nat-menu-li">
+<h2 class="head"><a
+	href="/magentohelp/category/administration/"
+	title="View all posts in Web-to-print administration">Web-to-print administration</a>
+<span
+	class="arrow cat-item-1134">&nbsp;</span>
+</h2>
+<div class="cat-post-ajax-tree-submenu" id="submenu-1134" style="display:none;">
+<ul><li><a href='/magentohelp/auto-category-creation/' class='di__13245 postlink'>Auto category creation</a></li><li><a href='/magentohelp/custom-options-replicator-extension/' class='di__12868 postlink'>Bulk editing custom options</a></li><li><a href='/magentohelp/bulk-editing-products/' class='di__12308 postlink'>Bulk editing products</a></li><li><a href='/magentohelp/combo-box-functionality/' class='di__12991 postlink'>Combo box functionality in a text field</a></li><li><a href='/magentohelp/datasets-in-magento-web-to-print-products/' class='di__13488 postlink'>Datasets in Magento web-to-print products</a></li><li><a href='/magentohelp/default-image-fields-appearance/' class='di__13527 postlink'>Default image fields appearance</a></li><li><a href='/magentohelp/default-text/' class='di__13085 postlink'>Default text</a></li><li><a href='/magentohelp/dynamic-imaging-products/' class='di__13571 postlink'>Dynamic imaging products</a></li><li><a href='/magentohelp/allow-file-download-in-magento/' class='di__10104 postlink'>File downloading</a></li><li><a href='/magentohelp/fit-in-field-image-editing/' class='di__13445 postlink'>Fit-in-field image editing</a></li><li><a href='/magentohelp/how-to-enable-web-to-print-product/' class='di__12841 postlink'>How to enable a product</a></li><li><a href='/magentohelp/ignore-unpaid-web-to-print-orders/' class='di__13585 postlink'>Ignore unpaid orders</a></li><li><a href='/magentohelp/image-size-adjustment-for-magento/' class='di__9946 postlink'>Image size adjustment</a></li><li><a href='/magentohelp/label-translations/' class='di__12669 postlink'>Label translations</a></li><li><a href='/magentohelp/linking-magento-products-to-web-to-print-templates/' class='di__8566 postlink'>Linking products to templates</a></li><li><a href='/magentohelp/magento-order-management/' class='di__9713 postlink'>Order management</a></li><li><a href='/magentohelp/magento-order-status/' class='di__9758 postlink'>Order status</a></li><li><a href='/magentohelp/display-page-sizes/' class='di__13270 postlink'>Page size table</a></li><li><a href='/magentohelp/magento-pdf-proof/' class='di__10481 postlink'>PDF proof</a></li><li><a href='/magentohelp/magento-product-presentation/' class='di__9899 postlink'>Product presentation</a></li><li><a href='/magentohelp/magento-product-relations/' class='di__10414 postlink'>Product relationships</a></li><li><a href='/magentohelp/web-to-print-product-type-compatibility/' class='di__12800 postlink'>Product type compatibility</a></li><li><a href='/magentohelp/products-for-multiple-web-to-print-stores/' class='di__13505 postlink'>Products for multi-store web-to-print</a></li><li><a href='/magentohelp/web-to-print-reports-in-magento/' class='di__13546 postlink'>Reports for web-to-print orders</a></li><li><a href='/magentohelp/create-simple-and-virtual-web-to-print-products/' class='di__12649 postlink'>Simple and virtual web-to-print products</a></li><li><a href='/magentohelp/magento-web-to-print-localization/' class='di__9099 postlink'>Translations</a></li><li><a href='/magentohelp/usermanagement/' class='di__11680 postlink'>User management </a></li><li><a href='/magentohelp/variable-text-colors/' class='di__13045 postlink'>Variable text colors</a></li><li><a href='/magentohelp/web-to-print-extension-removal/' class='di__12428 postlink'>Web-to-print extension removal</a></li></ul></div>
+</div>
+<div class="nat-menu-li">
+<h2 class="head"><a
+	href="/magentohelp/category/themes-for-web-to-print/"
+	title="View all posts in Web-to-print themes">Web-to-print themes</a>
+<span
+	class="arrow cat-item-1157 collapse">&nbsp;</span>
+</h2>
+<div class="cat-post-ajax-tree-submenu" id="submenu-1157" style="">
+<ul><li><a href='/magentohelp/byuing-a-theme-for-web-to-print/' class='di__13133 postlink'>Byuing a theme for web-to-print</a></li><li><a href='/magentohelp/custom-theme-integration/' class='di__11686 postlink'><strong>Custom theme: integration</strong></a></li><li><a href='/magentohelp/custom-2step-theme/' class='di__11688 postlink'>Custom theme: two-step</a></li><li><a href='/magentohelp/hellothemes-for-web-to-print/' class='di__12942 postlink'>HelloThemes for web-to-print</a></li><li><a href='/magentohelp/enable-interactive-personalization/' class='di__13147 postlink'>Interactive personalization theme</a></li><li><a href='/magentohelp/magento-theme-hiearachy/' class='di__12900 postlink'>Magento theme hiearachy</a></li><li><a href='/magentohelp/theme-switcher-extension/' class='di__12769 postlink'>Theme switcher extension</a></li></ul></div>
+</div>
+<div class="nat-menu-li">
+<h2 class="head"><a
+	href="/magentohelp/category/developer/"
+	title="View all posts in Web-to-print for developers">Web-to-print for developers</a>
+<span
+	class="arrow cat-item-1135">&nbsp;</span>
+</h2>
+<div class="cat-post-ajax-tree-submenu" id="submenu-1135" style="display:none;">
+<ul><li><a href='/magentohelp/zp-api-user-guide/' class='di__11728 postlink'>API user guide</a></li><li><a href='/magentohelp/web-to-print-extension-and-magento-compiler/' class='di__13690 postlink'>Compiling Magento with web-to-print</a></li><li><a href='/magentohelp/conditional-add-to-cart-button/' class='di__12414 postlink'>Conditional "Add to cart" button</a></li><li><a href='/magentohelp/custom-configuration/' class='di__12555 postlink'>Custom configuration</a></li><li><a href='/magentohelp/custom-loader-icon-in-magento/' class='di__10664 postlink'>Custom loader icon</a></li><li><a href='/magentohelp/activate-fit-in-field-image-editing/' class='di__12584 postlink'>Enable / Disable Fit-in-field image editing</a></li><li><a href='/magentohelp/interaction-overview/' class='di__11714 postlink'>Interaction overview</a></li><li><a href='/magentohelp/javascript-files/' class='di__11691 postlink'>JavaScript files</a></li><li><a href='/magentohelp/magento-theme-hiearachy/' class='di__12900 postlink'>Magento theme hiearachy</a></li><li><a href='/magentohelp/override-file-download-permissions/' class='di__12579 postlink'>Override file download permissions</a></li><li><a href='/magentohelp/magentoproducts/' class='di__11722 postlink'>Product creation / updates</a></li><li><a href='/magentohelp/redefined-functions/' class='di__11724 postlink'>Redefined functions</a></li><li><a href='/magentohelp/remove-session-id-from-mageto-url/' class='di__10529 postlink'>Remove Session ID from URL</a></li><li><a href='/magentohelp/remove-zptheme-sidebars/' class='di__12407 postlink'>Remove zptheme sidebars</a></li><li><a href='/magentohelp/templates-import/' class='di__11726 postlink'>Templates import</a></li><li><a href='/magentohelp/user-management/' class='di__11718 postlink'>User management</a></li></ul></div>
+</div>
+<div class="nat-menu-li">
+<h2 class="head"><a
+	href="/magentohelp/category/access-control/"
+	title="View all posts in Access control plugin">Access control plugin</a>
+<span
+	class="arrow cat-item-570">&nbsp;</span>
+</h2>
+<div class="cat-post-ajax-tree-submenu" id="submenu-570" style="display:none;">
+<ul><li><a href='/magentohelp/magento-access-control-for-dynamic-imaging/' class='di__8883 postlink'>Access control extension</a></li></ul></div>
+</div>
+<div class="nat-menu-li">
+<h2 class="head"><a
+	href="/magentohelp/category/approval-admin/"
+	title="View all posts in Order approval plugin">Order approval plugin</a>
+<span
+	class="arrow cat-item-1142">&nbsp;</span>
+</h2>
+<div class="cat-post-ajax-tree-submenu" id="submenu-1142" style="display:none;">
+<ul><li><a href='/magentohelp/magento-order-approval/' class='di__10609 postlink'> Order approval extension</a></li><li><a href='/magentohelp/order-approval-notification-email/' class='di__10629 postlink'>Order approval notification eMail</a></li><li><a href='/magentohelp/order-approval-uninstall/' class='di__10646 postlink'>Order approval uninstall</a></li></ul></div>
+</div>
+<div class="nat-menu-li">
+<h2 class="head"><a
+	href="/magentohelp/category/file-attachments/"
+	title="View all posts in Dynamic attachments plugin">Dynamic attachments plugin</a>
+<span
+	class="arrow cat-item-1143">&nbsp;</span>
+</h2>
+<div class="cat-post-ajax-tree-submenu" id="submenu-1143" style="display:none;">
+<ul><li><a href='/magentohelp/delete-old-attachments/' class='di__12447 postlink'>Delete old attachments</a></li><li><a href='/magentohelp/dynamic-file-attachments/' class='di__12109 postlink'>Dynamic File Attachments extension</a></li><li><a href='/magentohelp/setup-cron-jobs/' class='di__12468 postlink'>Setup cron jobs</a></li></ul></div>
+</div>
+<div class="nat-menu-li">
+<h2 class="head"><a
+	href="/magentohelp/category/fixed-quantities-plugin/"
+	title="View all posts in Fixed quantities plugin">Fixed quantities plugin</a>
+<span
+	class="arrow cat-item-1144">&nbsp;</span>
+</h2>
+<div class="cat-post-ajax-tree-submenu" id="submenu-1144" style="display:none;">
+<ul><li><a href='/magentohelp/bulk-edit-fixed-quantities/' class='di__12480 postlink'>Bulk edit fixed quantities</a></li><li><a href='/magentohelp/complex-products-with-fixed-quantities/' class='di__12720 postlink'>Complex products with fixed quantities</a></li><li><a href='/magentohelp/fixed-quantity/' class='di__12347 postlink'>Fixed quantity for web-to-print</a></li><li><a href='/magentohelp/fixed-quantity-uninstall/' class='di__12894 postlink'>Fixed Quantity uninstall</a></li><li><a href='/magentohelp/fixed-quantity-under-the-hood/' class='di__12369 postlink'>Fixed quantity: under the hood</a></li></ul></div>
+</div>
+<div class="nat-menu-li">
+<h2 class="head"><a
+	href="/magentohelp/category/template-errors/"
+	title="View all posts in Troubleshooting">Troubleshooting</a>
+<span
+	class="arrow cat-item-607">&nbsp;</span>
+</h2>
+<div class="cat-post-ajax-tree-submenu" id="submenu-607" style="display:none;">
+<ul><li><a href='/magentohelp/faq-2/' class='di__11684 postlink'>FAQ for web-to-print</a></li><li><a href='/magentohelp/incompatible-magento-extensions/' class='di__13405 postlink'>Incompatible Magento extensions</a></li><li><a href='/magentohelp/magento-imaging-troubleshooting/' class='di__10562 postlink'>Troubleshooting</a></li></ul></div>
+</div>
+<div class="nat-menu-li">
+<h2 class="head"><a
+	href="/magentohelp/category/support/"
+	title="View all posts in Support">Support</a>
+<span
+	class="arrow cat-item-1042">&nbsp;</span>
+</h2>
+<div class="cat-post-ajax-tree-submenu" id="submenu-1042" style="display:none;">
+<ul><li><a href='/magentohelp/magento-web-to-print-support/' class='di__12178 postlink'>Magento web-to-print support</a></li><li><a href='/magentohelp/other-magento-support/' class='di__12181 postlink'>Other Magento support</a></li></ul></div>
+</div>
+<div class="nat-menu-li">
+<h2 class="head"><a
+	href="/magentohelp/category/distribution-map-plugin/"
+	title="View all posts in Distribution map plugin">Distribution map plugin</a>
+<span
+	class="arrow cat-item-1150">&nbsp;</span>
+</h2>
+<div class="cat-post-ajax-tree-submenu" id="submenu-1150" style="display:none;">
+<ul><li><a href='/magentohelp/distribution-map-extension/' class='di__12527 postlink'>Distribution map extension</a></li></ul></div>
+</div>
+<div class="nat-menu-li">
+<h2 class="head"><a
+	href="/magentohelp/category/web-to-print-store-builder/"
+	title="View all posts in Web-to-print store builder">Web-to-print store builder</a>
+<span
+	class="arrow cat-item-1149">&nbsp;</span>
+</h2>
+<div class="cat-post-ajax-tree-submenu" id="submenu-1149" style="display:none;">
+<ul><li><a href='/magentohelp/amazon-server-set-up-for-web-to-print/' class='di__12635 postlink'>Amazon server set up for web-to-print</a></li><li><a href='/magentohelp/initial-magento-configuration/' class='di__13186 postlink'>Initial Magento config</a></li><li><a href='/magentohelp/magento-newsletter/' class='di__13225 postlink'>Magento Newsletter</a></li><li><a href='/magentohelp/shipping-configuration/' class='di__12509 postlink'>Shipping configuration</a></li></ul></div>
+</div>
+</li>
+		<li id="recent-posts-3" class="widget widget_recent_entries">		<h2 class="widgettitle">Recent Articles</h2>
+		<ul>
+					<li>
+				<a href="/magentohelp/web-to-print-extension-and-magento-compiler/">Compiling Magento with web-to-print</a>
+						</li>
+					<li>
+				<a href="/magentohelp/web-to-print-demo-installation-on-magento/">Web-to-print express demo installation on Magento</a>
+						</li>
+					<li>
+				<a href="/magentohelp/ignore-unpaid-web-to-print-orders/">Ignore unpaid orders</a>
+						</li>
+					<li>
+				<a href="/magentohelp/dynamic-imaging-products/">Dynamic imaging products</a>
+						</li>
+					<li>
+				<a href="/magentohelp/web-to-print-reports-in-magento/">Reports for web-to-print orders</a>
+						</li>
+				</ul>
+		</li>
+		      </ul>
+    </div>
+  <div id="leftcol">
+    <div id="news" class="clearfix">
+      <div id="newswrap">
+                              <div class="post" id="post-11686">
+              <h1 class="posttitle"><a href="/magentohelp/custom-theme-integration/" rel="bookmark" title="Permanent Link: Custom theme: integration">Custom theme: integration</a></h1>
+              <div class="pcont">
+                <div class="catfloat"><small><a href="/magentohelp/category/themes-for-web-to-print/" rel="category tag">Web-to-print themes</a></small></div>
+                <small>25/10/2010 <!-- by admin --></small>
+                <div class="entry">
+                  <p>The web-to-print extension comes with a default theme modified to include all the necessary code from the extension. A Magento website can use a different theme modified to include the code as explained in this manual.<!--more--></p>
+<ol>
+<li>Read this manual</li>
+<li>Study the default theme files</li>
+<li>Transfer the code from the default theme to your custom theme</li>
+<li>Test on w2p and non-w2p products</li>
+</ol>
+<p><strong>Disclaimer</strong>: theme modifications require a certain level of programming skill.</p>
+<p>All files listed here can be found in the <a href="https://www.magentocommerce.com/magento-connect/web-to-print-and-dynamic-imaging.html">extension</a> on Magento-Connect or in the <a href="http://code.google.com/p/magento-w2p/source/checkout/" rel="nofollow">SVN repository</a>.</p>
+<p>Every file has the new code divided into several sections. Every section has its sequence number (e.g. <em>ZP-CODE:1</em>) and is enclosed with comments similar to this:</p>
+<pre><em>/****** ZP-CODE:1 Short description of code in the block ******/ some code /****** ZP-CODE:1 End ******/</em></pre>
+<h2>Personalization form</h2>
+<p>The form is a modified product details page. You need to insert certain function calls at places where the blocks of HTML should show. This screenshot is only a guide to how it can be laid out on the screen. The functions are described below in the article. <img src="/magentohelp/wp-content/magento-docs/theme-configuration.png" alt="Web-to-print personalization" /></p>
+<h2>Custom theme requirements</h2>
+<p>The web-to-print extension has several requirements to HTML code of the custom theme.</p>
+<ul>
+<li><em>app/design/frontend/default/<em>&lt;</em>your_custom_theme_name<em>&gt;</em>/template/catalog/product/view.phtml</em></li>
+</ul>
+<blockquote><p>Set <strong>id</strong> attribute of preview image container (can be a parent, but not immediate one) to <strong>zetaprints-preview-image-container</strong> value. Search for <em>zetaprints-preview-image-container</em> string in <a href="http://code.google.com/p/magento-w2p/source/browse/trunk/app/design/frontend/default/zptheme/template/catalog/product/view.phtml" rel="nofollow">view.phtml</a> file from <em>zptheme</em> theme for example.</p></blockquote>
+<ul>
+<li><em>app/design/frontend/default/<em>&lt;</em>your_custom_theme<em>&gt;</em>/template/catalog/product/view/addtocart.phtml</em></li>
+</ul>
+<blockquote><p>Set <strong>id</strong> attribute of <em>Add to cart</em> button to <strong>zetaprints-add-to-cart-button</strong> value. Search for <em>zetaprints-add-to-cart-button</em> string in <a href="http://code.google.com/p/magento-w2p/source/browse/trunk/app/design/frontend/default/zptheme/template/catalog/product/view/addtocart.phtml" rel="nofollow">addtocart.phtml</a> file from <em>zptheme</em> theme for example.</p></blockquote>
+<ul>
+<li><em>app/design/frontend/default/<em>&lt;</em>your_custom_theme<em>&gt;</em>/template/catalog/product/view/media.phtml</em></li>
+</ul>
+<blockquote><p>Set <strong>id</strong> attribute of product image tag to <strong>image</strong> value. Search for <em>image</em> string in <a href="http://code.google.com/p/magento-w2p/source/browse/trunk/app/design/frontend/default/zptheme/template/catalog/product/view/media.phtml" rel="nofollow">media.phtml</a> file from <em>zptheme</em> theme for example</p></blockquote>
+<h2>Files in <em>app/design/frontend/default/&lt;your_theme_name&gt;/</em></h2>
+<p>You need to modify some files behind the user interface.</p>
+<h3><em><a href="http://code.google.com/p/magento-w2p/source/browse/trunk/app/design/frontend/default/zptheme/template/catalog/product/view.phtml" rel="nofollow">template/catalog/product/view.phtml</a></em></h3>
+<p>This file shows form for ordering on product page. This form contains product images, product name, product description, product price, etc.</p>
+<p>New code checks for web-to-print features in a product and adds additional options (ajax image preview, colour picker, stock images chooser and support for multipage templates).</p>
+<p>The code is divided into 4 sections.</p>
+<p><strong>Section 1</strong>: Checking if a product has web-to-print features then printing tabs component for switching pages in multipage templates.</p>
+<div class="codecolorer-container php mac-classic" style="overflow:auto;white-space:nowrap;width:600px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br /></div></td><td><div class="php codecolorer"><span class="kw2">&lt;?php</span> <span class="re0">$this</span><span class="sy0">-&gt;</span><span class="me1">helper</span><span class="br0">&#40;</span><span class="st_h">'webtoprint/personalization-form'</span><span class="br0">&#41;</span><span class="sy0">-&gt;</span><span class="me1">get_page_tabs</span><span class="br0">&#40;</span><span class="re0">$this</span><span class="br0">&#41;</span><span class="sy0">;</span> <span class="sy1">?&gt;</span></div></td></tr></tbody></table></div>
+<p><strong>Section 2</strong>: Checking if а product has web-to-print features then printing text fields, stock images choosers, color pickers.</p>
+<div class="codecolorer-container php mac-classic" style="overflow:auto;white-space:nowrap;width:600px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br />2<br /></div></td><td><div class="php codecolorer"><span class="kw2">&lt;?php</span> <span class="re0">$this</span><span class="sy0">-&gt;</span><span class="me1">helper</span><span class="br0">&#40;</span><span class="st_h">'webtoprint/personalization-form'</span><span class="br0">&#41;</span><span class="sy0">-&gt;</span><span class="me1">get_text_fields</span><span class="br0">&#40;</span><span class="re0">$this</span><span class="br0">&#41;</span><span class="sy0">;</span> <span class="sy1">?&gt;</span><br />
+<span class="kw2">&lt;?php</span> <span class="re0">$this</span><span class="sy0">-&gt;</span><span class="me1">helper</span><span class="br0">&#40;</span><span class="st_h">'webtoprint/personalization-form'</span><span class="br0">&#41;</span><span class="sy0">-&gt;</span><span class="me1">get_image_fields</span><span class="br0">&#40;</span><span class="re0">$this</span><span class="br0">&#41;</span><span class="sy0">;</span> <span class="sy1">?&gt;</span></div></td></tr></tbody></table></div>
+<p><strong>Section 3</strong>: Checking if a product has web-to-print features then printing <em>Update preview</em> button.</p>
+<div class="codecolorer-container php mac-classic" style="overflow:auto;white-space:nowrap;width:600px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br /></div></td><td><div class="php codecolorer"><span class="kw2">&lt;?php</span> <span class="re0">$this</span><span class="sy0">-&gt;</span><span class="me1">helper</span><span class="br0">&#40;</span><span class="st_h">'webtoprint/personalization-form'</span><span class="br0">&#41;</span><span class="sy0">-&gt;</span><span class="me1">get_preview_button</span><span class="br0">&#40;</span><span class="re0">$this</span><span class="br0">&#41;</span><span class="sy0">;</span> <span class="sy1">?&gt;</span></div></td></tr></tbody></table></div>
+<p><strong>Section 4</strong>: Checking if a product has web-to-print features then printing javascript code for web-to-print personalization form.</p>
+<div class="codecolorer-container php mac-classic" style="overflow:auto;white-space:nowrap;width:600px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br /></div></td><td><div class="php codecolorer"><span class="kw2">&lt;?php</span> <span class="re0">$this</span><span class="sy0">-&gt;</span><span class="me1">helper</span><span class="br0">&#40;</span><span class="st_h">'webtoprint/personalization-form'</span><span class="br0">&#41;</span><span class="sy0">-&gt;</span><span class="me1">get_js</span><span class="br0">&#40;</span><span class="re0">$this</span><span class="br0">&#41;</span><span class="sy0">;</span> <span class="sy1">?&gt;</span></div></td></tr></tbody></table></div>
+<h3><em><a href="http://code.google.com/p/magento-w2p/source/browse/trunk/app/design/frontend/default/zptheme/template/catalog/product/view/media.phtml" rel="nofollow">template/catalog/product/view/media.phtml</a></em></h3>
+<p>This file shows product image, additional images and image zoomer on product page.</p>
+<p>New code checks for web-to-print in a product and puts correct images urls additional images.</p>
+<p><strong>Section 1</strong>: Remove web-to-print images for multi-page templates from the gallery thumbs.</p>
+<div class="codecolorer-container php mac-classic" style="overflow:auto;white-space:nowrap;width:600px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br /></div></td><td><div class="php codecolorer"><span class="kw2">&lt;?php</span> <span class="re0">$this</span><span class="sy0">-&gt;</span><span class="me1">helper</span><span class="br0">&#40;</span><span class="st_h">'webtoprint/personalization-form'</span><span class="br0">&#41;</span><span class="sy0">-&gt;</span><span class="me1">prepare_gallery_images</span><span class="br0">&#40;</span><span class="re0">$this</span><span class="br0">&#41;</span> <span class="sy1">?&gt;</span></div></td></tr></tbody></table></div>
+<h3><em><a href="http://code.google.com/p/magento-w2p/source/browse/trunk/app/design/frontend/default/zptheme/template/checkout/cart/item/default.phtml">template/checkout/cart/item/default.phtml</a></em></h3>
+<p>This file shows various information for cart item on shopping cart page.</p>
+<p>New code checks for web-to-print in a product and puts correct images urls for cart item, also it adds link to PDF proofs.</p>
+<p><strong>Section 1</strong>: Checking if product has web-to-print features and then printing <em>&lt;img&gt;</em> tag with correct url; add link to PDF proof for the template.</p>
+<div class="codecolorer-container php mac-classic" style="overflow:auto;white-space:nowrap;width:600px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br /></div></td><td><div class="php codecolorer"><span class="kw2">&lt;?php</span> <span class="kw1">if</span><span class="br0">&#40;</span><span class="sy0">!</span><span class="re0">$this</span><span class="sy0">-&gt;</span><span class="me1">helper</span><span class="br0">&#40;</span><span class="st_h">'webtoprint/personalization-form'</span><span class="br0">&#41;</span><span class="sy0">-&gt;</span><span class="me1">get_cart_image</span><span class="br0">&#40;</span><span class="re0">$this</span><span class="br0">&#41;</span><span class="br0">&#41;</span><span class="sy0">:</span> <span class="sy1">?&gt;</span></div></td></tr></tbody></table></div>
+<h3><em><a href="http://code.google.com/p/magento-w2p/source/browse/trunk/app/design/frontend/default/zptheme/template/sales/order/items.phtml" rel="nofollow">template/sales/order/items.phtml</a></em></h3>
+<p>This file show various information for order item on user orders page.</p>
+<p>New code checks for web-to-print in a product and shows preview images for order items.</p>
+<p><strong>Section 1</strong>: Add link to hide/show all previews one time</p>
+<div class="codecolorer-container php mac-classic" style="overflow:auto;white-space:nowrap;width:600px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br /></div></td><td><div class="php codecolorer"><span class="kw2">&lt;?php</span> <span class="kw1">echo</span> <span class="re0">$this</span><span class="sy0">-&gt;</span><span class="me1">helper</span><span class="br0">&#40;</span><span class="st_h">'webtoprint/personalization-form'</span><span class="br0">&#41;</span><span class="sy0">-&gt;</span><span class="me1">show_hide_all_order_previews</span><span class="br0">&#40;</span><span class="re0">$this</span><span class="br0">&#41;</span><span class="sy0">;</span> <span class="sy1">?&gt;</span></div></td></tr></tbody></table></div>
+<p><strong>Section 2</strong>: Add preview images for web-to-print products from the order.</p>
+<div class="codecolorer-container php mac-classic" style="overflow:auto;white-space:nowrap;width:600px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br /></div></td><td><div class="php codecolorer"><span class="kw2">&lt;?php</span> <span class="re0">$this</span><span class="sy0">-&gt;</span><span class="me1">helper</span><span class="br0">&#40;</span><span class="st_h">'webtoprint/personalization-form'</span><span class="br0">&#41;</span><span class="sy0">-&gt;</span><span class="me1">get_order_preview_images</span><span class="br0">&#40;</span><span class="re0">$this</span><span class="sy0">,</span> <span class="re0">$_item</span><span class="br0">&#41;</span><span class="sy0">;</span> <span class="sy1">?&gt;</span></div></td></tr></tbody></table></div>
+<p><strong>Section 3</strong>: Add JavaScript code for preview images.</p>
+<div class="codecolorer-container php mac-classic" style="overflow:auto;white-space:nowrap;width:600px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br /></div></td><td><div class="php codecolorer"><span class="kw2">&lt;?php</span> <span class="re0">$this</span><span class="sy0">-&gt;</span><span class="me1">helper</span><span class="br0">&#40;</span><span class="st_h">'webtoprint/personalization-form'</span><span class="br0">&#41;</span><span class="sy0">-&gt;</span><span class="me1">get_js_for_order_preview_images</span><span class="br0">&#40;</span><span class="re0">$this</span><span class="br0">&#41;</span><span class="sy0">;</span> <span class="sy1">?&gt;</span></div></td></tr></tbody></table></div>
+<h3><em><a href="http://code.google.com/p/magento-w2p/source/browse/trunk/app/design/frontend/default/zptheme/template/sales/order/items/renderer/default.phtml" rel="nofollow">template/sales/order/items/renderer/default.phtml</a></em></h3>
+<p>This file shows various information for particular order item on user orders page.</p>
+<p>The following ZetaPrints code shows links to generated output files (PDF/PNG/JPG/GIF) in order details. The links appear if the files were generated and the template config (in ZetaPrints) has <em>download by customer</em> setting set to either <strong>allow</strong> (a user can download files) or <strong>only</strong> (the order is for downloading only, nothing gets printed). The function returns nothing if the conditions above are not met.</p>
+<p><strong>Section 1</strong>: inserting links to web-to-print generated files.</p>
+<div class="codecolorer-container php mac-classic" style="overflow:auto;white-space:nowrap;width:600px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br /></div></td><td><div class="php codecolorer"><span class="kw2">&lt;?php</span> <span class="kw1">echo</span> <span class="re0">$this</span><span class="sy0">-&gt;</span><span class="me1">helper</span><span class="br0">&#40;</span><span class="st_h">'webtoprint/personalization-form'</span><span class="br0">&#41;</span><span class="sy0">-&gt;</span><span class="me1">get_order_webtoprint_links</span><span class="br0">&#40;</span><span class="re0">$this</span><span class="sy0">,</span> <span class="re0">$_item</span><span class="br0">&#41;</span><span class="sy0">;</span> <span class="sy1">?&gt;</span></div></td></tr></tbody></table></div>
+<p>The following ZP code adds re-order link to an order item. After clicking on the link the corresponding product page will be opened and fields from personalization form will be filled with values from the order.</p>
+<p><strong>Section 2</strong>: Insert re-order link.</p>
+<div class="codecolorer-container php mac-classic" style="overflow:auto;white-space:nowrap;width:600px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br /></div></td><td><div class="php codecolorer"><span class="kw2">&lt;?php</span> <span class="kw1">echo</span> <span class="re0">$this</span><span class="sy0">-&gt;</span><span class="me1">helper</span><span class="br0">&#40;</span><span class="st_h">'webtoprint/personalization-form'</span><span class="br0">&#41;</span><span class="sy0">-&gt;</span><span class="me1">get_reorder_button</span><span class="br0">&#40;</span><span class="re0">$this</span><span class="sy0">,</span> <span class="re0">$_item</span><span class="br0">&#41;</span><span class="sy0">;</span> <span class="sy1">?&gt;</span></div></td></tr></tbody></table></div>
+<h3><em><a href="http://code.google.com/p/magento-w2p/source/browse/trunk/app/design/frontend/default/zptheme/template/catalog/product/view/addto.phtml" rel="nofollow">template/catalog/product/view/addto.phtml</a></em></h3>
+<p>This file needs to be modified only of you want to show <strong>Share preview</strong> link so that users can grab the URL of the image and share it with someone else. In this case the image is downloaded from ZetaPrints to your Magento site for keeping (ZetaPrints deletes unused images quickly). The download happens asynchronously when the user clicks on the sharing text box.</p>
+<p>Preview downloading is initiated only when user clicks on text input with URL. All previews downloaded from ZetaPrints are saved in <em>media/tmp/catalog/product/previews/</em> directory. The directory is created automatically during the extension installation process. Old preview images need to be removed manually from the temp directory.</p>
+<p>The following ZetaPrints code adds link to show text field with sharing url for a generated preview. You can insert this function into any other place in the layout, which may be in a different file.</p>
+<p><strong>Section 1</strong>: Add preview sharing link.</p>
+<div class="codecolorer-container php mac-classic" style="overflow:auto;white-space:nowrap;width:600px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br /></div></td><td><div class="php codecolorer"><span class="kw2">&lt;?php</span> <span class="re0">$this</span><span class="sy0">-&gt;</span><span class="me1">helper</span><span class="br0">&#40;</span><span class="st_h">'webtoprint/personalization-form'</span><span class="br0">&#41;</span><span class="sy0">-&gt;</span><span class="me1">get_preview_image_sharing_link</span><span class="br0">&#40;</span><span class="br0">&#41;</span><span class="sy0">;</span> <span class="sy1">?&gt;</span></div></td></tr></tbody></table></div>
+<h2>Functions</h2>
+<p>Most of the extension code is encapsulated in functions. The functions make all necessary checks of the context and return values only if needed. E.g. <em>get_text_fields ($context)</em> function returns nothing if the product has no web-to-print features. This way they do not affect products that have nothing to do with web-to-print.</p>
+<ul>
+<li><em>get_product_image ($context, $product)</em> &#8211; Outputs nothing, always returns <em>false</em>. (<strong>Deprecated</strong>)</li>
+<li><em>get_page_tabs ($context)</em> &#8211; outputs image tabs for multipage templates</li>
+<li><em>get_text_fields ($context)</em> &#8211; outputs text fields for products with web-to-print features</li>
+<li><em>get_image_fields ($context)</em> &#8211; outputs image fields (stock images, color picker) for products with web-to-print features</li>
+<li><em>get_preview_button ($context)</em> &#8211; outputs <em>Update preview</em> button for products with web-to-print features</li>
+<li><em>get_js ($context)</em> &#8211; outputs javascript code for products with web-to-print features</li>
+<li><em>get_js_css_includes ($context)</em> &#8211; Outputs nothing, always returns <em>false</em>. (<strong>Deprecated</strong>)</li>
+<li><em>get_preview_images ($context)</em> &#8211; Outputs nothing, always returns <em>false</em>. (<strong>Deprecated</strong>)</li>
+<li><em>get_gallery_thumb ($context, $product, $image)</em> &#8211; Outputs nothing, always returns <em>false</em>. (<strong>Deprecated</strong>)</li>
+<li><em>get_gallery_image ($context)</em> &#8211; Outputs nothing, always returns <em>false</em>. (<strong>Deprecated</strong>)</li>
+<li><em>get_cart_image ($context)</em> &#8211; outputs a slightly modified <em>&lt;img&gt;</em> tag to prevent image resizing with correct image url and returns <em>true</em> for products with web-to-print features</li>
+<li><em>get_order_preview_images ($context)</em> &#8211; outputs previews images for order.</li>
+<li><em>get_reorder_button ($context, $item)</em> &#8211; outputs A tag with link to re-order web-to-print product page.</li>
+</ul>
+<h2>Adjust size for different images (preview, stock and user images)</h2>
+<p>Previews are generated by ZetaPrints at a certain default size. Magento can reduce the preview size, but cannot make it larger. If the preview provided by ZetaPrints is not large enough you need to <a href="/help/changing-default-previews/">generate a bigger one first</a>.</p>
+<h2>Preview images</h2>
+<p>Size of <strong>preview images</strong> can be changed in <em><a href="http://code.google.com/p/magento-w2p/source/browse/trunk/skin/frontend/base/default/css/zp-style.css" rel="nofollow">zp-style.css</a></em> file, see <em>a.zetaprints-template-preview img</em> CSS selector.</p>
+<div class="codecolorer-container css mac-classic" style="overflow:auto;white-space:nowrap;width:600px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br />2<br />3<br />4<br /></div></td><td><div class="css codecolorer">a<span class="re1">.zetaprints-template-preview</span> img <span class="br0">&#123;</span><br />
+<span class="kw1">max-width</span><span class="sy0">:</span> <span class="re3">265px</span><span class="sy0">;</span><br />
+...<br />
+<span class="br0">&#125;</span></div></td></tr></tbody></table></div>
+<h2>Stock images</h2>
+<p>Size of <strong>stock images</strong> in a library scroll can be changed in <em><a href="http://code.google.com/p/magento-w2p/source/browse/trunk/skin/frontend/base/default/css/zp-style.css">zp-style.css</a></em> file for PNG and GIF and in <em><a href="http://code.google.com/p/magento-w2p/source/browse/trunk/app/code/local/ZetaPrints/Zpapi/Model/common-templates.xslt">common-templates.xslt</a></em> file for other supported image types. By default every stock image is scaled down to 100px in height.</p>
+<h3><strong>PNG and GIF images</strong></h3>
+<p>Change <em>max-width</em> attribute in <em>div.images-scroller img</em> CSS selector in <em><a href="http://code.google.com/p/magento-w2p/source/browse/trunk/skin/frontend/base/default/css/zp-style.css" rel="nofollow">zp-style.css</a></em> file.</p>
+<div class="codecolorer-container css mac-classic" style="overflow:auto;white-space:nowrap;width:600px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br />2<br />3<br />4<br />5<br /></div></td><td><div class="css codecolorer">div<span class="re1">.images-scroller</span> img <span class="br0">&#123;</span><br />
+...<br />
+<span class="kw1">max-height</span><span class="sy0">:</span> <span class="re3">100px</span><span class="sy0">;</span><br />
+...<br />
+<span class="br0">&#125;</span></div></td></tr></tbody></table></div>
+<h3><strong>Other supported image types</strong></h3>
+<p>Change <em>0x100</em> part of image URL to preferred one where template is <em>WEIGHTxHEIGHT</em> (in pixels) in <em><a href="http://code.google.com/p/magento-w2p/source/browse/trunk/app/code/local/ZetaPrints/Zpapi/Model/common-templates.xslt">common-templates.xslt</a></em> file.</p>
+<div class="codecolorer-container xml mac-classic" style="overflow:auto;white-space:nowrap;width:600px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br />2<br />3<br /></div></td><td><div class="xml codecolorer"><span class="sc3"><span class="re1">&lt;xsl:otherwise<span class="re2">&gt;</span></span></span><br />
+<span class="sc3"><span class="re1">&lt;img</span> <span class="re0">src</span>=<span class="st0">&quot;{$zetaprints-api-url}photothumbs/{substring-before(@Thumb,'.')}_0x100.{substring-after(@Thumb,'.')}&quot;</span> <span class="re2">/&gt;</span></span><br />
+<span class="sc3"><span class="re1">&lt;/xsl:otherwise<span class="re2">&gt;</span></span></span></div></td></tr></tbody></table></div>
+<h2>User images</h2>
+<p>Size of <strong>user images</strong> in library scroll can be changed in <em><a href="http://code.google.com/p/magento-w2p/source/browse/trunk/skin/frontend/base/default/css/zp-style.css" rel="nofollow">zp-style.css</a></em> file for PNG and GIF and in <em><a href="http://code.google.com/p/magento-w2p/source/browse/trunk/app/code/local/ZetaPrints/WebToPrint/Helper/PersonalizationForm.php" rel="nofollow">PersonalizationForm.php</a></em> (for already uploaded images) and <a href="http://code.google.com/p/magento-w2p/source/browse/trunk/app/code/local/ZetaPrints/WebToPrint/controllers/UploadController.php" rel="nofollow">UploadController.php</a> (for newly uploaded images) files for other supported image types. By default every user image is scaled down to 100px in height.</p>
+<h3><strong>PNG and GIF images</strong></h3>
+<p>Same as for PNG or GIF stock images.</p>
+<h3><strong>Other supported image types</strong></h3>
+<p>Change <em>0x100</em> value of parameter to preferred one where template is <em>WEIGHTxHEIGHT</em> (in pixels) in <em><a href="http://code.google.com/p/magento-w2p/source/browse/trunk/app/code/local/ZetaPrints/WebToPrint/Helper/PersonalizationForm.php" rel="nofollow">PersonalizationForm.php</a></em> and <a href="http://code.google.com/p/magento-w2p/source/browse/trunk/app/code/local/ZetaPrints/WebToPrint/controllers/UploadController.php" rel="nofollow">UploadController.php</a> files.</p>
+<div class="codecolorer-container php mac-classic" style="overflow:auto;white-space:nowrap;width:600px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br />2<br /></div></td><td><div class="php codecolorer"><span class="kw1">if</span> <span class="br0">&#40;</span><span class="re0">$image</span><span class="br0">&#91;</span><span class="st_h">'mime'</span><span class="br0">&#93;</span> <span class="sy0">===</span> <span class="st_h">'image/jpeg'</span> <span class="sy0">||</span> <span class="re0">$image</span><span class="br0">&#91;</span><span class="st_h">'mime'</span><span class="br0">&#93;</span> <span class="sy0">===</span> <span class="st_h">'image/jpg'</span><span class="br0">&#41;</span><br />
+<span class="re0">$thumbnail</span> <span class="sy0">=</span> <span class="kw3">str_replace</span><span class="br0">&#40;</span><span class="st_h">'.'</span><span class="sy0">,</span> <span class="st_h">'_0x100.'</span><span class="sy0">,</span> <span class="re0">$image</span><span class="br0">&#91;</span><span class="st_h">'thumbnail'</span><span class="br0">&#93;</span><span class="br0">&#41;</span><span class="sy0">;</span></div></td></tr></tbody></table></div>
+<h2>Spinners for progress of AJAX requests</h2>
+<p>There&#8217;s two types of spinners: big and normal. Big spinner is used for preview loading progress. Normal spinner is used for different AJAX requests to Magento.</p>
+<ul>
+<li>Image for big spinner is <a href="http://magento-w2p.googlecode.com/svn/trunk/skin/frontend/base/default/images/big-spinner.gif">skin/frontend/default/zptheme/images/big-spinner.gif</a></li>
+<li>Image for normal spinner is <a href="http://magento-w2p.googlecode.com/svn/trunk/skin/frontend/base/default/images/spinner.gif">skin/frontend/default/zptheme/images/spinner.gif</a></li>
+</ul>
+<h2>Styling links added by the extension</h2>
+<p>Here is list of CSS class name selectors for links added by the extension:</p>
+<ul>
+<ul>
+<li>Product page:
+<ul>
+<li><em>.add-to-links span.zetaprints-share-link a</em> &#8211; selector for &#8220;<strong>Share preview</strong>&#8221; link</li>
+<li><em>.add-to-links span.zetaprints-share-link.empty a</em> &#8211; selector for &#8220;<strong>Share preview</strong>&#8221; link in disabled state</li>
+</ul>
+</li>
+<li>Shopping cart page:
+<ul>
+<li><em>a.zetaprints-lowres-pdf-link</em> &#8211; selector for &#8220;<strong>PDF Proof</strong>&#8221; link</li>
+</ul>
+</li>
+<li>Order details page:
+<ul>
+<li><em>a.zetaprints-reorder-item-link</em> &#8211; selector for &#8220;<strong>Reorder</strong>&#8221; link</li>
+<li><em>a.zetaprints-order-file-link</em> &#8211; selector for web-to-print order files</li>
+</ul>
+<ul>
+<li><em>a.all-order-previews</em> &#8211; selector for &#8220;<strong>Show all order previews</strong>&#8221; and &#8220;<strong>Hide all order previews</strong>&#8220;</li>
+<li><em>div.zetaprints-previews-box a.show-title</em> &#8211; selector for &#8220;<strong>Show previews</strong>&#8221; links</li>
+<li><em>div.zetaprints-previews-box a.hide-title</em> &#8211; selector for &#8220;<strong>Hide previews</strong>&#8221; links</li>
+</ul>
+</li>
+</ul>
+</ul>
+<blockquote><p>Links to different types (i.e. PDF, PNG, GIF, JPEG, CDR) of web-to-print order files can be distinguished by additional class name (same as file type). E.g. <em>a.zetaprints-order-file-link.pdf</em> &#8211; selector for PDF web-to-print order files.</p></blockquote>
+<h2>Hiding extension interaction buttons</h2>
+<p><img class="alignnone size-full wp-image-13594" title="Web-to-print extension interaction buttons" src="/magentohelp/wp-content/uploads/2010/10/web-to-print_interaction_buttons.png" alt="Web-to-print extension interaction buttons" width="584" height="319" /></p>
+<p>Put following CSS rule in your custom theme CSS file if you want to hide a button:</p>
+<div class="codecolorer-container css mac-classic" style="overflow:auto;white-space:nowrap;width:600px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br />2<br />3<br />4<br />5<br /></div></td><td><div class="css codecolorer"><span class="re1">.zp-buttons-wrapper</span> #&lt;id_of_the_button_to_hide<span class="sy0">&gt;</span><br />
+<br />
+<span class="br0">&#123;</span><br />
+<span class="kw1">display</span><span class="sy0">:</span> <span class="kw2">none</span><span class="sy0">;</span><br />
+<span class="br0">&#125;</span></div></td></tr></tbody></table></div>
+<p>Button IDs:</p>
+<ul>
+<li><strong>Enlarge</strong> button: <em>zp-enlarge-button</em></li>
+<li><strong>Editor</strong> button: <em>zp-editor-button</em></li>
+<li><strong>Form</strong> button: <em>zp-form-button</em></li>
+<li><strong>Update preview</strong> button: <em>zp-update-preview-form-button</em></li>
+<li><strong>Next page</strong> button: <em>zp-next-page-button</em></li>
+</ul>
+<h2>NOSCRIPT</h2>
+<p>Product personalization form requires JavaScript. The form won&#8217;t load fully if JS is disabled. Make sure your theme has <em>&lt;NOSCRIPT&gt;</em> area to warn customers about the requirement in a visible and informative way.</p>
+
+<!-- Facebook Like Button v1.9.6 BEGIN [http://blog.bottomlessinc.com] -->
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.zetaprints.com%2Fmagentohelp%2Fcustom-theme-integration%2F&amp;layout=button_count&amp;show_faces=false&amp;width=200&amp;action=like&amp;colorscheme=light" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:200px; height: 30px; align: left; margin: 2px 0px 2px 0px"></iframe>
+<!-- Facebook Like Button END -->
+                                    <div class="clear"></div>
+                  <div class="post-rel"><b>See also: </b><ul><li><a href="/magentohelp/custom-2step-theme/" rel="bookmark" title="October 25, 2010">Custom theme: two-step</a></li>
+
+<li><a href="/magentohelp/enable-interactive-personalization/" rel="bookmark" title="July 28, 2011">Interactive personalization theme</a></li>
+
+<li><a href="/magentohelp/hellothemes-for-web-to-print/" rel="bookmark" title="June 25, 2011">HelloThemes for web-to-print</a></li>
+
+<li><a href="/magentohelp/magento-theme-hiearachy/" rel="bookmark" title="June 25, 2011">Magento theme hiearachy</a></li>
+
+<li><a href="/magentohelp/theme-switcher-extension/" rel="bookmark" title="May 10, 2011">Theme switcher extension</a></li>
+</ul><!-- Similar Posts took 4.628 ms --></div>
+                  <p class="postmetadata alt"><small></small></p>
+                  <div class="clear"></div>
+                </div>
+              </div>
+            </div>
+                                    </div>
+    </div>
+  </div>
+</div> 
+<div id="footer-container" class="container">
+  <div id="footer">
+    <div id="bottomnav">
+      <!-- a id="pagecounter" href="http://whos.amung.us/show/9bm3msts/"><img src="http://whos.amung.us/widget/9bm3msts/" alt="hit counter" border="0" height="29" width="81" /></a -->
+      <ul>
+        <li class="first"><a href="/about-us/" title="About ZetaPrints">About ZetaPrints</a></li>
+        <li><a href="/about-us/contact-us/" title="Contact us">Contact us</a></li>
+        <li><a href="http://zetaprints.com/" title="Log in">Log in</a></li>
+        <li><a href="/about-us/privacy-policy/" title="Privacy policy">Privacy</a></li>
+        <li><a href="/sitemap" title="Sitemap">Sitemap</a></li>
+        <li><a href="/about-us/summary-of-terms-and-conditions/" title="Terms and conditions">Terms of Service</a></li>
+        <li><a href="/blog" title="Web-to-print Blog">Web-to-print Blog</a></li>
+        <li><a href="/help/" title="Web-to-print Help">Web-to-print Help</a></li>
+      </ul>
+    </div>
+    <p><a href="/blog" title="Web-to-print Blog"><img class="footer-icon" alt="Blog" src="/magentohelp/wp-content/themes/water-zp-3/images/blog.png"/></a>&nbsp;
+<a href="http://twitter.com/zetaprints/" title="Follow us on twitter"><img class="footer-icon" alt="Twitter" src="/magentohelp/wp-content/themes/water-zp-3/images/twitter_16.png"/></a>&nbsp;
+&copy; 2006-2012 ZetaPrints Ltd. All rights reserved. Powered by <a href="http://wordpress.org">WordPress</a>.</p>
+    <a href="#header" title="Back to Top" class="top-btn">Back to Top</a>
+  </div>
+</div>
+
+<script type="text/javascript">
+    (function(){
+        var ga = document.createElement('script');
+        ga.type="text/javascript";
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })
+</script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1132851-1']);
+    _gaq.push(['_trackPageview']);
+</script>
+</body>
+</html>

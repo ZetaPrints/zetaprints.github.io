@@ -1,0 +1,403 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="verify-v1" content="GACnn9+1c3JzusKbMwxWr+f9dKvqx8As8sbHI8tNyxA=" />
+  <meta name="keywords" content="web-to-print, online printing, zetaprints, online print ordering" />
+  <meta name="generator" content="ZetaPrints"/> <!-- leave this for stats -->
+
+  <title>Order approval | Web-to-Print &amp; Dynamic Imaging</title>
+  <!--<script type="text/javascript" src="/wp-content/themes/zetaprints-3.0/jslib.js"></script>-->
+
+  <link rel="stylesheet" href="/wp-content/themes/zetaprints-3.0/css/reset-min.css" type="text/css" />
+  <link rel="stylesheet" href="/wp-content/themes/zetaprints-3.0/style.css" type="text/css" media="all" />
+  <!--<link rel="stylesheet" href="/wp-content/themes/zetaprints-3.0/style-fixed.css" type="text/css" />-->
+
+  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed/" />
+  <link rel="alternate" type="text/xml" title="RSS .92" href="/feed/rss/" />
+  <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="/feed/atom/" />
+  <!--link rel="pingback" href="/xmlrpc.php" /-->
+
+  
+  
+  
+<!-- All in One SEO Pack 2.2.7.5 by Michael Torbert of Semper Fi Web Design[521,582] -->
+<meta name="description"  content="Our Order Approval extension is free and allows you to organize an approval process in a Magento store by stopping certain customers from checking out until" />
+
+<!-- /all in one seo pack -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.zetaprints.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.1"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel='https://api.w.org/' href='/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Create banners on the fly' href='/dynamic-imaging/create-banners-on-the-fly-2/' />
+<link rel='next' title='Access control' href='/magento-web-to-print/magento-access-control/' />
+<meta name="generator" content="WordPress 4.4.1" />
+<link rel="canonical" href="/magento-web-to-print/magento-order-approval/" />
+<link rel='shortlink' href="/?p=2686/" />
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.zetaprints.com%2Fmagento-web-to-print%2Fmagento-order-approval%2F" />
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.zetaprints.com%2Fmagento-web-to-print%2Fmagento-order-approval%2F&#038;format=xml" />
+
+  <script type='text/javascript' src="/wp-content/themes/zetaprints-3.0/js/jquery-cookie.js" ></script>
+
+  <!--<link media="screen" type="text/css" href="/wp-content/themes/zetaprints-3.0/grid.css" rel="stylesheet"/>-->
+  <!--<script type='text/javascript' src="/wp-content/themes/zetaprints-3.0/js/grid.js" ></script>-->
+
+  <!--<script type="text/javascript" src="/wp-content/themes/zetaprints-3.0/assets/javascript/swfobject.js"></script>-->
+
+  <!-- slideshow stuff -->
+  <link type="text/css" rel="stylesheet" href="/common/slideshow/css/slideshow.css"/>
+  <script src="/common/slideshow/js/slideshow.js" type="text/javascript"></script>
+  <!-- end slideshow stuff -->
+  
+</head>
+
+<body>
+  <div class="header-wrapper">
+    <div class="header-top">
+      <div class="content-wrapper clearfix">
+        <a class="logo" href="/"><img src="/wp-content/themes/zetaprints-3.0/images/logo.gif" alt="ZetaPrints Web-to-print home" /></a>
+        <div class="text-wrapper">
+          <h1><a href="/">ZetaPrints</a></h1>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom">
+      <div class="content-wrapper clearfix">
+        <div class="text-wrapper">
+          <h3>Web-to-Print &amp; dynamic imaging</h3>
+        </div>
+        <div class="menu-wrapper">
+          
+<div class="top-level-menu clearfix">
+  <ul class="main-menu">
+    <li class="zetaprints-technology ">
+      <a href="/zetaprints-technology">Technology</a>
+    </li>
+    <li class="industry-web-to-print-solutions selected-item">
+      <a href="/industry-web-to-print-solutions">Solutions</a>
+    </li>
+    <li class="tmpackages ">
+      <a href="/tmpackages">Packages</a>
+    </li>
+  </ul>
+
+  <div class="menu clearfix">
+    <div class="menu-item first-item">
+      <a href="/web-to-print-and-dynamic-imaging-pricing" title="Web-to-print pricing">Pricing</a>
+    </div>
+
+    <div class="menu-item items-separator">|</div>
+
+    <div class="menu-item">
+      <a href="/web-to-print-demo-sites" title="Web-to-print demo sites">Demo</a>
+    </div>
+
+    <div class="menu-item items-separator">|</div>
+
+    <div class="menu-item">
+      <a href="/packages/sign-up-for-web-to-print/" title="Sign up for web-to-print">Sign up</a>
+    </div>
+
+    <div class="menu-item items-separator">|</div>
+
+    <div id="menu-help" class="menu-item last-item sub-menu">
+      <a href="/help/" class="drop-down-link">Help</a>
+      <ul class="panel">
+        <li>
+          <a href="/help/">Web-to-print help</a>
+        </li>
+        <li>
+          <a href="/magentohelp/">Magento help</a>
+        </li>
+        <li>
+          <a href="/directory/">Resources</a>
+        </li>
+        <li>
+          <a href="/userhelp/">End user help</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<div class="second-level-menu menu">
+  <ul id="zetaprints-technology" class="clearfix" >
+    <li class="first-item"><a href="/category/web-to-print-software/">Web-to-Print</a></li>
+    <li class="items-separator">|</li>
+    <li class="last-item"><a href="/category/dynamic-imaging/">Dynamic imaging</a></li>
+  </ul>
+
+  <ul id="industry-web-to-print-solutions" class="clearfix" style="display: block">
+    <li class="first-item"><a href="/category/printers/">Printers</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/category/designers/">Designers</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/category/publications/">Publishers</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/category/magento-web-to-print/">Magento</a></li>
+    <li class="items-separator">|</li>
+    <li class="last-item"><a href="/category/businesses/">Business</a></li>
+  </ul>
+
+  <ul id="tmpackages" class="clearfix" >
+    <li class="first-item"><a href="/packages/hosted-by-us/">Core</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/packages/hosted-by-you/">E-Commerce</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/packages/enterprise-web-to-print/">Enterprise</a></li>
+    <li class="items-separator">|</li>
+    <li class="last-item"><a href="/packages/open-source-web-to-print-2/">Open source</a></li>
+  </ul>
+</div>
+
+<script> 
+
+jQuery(document).ready(function ($) {
+  var $li = $('.main-menu li');
+  var $ul = $('.second-level-menu ul')
+
+  //$li.mouseenter(function () {
+  $li.hoverIntent(
+    function () {
+      $current = $(this);
+
+      if ($current.hasClass('selected-item'))
+        return;
+
+      $li.removeClass('selected-item');
+
+      var id = $current.attr('class');
+      $current.addClass('selected-item');
+
+      $ul
+        .css('display', 'none')
+        .filter('#' + id)
+        .css('display', 'block');
+
+      $.cookie('zp-menu-selected', id, { path: '/' });
+    },
+
+    function () {}
+
+  );
+}); 
+
+</script>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+jQuery(document).ready(function ($) {
+  $("#featuretabs").tabs();
+});
+</script>
+
+
+<div id="content-container" class="container clearfix">
+  <div id="crumbs"><a href="http://www.zetaprints.com">Home</a> &nbsp;&gt;&nbsp; <a href="/category/magento-web-to-print/">Magento web-to-print</a> &nbsp;&gt;&nbsp; <span class="current">Order approval</span></div>
+  <div class="post-wrapper">
+    <!--<div id="news" class="clearfix">
+      <div id="newswrap">-->
+                              <div class="post" id="post-2686">
+              <h1 class="posttitle"><a href="/magento-web-to-print/magento-order-approval/" rel="bookmark" title="Permanent Link: Order approval">Order approval</a></h1>
+              <div class="pcont">
+               <!-- <div class="catfloat"><small></small></div>
+                <small>  by  </small> -->
+                <div class="entry">
+                  <p>Our <a title="Magento order approval extension" href="https://www.magentocommerce.com/magento-connect/order-approval.html" target="_self">Order Approval extension</a> is free and allows you to organize an approval process in a <a title="Magento ecommerce" href="http://www.magentocommerce.com/" target="_self">Magento</a> store by stopping certain customers from checking out until their orders are approved by a nominated approver.<!--more--></p>
+<h2>Procedure</h2>
+<div class="floating_img_l"><img class="size-full wp-image-2689  aligncenter" title="Magento order approval extension diagram" src="/wp-content/uploads/2010/10/approval_diagram.png" alt="" width="450" height="228" /></div>
+<p>The extension adds an extra step between the customer’s shopping cart and the checkout process. It means that customers are able to add any number of products into their shopping cart, delete and modify them at any time without any restrictions, but they can not checkout products from the cart before they are approved.</p>
+<div class="clearing_box">When customers try to checkout their shopping cart, the approver receives a <a title="Magento order approval notification email" href="/magentohelp/order-approval-notification-email/" target="_self">notification</a> about unapproved products in the customer’s shopping cart. The approver can use the link from the e-mail to reach order approval UI and approve or decline customer’s products.</div>
+<h2>Installation</h2>
+<p>The Order approval extension is free and can be installed on through Magento Connect Manager.</p>
+<ul>
+<li><a title="Order approval" href="https://www.magentocommerce.com/magento-connect/order-approval.html" target="_self">Order approval</a> on MagentoCommerce</li>
+<li><a title="Magento order approval help" href="/magentohelp/magento-order-approval/" target="_self">Extension help and detailed instructions</a></li>
+<li><a title="Order approval extension source code" href="http://code.google.com/p/magento-w2p/source/browse/#svn/branches/ZetaPrints_OrderApproval/" target="_self">Source code</a></li>
+<li><a title="Magento web-to-print issues list" href="http://code.google.com/p/magento-w2p/issues/list/" target="_self">Bug reports, features, support</a></li>
+</ul>
+<h2>Compatibility</h2>
+<p>Our Magento Order approval extension is fully compatible with our <a title="Magento web-to-print extension" href="/magentohelp/magento/" target="_self">web-to-print</a> and <a title="Magento access control extension" href="/magento-web-to-print/magento-access-control/" target="_self">category access control</a> extensions.</p>
+                                    <div class="clear"></div>
+                  
+                  <p class="postmetadata alt"><small></small></p>
+                  <div class="clear"></div>
+                </div>
+              </div>
+            </div>
+                                    <!--</div>
+    </div>-->
+  </div>
+
+
+  <div id="sidebar" class="minicat">
+    <ul>
+          
+              <li>
+          <h2><a href="/magento-web-to-print/magento-access-control/" title="Permanent Link to Access control">Access control</a></h2>
+          <div class="entry">
+            <p>Magento Community Edition (free) has no access control features and all products in the store are pu&#8230;</p>
+          </div>                    
+        </li>
+              <li>
+          <h2><a href="/magento-web-to-print/unaddressed-mail/" title="Permanent Link to Direct mail">Direct mail</a></h2>
+          <div class="entry">
+            <p>Preparing a bulk mail campaign has just become a lot easier with our free Distribution Map extension&#8230;</p>
+          </div>                    
+        </li>
+              <li>
+          <h2><a href="/magento-web-to-print/features/" title="Permanent Link to Features &#8211; Magento">Features &#8211; Magento</a></h2>
+          <div class="entry">
+            <p>ZetaPrints web-to-print and dynamic imaging complements already powerful Magento e-commerce platform&#8230;</p>
+          </div>                    
+        </li>
+              <li>
+          <h2><a href="/magento-web-to-print/zetaprints-features/" title="Permanent Link to Features &#8211; web-to-print">Features &#8211; web-to-print</a></h2>
+          <div class="entry">
+            <p>ZetaPrints is a web-to-print and dynamic imaging service provider. Our service is designed to make o&#8230;</p>
+          </div>                    
+        </li>
+              <li>
+          <h2><a href="/magento-web-to-print/dynamic-file-attachments/" title="Permanent Link to File uploading">File uploading</a></h2>
+          <div class="entry">
+            <p>This extension is no longer supported.<br />
+Dynamic File Attachments is a free Magento extension that all&#8230;</p>
+          </div>                    
+        </li>
+              <li>
+          <h2><a href="/magento-web-to-print/hosting/" title="Permanent Link to Hosting">Hosting</a></h2>
+          <div class="entry">
+            <p>Magento is an open source e-commerce platform written in PHP + MySQL. It can run in almost any hosti&#8230;</p>
+          </div>                    
+        </li>
+              <li>
+          <h2><a href="/magento-web-to-print/how-it-works/" title="Permanent Link to How it works">How it works</a></h2>
+          <div class="entry">
+            <p>Our web-to-print and dynamic imaging extension puts Magento and ZetaPrints together to enable produc&#8230;</p>
+          </div>                    
+        </li>
+              <li>
+          <h2><a href="/magento-web-to-print/installation/" title="Permanent Link to Installation">Installation</a></h2>
+          <div class="entry">
+            <p>Installation of Magento web-to-print and dynamic imaging extension consists of two parts:</p>
+<p>signing u&#8230;</p>
+          </div>                    
+        </li>
+              <li>
+          <h2><a href="/magento-web-to-print/magento-interactive-image-editing/" title="Permanent Link to Interactive image editing">Interactive image editing</a></h2>
+          <div class="entry">
+            <p>Users can upload and edit images right on the product page. All the images are stored on our servers&#8230;</p>
+          </div>                    
+        </li>
+              <li>
+          <h2><a href="/magento-web-to-print/magento-interactive-personalization/" title="Permanent Link to Interactive personalization">Interactive personalization</a></h2>
+          <div class="entry">
+            <p>ZetaPrints  web-to-print extension for Magento takes products personalization to the next level. Th&#8230;</p>
+          </div>                    
+        </li>
+              <li>
+          <h2><a href="/magento-web-to-print/magento-localization/" title="Permanent Link to International web-to-print support">International web-to-print support</a></h2>
+          <div class="entry">
+            <p>Magento supports multiple languages, currencies and other country-specific aspects like dominant pay&#8230;</p>
+          </div>                    
+        </li>
+              <li>
+          <h2><a href="/magento-web-to-print/magento-storefront-customization/" title="Permanent Link to Magento storefront customization">Magento storefront customization</a></h2>
+          <div class="entry">
+            <p>Magento storefronts have almost unlimited customization ability. The look and feel of these web-to-p&#8230;</p>
+          </div>                    
+        </li>
+              <li>
+          <h2><a href="/magento-web-to-print/magento-order-approval/" title="Permanent Link to Order approval">Order approval</a></h2>
+          <div class="entry">
+            <p>Our Order Approval extension is free and allows you to organize an approval process in a Magento sto&#8230;</p>
+          </div>                    
+        </li>
+              <li>
+          <h2><a href="/magento-web-to-print/magento-partners/" title="Permanent Link to Partners">Partners</a></h2>
+          <div class="entry">
+            <p>Setting up and maintaining a Magento website in your own hosting takes a bit of time and IT skill. Y&#8230;</p>
+          </div>                    
+        </li>
+              <li>
+          <h2><a href="/magento-web-to-print/what-it-costs/" title="Permanent Link to Pricing">Pricing</a></h2>
+          <div class="entry">
+            <p>One flat fee per per order</p>
+          </div>                    
+        </li>
+                  
+     
+    </ul>
+  </div>
+
+</div> 
+<div id="footer-container" class="container">
+
+  <div id="footer">
+    <div id="bottomnav">
+      <ul>
+        <li class="first"><a href="/about-us/" title="About ZetaPrints">About ZetaPrints</a></li>
+        <li><a href="/about-us/contact-us/" title="Contact us">Contact us</a></li>
+        <li><a href="http://zetaprints.com/" title="Log in">Log in</a></li>
+        <li><a href="/about-us/privacy-policy/" title="Privacy policy">Privacy</a></li>
+        <li><a href="/sitemap" title="Sitemap">Sitemap</a></li>
+        <li><a href="/about-us/summary-of-terms-and-conditions/" title="Terms and conditions">Terms of Service</a></li>
+        <li><a href="/blog" title="Web-to-print Blog">Web-to-print Blog</a></li>
+        <li><a href="/help/" title="Web-to-print Help">Web-to-print Help</a></li>
+      </ul>
+    </div>
+    <p><a href="/blog" title="Web-to-print Blog"><img class="footer-icon" alt="Blog" src="/wp-content/themes/zetaprints-3.0/images/blog.png"/></a>&nbsp;
+<a href="http://twitter.com/zetaprints/" title="Follow us on twitter"><img class="footer-icon" alt="Twitter" src="/wp-content/themes/zetaprints-3.0/images/twitter_16.png"/></a>&nbsp;
+&copy; 2006-2012 ZetaPrints Ltd. All rights reserved. Powered by <a href="http://wordpress.org">WordPress</a>.</p>
+    <a href="#header" title="Back to Top" class="top-btn">Back to Top</a>
+  </div>
+</div>
+
+<script type='text/javascript' src='/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='/wp-includes/js/wp-embed.min.js?ver=4.4.1'></script>
+
+<script type="text/javascript">
+    (function(){
+        var ga = document.createElement('script');
+        ga.type="text/javascript";
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })
+</script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1132851-1']);
+    _gaq.push(['_trackPageview']);
+</script>
+</body>
+</html>

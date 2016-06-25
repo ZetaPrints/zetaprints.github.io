@@ -1,0 +1,105 @@
+@CHARSET "UTF-8";
+/* header nav menu */
+#header .nav {
+  height: 25px;
+  background: #ffb608;
+  border: 1px solid #ff9908;
+  border-top: none;
+  width: 625px;
+  position: absolute;
+  bottom: 17px;
+  right: 0;
+  display: block;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#top-drop-menu {
+  margin: 0;
+  padding: 0;
+  height: 25px;
+  float: right;
+}
+
+#top-drop-menu li {
+  list-style: none;
+  float: left;
+}
+
+#top-drop-menu > li {
+  background-image: url('images/top-menu-devider.gif');
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  padding-right: 1px;
+}
+
+#top-drop-menu > li.no_border {
+  background-image: none;
+}
+
+#top-drop-menu li a {
+  display: block;
+  padding: 2px 8px 3px;
+  background-color: #ffb608;
+  color: #000000;
+  text-decoration: none;
+}
+
+#top-drop-menu li.drop {
+  padding-right: 5px;
+  position: relative;
+}
+
+#top-drop-menu li.drop > a {
+  padding-right: 10px;
+  background: transparent url('images/help_sub_arrows.png') scroll no-repeat right 10px;
+}
+
+#top-drop-menu li ul {
+  display: none;
+  width: 150px;
+  background-color: #ffb608;
+}
+
+#top-drop-menu li:hover ul, #top-drop-menu li.hover ul {
+  display: block;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: -1px;
+}
+
+#top-drop-menu li:hover li, #top-drop-menu li.hover li {
+  float: none;
+}
+
+#top-drop-menu li:hover > a, #top-drop-menu li.hover > a {
+  background-position: right -4px;
+}
+
+#header-container {
+  z-index: 1000;
+}
+
+#header {
+  z-index: 1001;
+}
+
+#header .nav {
+  z-index: 1002;
+}
+
+#top-drop-menu {
+  z-index: 1003;
+}
+
+#top-drop-menu li.drop {
+  z-index: 1004;
+}
+
+#top-drop-menu li ul {
+    z-index: 1100;
+}
+
+/* header nav menu */

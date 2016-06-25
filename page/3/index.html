@@ -1,0 +1,965 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="verify-v1" content="GACnn9+1c3JzusKbMwxWr+f9dKvqx8As8sbHI8tNyxA=" />
+  <meta name="keywords" content="web-to-print, online printing, zetaprints, online print ordering" />
+  <meta name="generator" content="ZetaPrints"/> <!-- leave this for stats -->
+
+  <title>Web-to-Print &amp; Dynamic Imaging |  - Part 3</title>
+  <!--<script type="text/javascript" src="/wp-content/themes/zetaprints-3.0/jslib.js"></script>-->
+
+  <link rel="stylesheet" href="/wp-content/themes/zetaprints-3.0/css/reset-min.css" type="text/css" />
+  <link rel="stylesheet" href="/wp-content/themes/zetaprints-3.0/style.css" type="text/css" media="all" />
+  <!--<link rel="stylesheet" href="/wp-content/themes/zetaprints-3.0/style-fixed.css" type="text/css" />-->
+
+  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed/" />
+  <link rel="alternate" type="text/xml" title="RSS .92" href="/feed/rss/" />
+  <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="/feed/atom/" />
+  <!--link rel="pingback" href="/xmlrpc.php" /-->
+
+  
+  
+  
+<!-- All in One SEO Pack 2.2.7.5 by Michael Torbert of Semper Fi Web Design[519,560] -->
+<link rel='prev' href='/page/2/' />
+<link rel='next' href='/page/4/' />
+
+<!-- /all in one seo pack -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.zetaprints.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.1"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel='https://api.w.org/' href='/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.1" />
+
+  <script type='text/javascript' src="/wp-content/themes/zetaprints-3.0/js/jquery-cookie.js" ></script>
+
+  <!--<link media="screen" type="text/css" href="/wp-content/themes/zetaprints-3.0/grid.css" rel="stylesheet"/>-->
+  <!--<script type='text/javascript' src="/wp-content/themes/zetaprints-3.0/js/grid.js" ></script>-->
+
+  <!--<script type="text/javascript" src="/wp-content/themes/zetaprints-3.0/assets/javascript/swfobject.js"></script>-->
+
+  <!-- slideshow stuff -->
+  <link type="text/css" rel="stylesheet" href="/common/slideshow/css/slideshow.css"/>
+  <script src="/common/slideshow/js/slideshow.js" type="text/javascript"></script>
+  <!-- end slideshow stuff -->
+  
+</head>
+
+<body>
+  <div class="header-wrapper">
+    <div class="header-top">
+      <div class="content-wrapper clearfix">
+        <a class="logo" href="/"><img src="/wp-content/themes/zetaprints-3.0/images/logo.gif" alt="ZetaPrints Web-to-print home" /></a>
+        <div class="text-wrapper">
+          <h1><a href="/">ZetaPrints</a></h1>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom">
+      <div class="content-wrapper clearfix">
+        <div class="text-wrapper">
+          <h3>Web-to-Print &amp; dynamic imaging</h3>
+        </div>
+        <div class="menu-wrapper">
+          
+<div class="top-level-menu clearfix">
+  <ul class="main-menu">
+    <li class="zetaprints-technology ">
+      <a href="/zetaprints-technology">Technology</a>
+    </li>
+    <li class="industry-web-to-print-solutions selected-item">
+      <a href="/industry-web-to-print-solutions">Solutions</a>
+    </li>
+    <li class="tmpackages ">
+      <a href="/tmpackages">Packages</a>
+    </li>
+  </ul>
+
+  <div class="menu clearfix">
+    <div class="menu-item first-item">
+      <a href="/web-to-print-and-dynamic-imaging-pricing" title="Web-to-print pricing">Pricing</a>
+    </div>
+
+    <div class="menu-item items-separator">|</div>
+
+    <div class="menu-item">
+      <a href="/web-to-print-demo-sites" title="Web-to-print demo sites">Demo</a>
+    </div>
+
+    <div class="menu-item items-separator">|</div>
+
+    <div class="menu-item">
+      <a href="/packages/sign-up-for-web-to-print/" title="Sign up for web-to-print">Sign up</a>
+    </div>
+
+    <div class="menu-item items-separator">|</div>
+
+    <div id="menu-help" class="menu-item last-item sub-menu">
+      <a href="/help/" class="drop-down-link">Help</a>
+      <ul class="panel">
+        <li>
+          <a href="/help/">Web-to-print help</a>
+        </li>
+        <li>
+          <a href="/magentohelp/">Magento help</a>
+        </li>
+        <li>
+          <a href="/directory/">Resources</a>
+        </li>
+        <li>
+          <a href="/userhelp/">End user help</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<div class="second-level-menu menu">
+  <ul id="zetaprints-technology" class="clearfix" >
+    <li class="first-item"><a href="/category/web-to-print-software/">Web-to-Print</a></li>
+    <li class="items-separator">|</li>
+    <li class="last-item"><a href="/category/dynamic-imaging/">Dynamic imaging</a></li>
+  </ul>
+
+  <ul id="industry-web-to-print-solutions" class="clearfix" style="display: block">
+    <li class="first-item"><a href="/category/printers/">Printers</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/category/designers/">Designers</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/category/publications/">Publishers</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/category/magento-web-to-print/">Magento</a></li>
+    <li class="items-separator">|</li>
+    <li class="last-item"><a href="/category/businesses/">Business</a></li>
+  </ul>
+
+  <ul id="tmpackages" class="clearfix" >
+    <li class="first-item"><a href="/packages/hosted-by-us/">Core</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/packages/hosted-by-you/">E-Commerce</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/packages/enterprise-web-to-print/">Enterprise</a></li>
+    <li class="items-separator">|</li>
+    <li class="last-item"><a href="/packages/open-source-web-to-print-2/">Open source</a></li>
+  </ul>
+</div>
+
+<script> 
+
+jQuery(document).ready(function ($) {
+  var $li = $('.main-menu li');
+  var $ul = $('.second-level-menu ul')
+
+  //$li.mouseenter(function () {
+  $li.hoverIntent(
+    function () {
+      $current = $(this);
+
+      if ($current.hasClass('selected-item'))
+        return;
+
+      $li.removeClass('selected-item');
+
+      var id = $current.attr('class');
+      $current.addClass('selected-item');
+
+      $ul
+        .css('display', 'none')
+        .filter('#' + id)
+        .css('display', 'block');
+
+      $.cookie('zp-menu-selected', id, { path: '/' });
+    },
+
+    function () {}
+
+  );
+}); 
+
+</script>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<script>
+jQuery(document).ready(function ($) {
+  $("#featuretabs").tabs();
+});
+</script>
+
+  <div id="content-container" class="container clearfix">
+    <div class="post-wrapper">
+                      <div class="post" id="post-2284">
+        <h1 class="posttitle"><a href="/dynamic-imaging/cost/" rel="bookmark" title="Permanent Link: Cost">Cost</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p>ZetaPrints dynamic imaging has only one fixed fee per every image generated. This is the only fee we charge. There are no other fees or charges. All other usage, such as set up, code samples, support, etc. is free.<!--more--></p>
+<p>The primary <a title="Web-to-print and dynamic imaging output file generation" href="/help/output-files-generation/" target="_self">output</a> of dynamic imaging is bitmaps (raster images). Unlike our <a title="Web-to-print software" href="/category/web-to-print-software/" target="_self">web-to-print</a> service there is no need to generate <a title="Web-to-print PDF settings" href="/help/pdf-settings-explained/" target="_self">PDF files</a>, so we treat every image we generate on your request as a single billable event.</p>
+<h2>Dynamic imaging fee</h2>
+<p>The fee per generated image is set at <strong>US $0.01</strong>. See our <a title="Web-to-print and dynamic imaging pricing" href="/web-to-print-and-dynamic-imaging-pricing" target="_self">pricing page</a> for other currencies and detailed billing rules. Payments are made monthly for the total of the previous calendar month.</p>
+<h2>Other costs</h2>
+<p>There are no other costs on ZetaPrints part apart from the per-image fee. However, you are likely to have additional expenses to make use of our API.</p>
+<h3>Integration</h3>
+<p>&#8220;<em>How long is the piece of string?</em>&#8221;</p>
+<p>We try to minimize this cost by releasing open source code used for our dynamic imaging projects. You may undertake the integration using your own development resources or even your own skill. Alternatively, our <a title="ZetaPrints web-to-print partners" href="/magento-web-to-print/magento-partners/" target="_self">partners</a> are always happy to help you with <a title="Dynamic imaging integration" href="/dynamic-imaging/integration-examples/" target="_self">dynamic imaging integration</a>.</p>
+<h3>Templates</h3>
+<p>Cost of <a title="Web-to-print and dynamic imaging template creation" href="/help/template-creation/" target="_self">making templates</a> varies and depends on their complexity. Anyone capable of making a design is capable of making a template. It does not require any programming or special skills.</p>
+<p>Sourcing templates from freelance designers can be a quick alternative. Costs start at about US$ 5 per page of design. It is a fraction of the cost for any Flash-based designs.</p>
+<h3>Admin and maintenance</h3>
+<p>ZetaPrints has no specific maintenance requirements. We take care of all the back-end admin and maintenance for you.</p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-2281">
+        <h1 class="posttitle"><a href="/dynamic-imaging/dynamic-imaging-api/" rel="bookmark" title="Permanent Link: Dynamic imaging API">Dynamic imaging API</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p>ZetaPrints <a title="Dynamic imaging API" href="/help/dynamic-image-generation-api/" target="_self">dynamic imaging API</a> is easy to use from server side scripts (PHP, .NET, etc) as well as from the client side (JavaScript). All calls are HTTP GET/POST with a variation of response types such as XML, HTML or singleton.<!--more--></p>
+<h2>Dynamic imaging templates</h2>
+<p>Our dynamic imaging system is based on vector graphic <a title="Dynamic imaging template creation" href="/help/template-creation/" target="_self">templates</a>. You can <a title="Upload your first template" href="/help/upload-your-first-template/" target="_self">upload</a> your own templates or use what is offered by other users. Our dynamic imaging templates are just like normal vector graphic designs with certain elements marked as variables to replace them with some other data (<a title="Dynamic imaging variable text fields" href="/help/text-fields-naming-overview/" target="_self">text</a> or <a title="Dynamic imaging variable image fields" href="/help/image-placeholder/" target="_self">images</a>) at run time.</p>
+<h2>Search and browsing API</h2>
+<p>Dynamic imaging API has a set of functions for getting lists and searching templates.</p>
+<ul>
+<li>Get <a title="Dynamic imaging catalogs API" href="/help/catalogs-api/" target="_self">list of catalogs</a></li>
+<li>Get <a title="Dynamic imaging template details API" href="/help/template-details-api/" target="_self">list of templates</a> for a catalog</li>
+<li><a title="Search dynamic imaging API" href="/help/search-web-to-print-api/" target="_self">Find templates</a> matching search <a title="Search dynamic imaging API keywords" href="/help/search-api-web-to-print-keywords/" target="_self">criteria</a></li>
+</ul>
+<h2>Image generation API</h2>
+<p>Calls to our image generation <a title="Dynamic imaging API" href="/help/category/api/" target="_self">API functions</a> need to contain the following information:</p>
+<ul>
+<li>Template ID</li>
+<li><a title="How to get API key" href="/help/how-to-get-api-key/" target="_self">API key</a></li>
+<li>Array of input field names and their values</li>
+<li>Array of images and the IDs of replacement images</li>
+<li>Required image type (GIF, PNG, JPG)</li>
+<li>Output type (XML, image URL, etc)</li>
+</ul>
+<p>ZetaPrints accepts these parameters, processes the template and generates an image with the text and images specified in the request. The response may vary depending on the client requirements. Usually it is either an XML document with full details of the generated image or just a URL of the image for easy parsing.</p>
+<h2>Image editing API</h2>
+<p>Images uploaded to ZetaPrints can be edited on the fly to better fit templates or the environment using <a title="Image editing API" href="/help/image-editing-api/" target="_self">image editing API</a>.</p>
+<ul class="positive_list">
+<li>Rotate</li>
+<li>Crop</li>
+<li>Delete</li>
+<li>Restore</li>
+<li>Download</li>
+<li>Context specific crop/move/resize</li>
+<li>Add/remove watermark</li>
+</ul>
+<p>Calls to these functions usually contain the image ID and the action parameters. The response is either XML with full details about the edited image or just the image URL.</p>
+<h2>User management</h2>
+<p>ZetaPrints dynamic imaging API caches user data. This feature saves a lot of processing time and bandwidth at both ends. Although using this API is optional it may be quite beneficial in some situations.</p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-2275">
+        <h1 class="posttitle"><a href="/dynamic-imaging/integration-examples/" rel="bookmark" title="Permanent Link: Integration examples">Integration examples</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p>ZetaPrints dynamic imaging is available via a simple <a title="Web-to-print API and integration" href="/packages/api-and-integration/" target="_self">API</a>. It is easy to integrate our dynamic imaging at different levels using different features.<!--more--></p>
+<h2>OpenX</h2>
+<p><a title="OpenX image generator" href="/help/openx-image-generator/" target="_self">OpenX plugin</a> uses ZetaPrints <a title="Dynamic imaging API" href="/help/dynamic-image-generation-api/" target="_self">dynamic imaging API</a> to help advertisers prepare their creatives (<a title="Dynamic imaging banners" href="/help/internet-banners/" target="_self">banners</a>) right inside OpenX. Our dynamic imaging API is tightly integrated into OpenX via the plugin. It makes the dynamic imaging feature look like a native part of OpenX.</p>
+<h2>E-cards widget</h2>
+<p>This would be the easiest of integration options. The widget is written in Flash and can be embedded into any web page. No server side code is required, but what you can do with it is quite limited. <a title="eCard creation" href="/help/create-an-ecard/" target="_self">E-cards</a> widget is an <a title="eCards plugin project home" href="http://code.google.com/p/e-cards-plugin/" target="_self">open source project</a> that anyone can reuse and modify to meet any specific integration requirements. In other words, it&#8217;s a good starting point for something bigger than just an <a title="Dynamic imaging flash widget" href="/dynamic-imaging/dynamic-imaging-widget/" target="_self">e-card widget</a>.</p>
+<p><object id="e-cards-plugin" width="600" height="400" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowScriptAccess" value="sameDomain" /><param name="allowFullScreen" value="false" /><param name="quality" value="high" /><param name="src" value="/flash/e-cards-plugin.swf" /><param name="flashvars" value="params=http://zetaprints.com/RssTemplates.aspx?c=D8506E6F-A4CE-4219-968D-01B1AE6CAB90" /><param name="allowfullscreen" value="false" /><param name="allowscriptaccess" value="sameDomain" /><embed id="e-cards-plugin" width="600" height="400" type="application/x-shockwave-flash" src="/flash/e-cards-plugin.swf" allowScriptAccess="sameDomain" allowFullScreen="false" quality="high" flashvars="params=http://zetaprints.com/RssTemplates.aspx?c=D8506E6F-A4CE-4219-968D-01B1AE6CAB90" allowfullscreen="false" allowscriptaccess="sameDomain" /></object></p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-2229">
+        <h1 class="posttitle"><a href="/packages/open-source-web-to-print-2/" rel="bookmark" title="Permanent Link: Open source web-to-print">Open source web-to-print</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <h2>Open source integration</h2>
+<p>We have a number of active open source projects using our <a title="Web-to-print software" href="/category/web-to-print-software/" target="_self">web-to-print</a> and <a title="About dynamic imaging" href="/category/dynamic-imaging/" target="_self">dynamic imaging</a> <a title="Web-to-print and dynamic imaging API" href="/help/category/api/" target="_self">API</a>. They can be used on their own or as part of your <a title="Web-to-print API and integration" href="/packages/api-and-integration/" target="_self">integration</a> project. The licensing of the code is very liberal and does not require open-sourcing of your commercial implementation.<!--more--></p>
+<h2>Magento</h2>
+<p><a title="Magento web-to-print" href="/category/magento-web-to-print/" target="_self">Magento</a> is an open source E-Commerce platform. We have several extensions that turn this generic E-Commerce platform into a store with advanced web-to-print and dynamic imaging <a title="Magento web-to-print extension features" href="/magento-web-to-print/features/" target="_self">functionality</a>.</p>
+<ul class="positive_list">
+<li><a title="Magento web-to-print extension" href="https://www.magentocommerce.com/magento-connect/web-to-print-and-dynamic-imaging.html" target="_self">Web-to-print extension</a></li>
+<li><a title="Magento category access control extension" href="https://www.magentocommerce.com/magento-connect/category-access-control.html" target="_self">Access control extension</a></li>
+<li><a title="Magento Order approval extension" href="https://www.magentocommerce.com/magento-connect/order-approval.html" target="_self">Order approval extension</a></li>
+<li><a title="Magento fixed quantities extension" href="http://www.magentocommerce.com/magento-connect/fixed-quantity.html">Fixed quantities extension</a></li>
+<li><a title="ZetaPrints extensions on Magentocommerce" href="https://www.magentocommerce.com/magento-connect/developer/ZetaPrints/">More &#8230;</a></li>
+</ul>
+<h2>PayPal</h2>
+<p>We created an open source <a title="Web-to-print PayPal Pro gateway for WordPress" href="/help/paypal-pro-gateway-for-wordpress/" target="_self">PayPal payments gateway</a> to expand the payments functionality provided with our <a title="Corporate web-to-print and dynamic imaging package" href="/packages/hosted-by-us/">corporate package</a> interface. It comes as a free WordPress plugin, but can be modified to fit other platforms.</p>
+<p><a title="PayPal gateway project home" href="http://code.google.com/p/paypal-pro-wordpress-gateway/" target="_self">About</a> | <a title="PayPal gateway source code" href="http://code.google.com/p/paypal-pro-wordpress-gateway/source/browse/" target="_self">Source code</a> | <a title="PayPal gateway project development" href="http://code.google.com/p/paypal-pro-wordpress-gateway/issues/list/" target="_self">Issues &amp; development</a></p>
+<h2>E-cards</h2>
+<p>Our fun dynamic imaging <a title="eCards plugin for WordPress" href="/dynamic-imaging/dynamic-imaging-widget/" target="_self">plugin for WordPress</a> sends e-cards directly from a WordPress page. It can be used as a viral or promotional tool to drive traffic to your main site. More <a title="ZetaPrints Plugins for WordPress" href="http://profiles.wordpress.org/users/zetaprints/">WP plug-ins by ZetaPrints</a> &#8230;</p>
+<p><a title="eCards plugin project home" href="http://code.google.com/p/e-cards-plugin/" target="_self">About</a> | <a title="eCards plugin source code" href="http://code.google.com/p/e-cards-plugin/source/browse/" target="_self">Source code</a> | <a title="eCards plugin project development" href="http://code.google.com/p/e-cards-plugin/issues/list/" target="_self">Issues &amp; development</a></p>
+<h2>Dynamic imaging Flash plugin</h2>
+<p>Our simple open source <a title="Dynamic imaging widget" href="/help/tools/image-generation-plugin/" target="_self"> Flash plugin</a> can be used to front an image personalization application. It can also be embedded into a web page.</p>
+<p><a title="Dynamic imaging flash plugin project home" href="http://code.google.com/p/e-cards-plugin/" target="_self">About</a> | <a title="Dynamic imaging plugin source code" href="http://code.google.com/p/e-cards-plugin/source/browse/" target="_self">Source code</a> | <a title="Dynamic imaging plugin project development" href="http://code.google.com/p/e-cards-plugin/issues/list/" target="_self">Issues &amp; development</a></p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-1928">
+        <h1 class="posttitle"><a href="/packages/api-and-integration/" rel="bookmark" title="Permanent Link: API and integration">API and integration</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p>ZetaPrints is an open <a title="Web-to-print software" href="/category/web-to-print-software/" target="_self">web-to-print</a> and <a title="About dynamic imaging" href="/category/dynamic-imaging/" target="_self">dynamic imaging</a> platform ready to be connected to other systems at different levels. Some parts of our system can be used via API, while some parts are open source.<!--more--></p>
+<h2>API at a glance</h2>
+<p>Our web-to-print and dynamic imaging <a title="Web-to-print and dynamic imaging API" href="/help/category/api/" target="_self">API</a> allows you to plug our functionality into your existing website at different levels. Most likely you will want to use our scalable imaging platform for preview and PDF generation, similar to our <a title="Magento web-to-print extension" href="/magentohelp/magento/" target="_self">web-to-print extension for Magento</a>.</p>
+<h3>Users</h3>
+<p>We cache user texts, images, previews, while you keep all the other user details in your system. A <a title="Web-to-print user registration API" href="/help/user-registration-api/" target="_self">user</a> is created on your request via an API call.</p>
+<h3>Templates</h3>
+<p><a title="Web-to-print and dynamic imaging template creation" href="/help/template-creation/" target="_self">Templates</a> are <a title="Upload your first template" href="/help/upload-your-first-template/" target="_self">uploaded</a> and <a title="Web-to-print template management" href="/help/category/template-management/" target="_self">managed</a> on ZetaPrints by your <a title="Web-to-print designers" href="/category/designers/" target="_self">designers</a>. They are used by our web-to-print and dynamic imaging system to <a title="Web-to-print API output file generation" href="/help/orders-api-generate-output-files/" target="_self">generate</a> previews and PDF files.</p>
+<h3>User images</h3>
+<p><a title="Web-to-print API image library" href="/help/web-to-print-image-library-api/" target="_self">User images</a> are stored in our storage for use in templates. They can be <a title="Web-to-print image editing API" href="/help/image-editing-api/" target="_self">edited</a> by users via API using your own code or our open source editors directly on your site.</p>
+<h3>Orders</h3>
+<p>Orders are created at the end of the process via API. They can be <a title="Web-to-print orders API" href="/help/orders-api/" target="_self">managed</a> via API or manually in your <a title="ZetaPrints web-to-print portal" href="http://zetaprints.com/" target="_self">ZetaPrints portal</a>.</p>
+<h2>Open source integration</h2>
+<p>We have a number of active open source projects using our web-to-print and dynamic imaging API. They can be used on their own or as part of your integration project. The licensing of the code is very liberal and does not require open-sourcing of your commercial implementation.</p>
+<ul class="positive_list">
+<li><a title="Magento web-to-print" href="/category/magento-web-to-print/" target="_self">Magento</a></li>
+<li><a title="Web-to-print PayPal Pro gateway for WordPress" href="/help/paypal-pro-gateway-for-wordpress/" target="_self">PayPal</a></li>
+<li><a title="eCards plugin for WordPress" href="/dynamic-imaging/dynamic-imaging-widget/" target="_self">WordPress e-cards</a></li>
+<li><a title="Dynamic imaging widget" href="/help/tools/image-generation-plugin/" target="_self">Universal Flash plugin</a></li>
+</ul>
+<h2>Integration support</h2>
+<p>Every integration project is a bit special. <a title="Contact us" href="/about-us/contact-us/" target="_self">Talk to us</a> about your plans and requirements.</p>
+<p>Our <a title="Magento web-to-print partners" href="/magento-web-to-print/magento-partners/" target="_self">partners</a> will be happy to assist you with any software design and development work you require.</p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-1918">
+        <h1 class="posttitle"><a href="/packages/help-me-choose/" rel="bookmark" title="Permanent Link: Help me choose">Help me choose</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p>ZetaPrins offers 2 SaaS <a title="Web-to-print software" href="/category/web-to-print-software/" target="_self">web-to-print</a> and <a title="About dynamic imaging" href="/category/dynamic-imaging/" target="_self">dynamic imaging</a> packages plus direct <a title="Web-to-print and dynamic imaging API" href="/help/category/api/" target="_self">API access</a> for custom integration. Choosing the right one should not be difficult at all if you know what it is you want to get in the end. In other words, formulate your requirements first and then match them against our capabilities.<!--more--></p>
+<table class="w2p_feat_tbl">
+<tbody>
+<tr style="text-align: center;">
+<td width="33%">
+<h3><strong>Feature</strong></h3>
+</td>
+<td width="33%">
+<h3><strong><a title="Core web-to-print and dynamic imaging package" href="/packages/hosted-by-us/">Core package</a><br />
+</strong></h3>
+</td>
+<td width="33%">
+<h3><strong><a title="E-Commerce web-to-print and dynamic imaging package" href="/packages/hosted-by-you/">E-Commerce package</a><br />
+</strong></h3>
+</td>
+</tr>
+<tr style="text-align: center;">
+<td><strong>Administration</strong></td>
+<td>Easy</td>
+<td>Demanding</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Custom user interface</strong></td>
+<td style="text-align: center;">CSS + JS</td>
+<td style="text-align: center;">Full control</td>
+</tr>
+<tr style="text-align: center;">
+<td><strong>Workflow</strong></td>
+<td>Default process</td>
+<td>Custom process</td>
+</tr>
+<tr style="text-align: center;">
+<td><strong>Setting up cost</strong></td>
+<td>none</td>
+<td>Cost of hosting + set up</td>
+</tr>
+<tr style="text-align: center;">
+<td><strong>Ongoing costs</strong></td>
+<td>Pay per order</td>
+<td>Pay per order + hosting + maintenance</td>
+</tr>
+<tr style="text-align: center;">
+<td><strong>Technical expertise</strong></td>
+<td>Minimal</td>
+<td>Programming + sysadmin</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Corporate ordering portal</strong></td>
+<td class="check_icon_feat"></td>
+<td class="check_icon_feat"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Consumer type shop</strong></td>
+<td class="del_icon_feat"></td>
+<td class="check_icon_feat"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Specialized portals</strong></td>
+<td class="del_icon_feat"></td>
+<td class="check_icon_feat"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Small ordering portals</strong></td>
+<td class="check_icon_feat"></td>
+<td class="del_icon_feat"></td>
+</tr>
+<tr style="text-align: center;">
+<td><strong>ZetaPrints features</strong></td>
+<td>all</td>
+<td>most + e-commerce</td>
+</tr>
+<tr style="text-align: center;">
+<td><strong>User details location</strong></td>
+<td>ZetaPrints</td>
+<td>Your site</td>
+</tr>
+<tr style="text-align: center;">
+<td><strong>Templates location</strong></td>
+<td>ZetaPrints</td>
+<td>ZetaPrints</td>
+</tr>
+<tr style="text-align: center;">
+<td><strong>Order details location</strong></td>
+<td>ZetaPrints</td>
+<td>Your site</td>
+</tr>
+</tbody>
+</table>
+<h2>Enterprise web-to-print and dynamic imaging options</h2>
+<p>Enterprise customers with high volume of web-to-print and dynamic imaging orders can use our <a title="Web-to-print and dynamic imaging for enterprise level customers" href="/packages/enterprise-web-to-print/">enterprise package</a> with <strong>standalone deployment</strong>. This package is designed to meet specific requirements outside of what the standard SaaS model provides.</p>
+<p>&nbsp;</p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-1909">
+        <h1 class="posttitle"><a href="/packages/hosted-by-you/" rel="bookmark" title="Permanent Link: E-Commerce package">E-Commerce package</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p>Our E-Commerce <a title="Web-to-print software" href="/category/web-to-print-software/" target="_self">web-to-print</a> and <a title="About dynamic imaging" href="/category/dynamic-imaging/" target="_self">dynamic imaging</a> package allows you to combine the power of our back-end web-to-print engine with the fancy features of the <a title="Magento with web-to-print" href="/category/magento-web-to-print/">Magento</a> e-commerce platform.<!--more--></p>
+<div class="floating_img_l">
+<p><img class="aligncenter" title="hosted_by_you" src="/wp-content/uploads/2010/07/hosted_by_you.png" alt="" width="397" height="254" /></p>
+<h3>Package at a glance</h3>
+<ul class="host_list">
+<li>Ease of administration: demanding</li>
+<li>Time to launch: hours to days to weeks</li>
+<li>Customization: unlimited <a title="Magento storefront customization" href="/magento-web-to-print/magento-storefront-customization/" target="_self"><img class="alignnone" src="/help/img/external_link_icon_on.png" alt="" width="10" height="10" /></a></li>
+<li>Features: most of ZP + e-commerce <a title="Web-to-print features" href="/printers/web-to-print-features/" target="_self"><img class="alignnone" src="/help/img/external_link_icon_on.png" alt="" width="10" height="10" /></a></li>
+<li>Total cost: pay per order + hosting <a title="Hosting package pricing" href="/about-web-to-print-software/total-cost-of-ownership/" target="_self"><img class="alignnone" src="/help/img/external_link_icon_on.png" alt="" width="10" height="10" /></a></li>
+<li>Technical expertise: professional <a title="Get professional help" href="/magento-web-to-print/magento-partners/" target="_self"><img class="alignnone" src="/help/img/external_link_icon_on.png" alt="" width="10" height="10" /></a></li>
+</ul>
+</div>
+<h3>Recommended for:</h3>
+<ul class="positive_list">
+<li>Public online shops</li>
+<li>Specific or highly customized websites</li>
+<li>Large portals</li>
+<li>online shops where only some products are customizable</li>
+</ul>
+<p>Unlike the <a title="Core web-to-print and dynamic imaging package" href="/packages/hosted-by-us/">core package</a>, this one pushes ZetaPrints interface in the back end, taking advantage of all its <a title="Web-to-print features" href="/magento-web-to-print/zetaprints-features/">powerful abilities</a> but presenting it to the customers in a fancy, fully customizable, powerful e-commerce platform – <a title="Magento web-to-print features" href="/magento-web-to-print/features/">Magento</a>. ZetaPrints is used purely for image and PDF generation leaving you in full control over the ordering process.</p>
+<h3>This package is not suitable if you want:</h3>
+<ul class="negative_list">
+<li>a simple website (see <a title="Core web-to-print and dynamic imaging package" href="/packages/hosted-by-us/">Core package</a>)</li>
+<li>do it yourself, but have no programming skills (see <a title="Core web-to-print and dynamic imaging package" href="/packages/hosted-by-us/">Core package</a>)</li>
+<li>host a web-to-print engine on your own server (see <a title="Enterprise web-to-print and dynamic imaging package" href="/packages/enterprise-web-to-print/">Enterprise package</a>)</li>
+<li>change the looks of the site, but leave default ZetaPrints process in place</li>
+</ul>
+<p>We do not recommend this package if you are not prepared to invest a considerable effort into creating and maintaining your own hosting environment. Although it gives you a superior starting point it may be an overkill for your type of web-to-print or dynamic imaging application.</p>
+<h3>How to get started</h3>
+<p>Review our <a title="web-to-print integration" href="/packages/api-and-integration/">API and integration guide</a> if you want to integrate and existing website or consider getting a free open source e-commerce website that <a title="magento web-to-print" href="/category/magento-web-to-print/">works out of the box</a>.</p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-1905">
+        <h1 class="posttitle"><a href="/packages/hosted-by-us/" rel="bookmark" title="Permanent Link: Core package">Core package</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p>Our core <a title="Web-to-print software" href="/category/web-to-print-software/" target="_self">web-to-print</a> and <a title="About dynamic imaging" href="/category/dynamic-imaging/" target="_self">dynamic imaging</a> package is the easiest way to run a web-to-print and imaging portal.<!--more--></p>
+<div class="floating_img_l">
+<p><img class="aligncenter" title="hosted_by_us" src="/wp-content/uploads/2010/07/hosted_by_us.png" alt="" width="424" height="254" /></p>
+<h3>Package at a glance</h3>
+<ul class="host_list">
+<li>Ease of use: easy</li>
+<li>Time to launch: minutes</li>
+<li>Customization: limited <a title="Web-to-print branding" href="/help/branding/" target="_self"><img class="alignnone" src="/help/img/external_link_icon_on.png" alt="" width="10" height="10" /></a></li>
+<li>Features: full set <a title="Web-to-print features" href="/printers/web-to-print-features/" target="_self"><img class="alignnone" src="/help/img/external_link_icon_on.png" alt="" width="10" height="10" /></a></li>
+<li>Total cost of ownership: minimal <a title="Hosting package pricing" href="/about-web-to-print-software/total-cost-of-ownership/" target="_self"><img class="alignnone" src="/help/img/external_link_icon_on.png" alt="" width="10" height="10" /></a></li>
+<li>Technical expertise: minimal</li>
+</ul>
+</div>
+<h3>Recommended for:</h3>
+<ul class="positive_list">
+<li>Corporate, franchise and internal print ordering</li>
+<li>Starting out with web-to-print and dynamic imaging</li>
+<li>Small portals</li>
+</ul>
+<p>This web-to-print and dynamic imaging package has the full set of ZetaPrints features and no-hassle hosting. The look and feel of the pages can be <a title="Web-to-print branding" href="/help/branding/" target="_self">changed</a> by you using custom CSS files, to some extent.</p>
+<p>Our core package is completely sufficient if you’re after simplicity and functionality. There are no limitations when it comes down to the <a title="Web-to-print design techniques" href="/help/category/design-techniques/">design techniques</a> you want to use in <a title="Web-to-print template creation" href="/help/template-creation/">templates</a>.</p>
+<h3>This package is not suitable if you want:</h3>
+<ul class="negative_list">
+<li>extensive front-end customization</li>
+<li>changes to the process / workflow (see <a title="E-commerce web-to-print and dynamic imaging package" href="/packages/hosted-by-you/">E-Commerce package</a>)</li>
+<li>sell a mix with other non-customizable products (see <a title="E-Commerce web-to-print and dynamic imaging package" href="/packages/hosted-by-you/">E-Commerce package</a>)</li>
+<li>host a web-to-print engine on your own server (see <a title="Enterprise web-to-print and dynamic imaging package" href="/packages/enterprise-web-to-print/">Enterprise package</a>)</li>
+</ul>
+<p>We do not recommend this package for public online shops selling products such as <a title="Web-to-print greeting cards guide" href="/help/greeting-cards-guide/" target="_self">greeting cards</a>, invitations, merchandise and other fancy things that need a fancy interface.</p>
+<h3>How to get started</h3>
+<p>Simply <a title="Sign up a web-to-print master account" href="/packages/sign-up-for-web-to-print/" target="_self">sign up</a>. It is free, no strings attached.</p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-1682">
+        <h1 class="posttitle"><a href="/magento-web-to-print/hosting/" rel="bookmark" title="Permanent Link: Hosting">Hosting</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p><a title="Magento ecommerce" href="http://www.magentocommerce.com/" target="_self">Magento</a> is an open source e-commerce platform written in PHP + MySQL. It can run in almost any hosting environment. You can choose to host it yourself or use managed hosting where someone does all the installation and system administration for you.<!--more--></p>
+<p>We do not provide Magento hosting ourselves, but our <a title="ZetaPrints partners" href="/magento-web-to-print/magento-partners/" target="_self">partners</a> will be happy to assist you.</p>
+<h3>AWS hosting</h3>
+<p><a title="Amazon Web Services" href="http://aws.amazon.com/" target="_self"><strong>A</strong>mazon <strong>W</strong>eb <strong>S</strong>ervices</a> is our hosting of choice. This is where our <a title="ZetaPrints web-to-print and dynamic imaging system" href="http://zetaprints.com/" target="_self">web-to-print and dynamic imaging system</a> is hosted. Locating your Magento site in the same hosting environment will reduce network latency to negligible. We provide a free up-to-date AWS machine image with Magento and our <a title="Install web-to-print extension for Magento" href="https://www.magentocommerce.com/magento-connect/web-to-print-and-dynamic-imaging.html" target="_self">extension</a> installed.</p>
+<h3>Shared hosting</h3>
+<p>A Magento website with the ZetaPrints web-to-print and dynamic imaging extension can be hosted by almost any  <a title="Find a hosting company" href="/help/find-a-hosting-company/" target="_self">website hosting company</a> with prices starting at a few dollars per month. It is suitable for small websites if you have access to necessary technical expertise.</p>
+<table border="0">
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="http://www.hostmonster.com/"><img class="alignnone size-full wp-image-1775" title="HostMonster" src="/wp-content/uploads/2010/05/hostmonster.png" alt="HostMonster" width="130" height="50" /></a><br />
+<a title="HostMonster.com" href="http://www.hostmonster.com/" target="_self">HostMonster</a></td>
+<td style="text-align: center;"><a href="http://www.simplehelix.com/"><img class="alignnone size-full wp-image-1775" title="SimpleHelix" src="/wp-content/uploads/2010/05/helix.png" alt="SimpleHelix" width="130" height="50" /></a><br />
+<a title="SimpleHelix" href="http://www.simplehelix.com/" target="_self">SimpleHelix</a></td>
+<td style="text-align: center;"><a href="http://www.magentocommerce.com/partners/find/hosting-partners/"><img class="alignnone size-full wp-image-1775" title="Magento Hosting partners" src="/help/img/magento_w2p_images/magento.png" alt="Magento Hosting partners" width="130" height="50" /></a><br />
+<a title="Magento hosting partners" href="http://www.magentocommerce.com/partners/find/hosting-partners/" target="_self">Magento Hosting partners</a></td>
+</tr>
+</tbody>
+</table>
+<h3>Dedicated and virtual server hosting</h3>
+<p>Dedicated or VPS (virtual server) hosting is more involved and more expensive than shared hosting. You will definitely need advanced technical expertise to successfully run such web-to-print hosting environment. We recommend it to websites with significant traffic or expecting their traffic to grow. The costs may start as low as US$50 per month.</p>
+<table border="0">
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="http://www.slicehost.com/"><img class="alignnone size-full wp-image-1775" title="Slicehost VPS hosting" src="/wp-content/uploads/2010/05/slicehost.png" alt="Slicehost VPS hosting" width="130" height="50" /></a><br />
+<a title="Slicehost VPS hosting" href="http://www.slicehost.com/" target="_self">SliceHost</a></td>
+<td style="text-align: center;"><a href="http://aws.amazon.com/"><img class="alignnone size-full wp-image-1775" title="Amazon Web Services" src="/wp-content/uploads/2010/05/aws.png" alt="Amazon Web Services" width="130" height="50" /></a><br />
+<a title="Amazon Web Services" href="http://aws.amazon.com/" target="_self">AWS</a></td>
+<td style="text-align: center;"><a href="http://mediatemple.net/"><img class="alignnone size-full wp-image-1775" title="Media Temple hosting" src="/wp-content/uploads/2010/05/mediatemple.png" alt="Media Temple hosting" width="130" height="50" /></a><br />
+<a title="Media Temple hosting" href="http://mediatemple.net/" target="_self">MediaTemple</a></td>
+</tr>
+</tbody>
+</table>
+<h3>Managed hosting</h3>
+<p>We recommend this option to customers with serious intentions on growing their online business. The extra you pay for looking after your website frees you to do all the other tasks as well as gives you peace of mind. You still own and fully control your website, but the difficult IT tasks are performed by IT professionals on your request. The costs usually start from about US$120 a month, but ultimately depend on the level of support you require.</p>
+<p>Talk to <a title="Magento web-to-print partners" href="/magento-web-to-print/magento-partners/" target="_self">our partners</a> or find a different <a title="Magento ecommerce job board" href="http://www.magentocommerce.com/jobs/" target="_self">service provider</a>.</p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-1622">
+        <h1 class="posttitle"><a href="/magento-web-to-print/zetaprints-features/" rel="bookmark" title="Permanent Link: Features &#8211; web-to-print">Features &#8211; web-to-print</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <div id="featuretabs"><div class="featurepretxt"><p>ZetaPrints is a <a title="Web-to-print software" href="/category/web-to-print-software/" target="_self">web-to-print</a> and <a title="About dynamic imaging" href="/category/dynamic-imaging/" target="_self">dynamic imaging</a> service provider. Our service is designed to make online personalization simple and cost effective.<!--more--></p>
+</div><ul><li ><a href="#fragment-0"><span>Volumes</span></a></li><li ><a href="#fragment-1"><span>Templates</span></a></li><li ><a href="#fragment-2"><span>Variable fields</span></a></li></ul><div id="fragment-0">
+<p>We do not place limits on you. Use as much of our service as you need to grow and meet your demand.</p>
+<table class="w2p_feat_tbl">
+<tbody>
+<tr>
+<td class="list_title_last" colspan="2"><strong>Unlimited</strong></td>
+</tr>
+<tr>
+<td>Number of web-to-print templates</td>
+<td class="check_icon_feat"></td>
+</tr>
+<tr>
+<td>Number of web-to-print catalogs</td>
+<td class="check_icon_feat"></td>
+</tr>
+<tr>
+<td>Number of users</td>
+<td class="check_icon_feat"></td>
+</tr>
+<tr>
+<td>Disk space</td>
+<td class="check_icon_feat"></td>
+</tr>
+<tr>
+<td>Traffic</td>
+<td class="check_icon_feat"></td>
+</tr>
+</tbody>
+</table>
+</div><div id="fragment-1">
+<p>Our templating system is simple, but powerful. It goes well beyond replacing straight lines of text in a PDF file.</p>
+<table class="w2p_feat_tbl">
+<tbody>
+<tr>
+<td class="list_title_last" colspan="2"><strong>Availability</strong></td>
+<td class="list_title_last_how"><strong>How to</strong></td>
+</tr>
+<tr>
+<td>Upload your own</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/upload-your-first-template/"><img title="Upload your first web-to-print template" src="/_img/help_on.png" alt="Upload your first web-to-print template" /></a></td>
+</tr>
+<tr>
+<td>Unbounded creativity limits</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/category/design-techniques/"><img title="Web-to-print and dynamic imaging design techniques" src="/_img/help_on.png" alt="Web-to-print and dynamic imaging design techniques" /></a></td>
+</tr>
+<tr>
+<td>No delay before a template becomes available</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><img src="/_img/help_off.png" alt="" /></td>
+</tr>
+<tr>
+<td colspan="3">PDF settings</td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Bleed</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/bleed-area/"><img title="Bleed area" src="/_img/help_on.png" alt="Bleed area" /></a></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Crop marks</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/cropmarks-from-photoshop/"><img title="Web-to-print cropmarks" src="/_img/help_on.png" alt="Cropmarks" /></a></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Imposition</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/templates-for-preview-and-printing/"><img title="About preview and printing templates" src="/_img/help_on.png" alt="Preview and printing templates" /></a></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Font embedding</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/font-management/"><img title="Web-to-print font management" src="/_img/help_on.png" alt="Web-to-print font management" /></a></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Text-to-curve</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><img src="/_img/help_off.png" alt="" /></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Other settings</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/category/pdf-settings/"><img title="Web-to-print PDF settings" src="/_img/help_on.png" alt="PDF settings" /></a></td>
+</tr>
+<tr>
+<td>Any number of pages</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/multi-page-templates/"><img title="Web-to-print multi-page templates" src="/_img/help_on.png" alt="Multipage web-to-print templates" /></a></td>
+</tr>
+<tr>
+<td colspan="3">Color modes</td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Spot colors</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><img src="/_img/help_off.png" alt="" /></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">RGB</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><img src="/_img/help_off.png" alt="" /></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">CMYK</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><img src="/_img/help_off.png" alt="" /></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Color separation</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><img src="/_img/help_off.png" alt="" /></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Overprints</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><img src="/_img/help_off.png" alt="" /></td>
+</tr>
+<tr>
+<td colspan="3">Output files</td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">PDF, CDR, JPG, GIF, PNG</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/output-files-generation/"><img title="Web-to-print output file generation" src="/_img/help_on.png" alt="Web-to-print output file generation" /></a></td>
+</tr>
+</tbody>
+</table>
+</div><div id="fragment-2">
+<p><span>It is very simple to convert an ordinary ad design into a usable ad template – just name the fields for user texts and images.</span><br />
+<span>The system reads the field information directly from the file. There are numerous rules you can apply, such as alignment, horizontal and vertical shift, removal of elements if some other elements are not present, maximum and minimum length, recommended image resolution, etc.</span></p>
+<table class="w2p_feat_tbl">
+<tbody>
+<tr>
+<td class="list_title_last" colspan="2"><strong>Availability</strong></td>
+<td class="list_title_last_how"><strong>How to</strong></td>
+</tr>
+<tr>
+<td colspan="3">Variable text and images</td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Variable text</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/category/text-fields/"><img title="Web-to-print variable text fields" src="/_img/help_on.png" alt="Web-to-print text fields" /></a></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Variable images</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/category/image-fields/"><img title="Web-to-print variable image fields" src="/_img/help_on.png" alt="Web-to-print image fields" /></a></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Automatic text alignment</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><img src="/_img/help_off.png" alt="" /></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Automatic image alignment</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/image-alignment/"><img title="Web-to-print image alignment" src="/_img/help_on.png" alt="Web-to-print image alignment" /></a></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Auto replacement</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><img src="/_img/help_off.png" alt="" /></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Auto removal</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/conditional-object-removal/"><img title="Web-to-print conditional object removal" src="/_img/help_on.png" alt="Web-to-print conditional object removal" /></a></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Conditional line removal</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/conditional-line-removal/"><img title="Dynamic imaging conditional line removal" src="/_img/help_on.png" alt="Dynamic imaging conditional line removal" /></a></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Paragraph style matching</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/paragraph-style-matching/"><img title="Dynamic imaging paragraph style matching" src="/_img/help_on.png" alt="Dynamic imaging paragraph style matching" /></a></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Character formatting matching</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/character-formatting-matching/"><img title="Dynamic imaging character formatting matching" src="/_img/help_on.png" alt="Dynamic imaging character formatting matching" /></a></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Automatic font resizing</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/auto-font-resizing/"><img title="Dynamic imaging auto font resizing" src="/_img/help_on.png" alt="Dynamic imaging auto font resizing" /></a></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Linked text frames</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/linked-text-frames/"><img title="Dynamic imaging linked text frames" src="/_img/help_on.png" alt="Dynamic imaging linked text frames" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>Consult these product guides before you start working on a specific kind of template:</p>
+<table class="tbl_grid_guides_w2p">
+<tbody>
+<tr>
+<td><img class="alignnone" title="Web-to-print Brochures" src="/wp-content/themes/zetaprints/_img/brochures.jpg" alt="Web-to-print Brochures" width="125" height="180" /></td>
+<td><img class="alignnone" style="margin-left: 5px; margin-right: 0px;" title="Web-to-print Outdoor signs" src="/wp-content/themes/zetaprints/_img/outdoor_signs.jpg" alt="Web-to-print Yard signs" width="125" height="180" /></td>
+<td><img class="alignnone" style="margin-left: 5px; margin-right: 0px;" title="Web-to-print T-shirts" src="/wp-content/themes/zetaprints/_img/web-to-print_t-shirts.jpg" alt="Web-to-print T-shirts" width="125" height="180" /></td>
+<td><img class="alignnone" style="margin-left: 5px; margin-right: 0px;" title="Web-to-print Business cards" src="/wp-content/themes/zetaprints/_img/web-to-print_business_cards.jpg" alt="Web-to-print Business cards" width="125" height="180" /></td>
+<td><img class="alignnone" style="margin-left: 5px; margin-right: 0px;" title="Web-to-print CD/DVD labels" src="/wp-content/themes/zetaprints/_img/web-to-print_DVD_labels.jpg" alt="Web-to-print CD/DVD labels" width="125" height="180" /></td>
+</tr>
+<tr id="sample_product_links">
+<td><a title="Web-to-print Brochure templates" href="http://zetaprints.com/?page=template;TemplateID=DBA05324-1B3E-4BDA-BA00-559192FB0919/" target="_self">Samples</a> | <a title="Web-to-print help: Brochures guide" href="/help/brochures-guide/" target="_self">Tutorial</a></td>
+<td><a title="Web-to-print Real estate yard sign templates" href="http://zetaprints.com/?page=catalogue;CorporateID=5C787740-C63F-4821-8DDC-25834DDFEE8F/" target="_self">Samples</a> | <a title="Web-to-print help: Outdoor signs guide" href="/help/outdoor-signs-guide/" target="_self">Tutorial</a></td>
+<td><a title="Web-to-print T-shirt templates" href="http://zetaprints.com/?page=template;TemplateID=5A8DF7B8-199A-4C66-9B29-F8DDF09843B2/" target="_self">Samples</a> | <a title="Web-to-print help: T-shirts guide" href="/help/t-shirts-guide/" target="_self">Tutorial</a></td>
+<td><a title="Web-to-print business cards" href="http://shop.hollands.com.au/?page=catalogue;CorporateID=9F44DD27-0DA6-422A-8290-CAB040742247/" target="_self">Samples</a> | <a title="Web-to-print help: Business cards guide" href="/help/business-cards-guide/" target="_self">Tutorial</a></td>
+<td><a title="Web-to-print CD/DVD label" href="http://zetaprints.com/?page=template;TemplateID=0D6B06C6-DA3F-4607-965D-BCA3F7B4A23C/" target="_self">Samples</a> | <a title="Web-to-print help: CD/DVD labels guide" href="/help/cddvd-labels-guide/" target="_self">Tutorial</a></td>
+</tr>
+</tbody>
+</table>
+<table class="tbl_grid_guides_w2p">
+<tbody>
+<tr>
+<td><img class="alignnone" title="Web-to-print Greeting cards" src="/wp-content/themes/zetaprints/_img/web-to-print_greeting_cards.jpg" alt="Web-to-print Greeting cards" width="125" height="180" /></td>
+<td><img class="alignnone" style="margin-left: 5px; margin-right: 0px;" title="Web-to-print Books" src="/wp-content/themes/zetaprints/_img/web-to-print_books.jpg" alt="Web-to-print Books" width="125" height="180" /></td>
+<td><img class="alignnone" style="margin-left: 5px; margin-right: 0px;" title="Web-to-print Posters" src="/wp-content/themes/zetaprints/_img/web-to-print_posters.jpg" alt="Web-to-print Posters" width="125" height="180" /></td>
+<td><img class="alignnone" style="margin-left: 5px; margin-right: 0px;" title="Web-to-print Newspaper ads" src="/wp-content/themes/zetaprints/_img/web-to-print_newspaper_ad.jpg" alt="Web-to-print Newspaper ads" width="125" height="180" /></td>
+<td><img class="alignnone" style="margin-left: 5px; margin-right: 0px;" title="Web-to-print CD/DVD covers" src="/wp-content/themes/zetaprints/_img/web-to-print_DVD_cover.jpg" alt="Web-to-print CD/DVD covers" width="125" height="180" /></td>
+</tr>
+<tr id="sample_product_links">
+<td><a title="Web-to-print greeting card templates" href="http://zetaprints.com/?page=template;TemplateID=5E7566DF-9445-4C86-91A5-B17AD19C2BC2/" target="_self">Samples</a> | <a title="Web-to-print help: Greeting cards guide" href="/help/greeting-cards-guide/" target="_self">Tutorial</a></td>
+<td><a title="Web-to-print Book templates" href="http://order.uprintinvitations.com/?page=catalogue;CorporateID=F37AF3A1-AE52-4057-84C9-E4EE88797F96/" target="_self">Samples</a> | <a title="Web-to-print help: Books guide" href="/help/books-guide/" target="_self">Tutorial</a></td>
+<td><a title="Web-to-print Poster templates" href="http://zetaprints.com/?page=catalogue;CorporateID=B43FC624-1020-4AC7-A773-E536B892414C/" target="_self">Samples</a> | <a title="Web-to-print help: Posters guide" href="/help/poster-guide/" target="_self">Tutorial</a></td>
+<td><a title="Web-to-print Newspaper ad templates" href="http://zetaprints.com/?page=catalogue;CorporateID=271510AD-DCE1-4305-9375-57F977F6EC6F/" target="_self">Samples</a> | <a title="Web-to-print help: Newspaper ads guide" href="/help/newspaper-ads-guide/" target="_self">Tutorial</a></td>
+<td><a title="Web-to-print CD/DVD label" href="http://zetaprints.com/?page=template;TemplateID=A8714BE2-AE75-4180-BED4-7D6791538282/" target="_self">Samples</a> | <a title="Web-to-print help: CD/DVD cover guide" href="/help/cddvd-case-cover-guide/" target="_self">Tutorial</a></td>
+</tr>
+</tbody>
+</table>
+<table class="tbl_grid_guides_w2p">
+<tbody>
+<tr>
+<td><img class="alignnone" title="Dynamic imaging eCards" src="/wp-content/themes/zetaprints/_img/dynamic_imaging_ecards.png" alt="Dynamic imaging eCards" width="125" height="180" /></td>
+<td><img class="alignnone" style="margin-left: 5px; margin-right: 0px;" title="Dynamic imaging Twictures" src="/wp-content/themes/zetaprints/_img/dynamic_imaging_twictures.png" alt="Twictures" width="125" height="180" /></td>
+<td><img class="alignnone" style="margin-left: 5px; margin-right: 0px;" title="Dynamic imaging Web banners" src="/wp-content/themes/zetaprints/_img/dynamic_imaging_banners.png" alt="Web banners" width="125" height="180" /></td>
+<td><img class="alignnone" style="margin-left: 5px; margin-right: 0px;" title="Dynamic imaging Web buttons" src="/wp-content/themes/zetaprints/_img/dynamic_imaging_buttons.png" alt="Web buttons" width="125" height="180" /></td>
+<td><img class="alignnone" style="margin-left: 5px; margin-right: 0px;" title="Dynamic imaging Web tabs" src="/wp-content/themes/zetaprints/_img/dynamic_imaging_tabs.png" alt="Web tabs" width="125" height="180" /></td>
+</tr>
+<tr id="sample_product_links">
+<td><a title="Bunny eCards" href="http://magento.zetaprints.com/?page=catalogue;CorporateID=284EF372-16BF-4258-A2AB-30D2A000BB26/" target="_self">Samples</a> | <a title="Dynamic imaging help: eCards guide" href="/help/create-an-ecard/">Tutorial</a></td>
+<td><a title="Fancy twitter updates" target="_self">Samples</a> | <a title="Dynamic imaging help: Twictures guide">Tutorial</a></td>
+<td><a title="Dynamic imaging - Web banners" href="http://zetaprints.com/?page=catalogue;CorporateID=1841912F-CA3B-43B7-8F6C-B7504E4D4A82/" target="_self">Samples</a> | <a title="Dynamic imaging help: Web banners guide" href="/help/internet-banners-guide/" target="_self">Tutorial</a></td>
+<td><a title="Dynamic imaging web buttons" href="http://magento.zetaprints.com/?page=catalogue;CorporateID=7D20426E-61D2-4638-BCCA-03E2448A560B/" target="_self">Samples</a> | <a title="Dynamic imaging help: Web buttons guide" href="/help/web-buttons/" target="_self">Tutorial</a></td>
+<td><a title="Dynamic imaging web tabs" href="http://magento.zetaprints.com/?page=catalogue;CorporateID=1631F47E-C480-4FF6-8867-50AAFAF571F8/" target="_self">Samples</a> | <a title="Dynamic imaging help: Web tabs guide" href="/help/web-tabs/" target="_self">Tutorial</a></td>
+</tr>
+</tbody>
+</table>
+</div><div></div></div>
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+              </div>
+
+    <div id="sidebar" class="minicat">
+          </div>
+  </div>
+
+
+<div id="footer-container" class="container">
+
+  <div id="footer">
+    <div id="bottomnav">
+      <ul>
+        <li class="first"><a href="/about-us/" title="About ZetaPrints">About ZetaPrints</a></li>
+        <li><a href="/about-us/contact-us/" title="Contact us">Contact us</a></li>
+        <li><a href="http://zetaprints.com/" title="Log in">Log in</a></li>
+        <li><a href="/about-us/privacy-policy/" title="Privacy policy">Privacy</a></li>
+        <li><a href="/sitemap" title="Sitemap">Sitemap</a></li>
+        <li><a href="/about-us/summary-of-terms-and-conditions/" title="Terms and conditions">Terms of Service</a></li>
+        <li><a href="/blog" title="Web-to-print Blog">Web-to-print Blog</a></li>
+        <li><a href="/help/" title="Web-to-print Help">Web-to-print Help</a></li>
+      </ul>
+    </div>
+    <p><a href="/blog" title="Web-to-print Blog"><img class="footer-icon" alt="Blog" src="/wp-content/themes/zetaprints-3.0/images/blog.png"/></a>&nbsp;
+<a href="http://twitter.com/zetaprints/" title="Follow us on twitter"><img class="footer-icon" alt="Twitter" src="/wp-content/themes/zetaprints-3.0/images/twitter_16.png"/></a>&nbsp;
+&copy; 2006-2012 ZetaPrints Ltd. All rights reserved. Powered by <a href="http://wordpress.org">WordPress</a>.</p>
+    <a href="#header" title="Back to Top" class="top-btn">Back to Top</a>
+  </div>
+</div>
+
+<script type='text/javascript' src='/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='/wp-includes/js/wp-embed.min.js?ver=4.4.1'></script>
+
+<script type="text/javascript">
+    (function(){
+        var ga = document.createElement('script');
+        ga.type="text/javascript";
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })
+</script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1132851-1']);
+    _gaq.push(['_trackPageview']);
+</script>
+</body>
+</html>

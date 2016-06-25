@@ -1,0 +1,87 @@
+#slideshow {
+  font-family: arial;
+  font-size: 12px;
+}
+#slideshow {
+  list-style: none;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display:none;
+  background: url('./spinner.gif') no-repeat center !important;
+}
+#slideshowSlide1,
+#slideshowSlide2 {
+  display:none;
+}
+#slideshowSlide1.show,
+#slideshowSlide2.show {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 0 !important;
+  display:block;
+  z-index: 500;
+}
+#slideshow li.showBack {
+  z-index: 505;
+  display:none;
+}
+ul img {
+  border: none;
+}
+#slideshowFade{
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 0 !important;
+  z-index: 600;
+  background: transparent !important;
+}
+
+/*** can be rewritten ***/
+#slideshowCaption {
+  height: 68px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #FFFFFF;
+  background: #3a3a3a !important;
+  z-index: 1500;
+  padding:0 !important;
+  margin:0 !important;
+}
+#slideshowCaption div {
+  margin:0 !important;
+  padding: 5px 10px;
+  z-index: 1000;
+}
+#slideshowCaption h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+#slideshowCaption p {
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+#slideshowButton {
+  width: 97px;
+  height: 23px;
+  position: absolute;
+  bottom: 0px;
+  margin-left:100%;
+  left:-97px !important;
+  color: #fff;
+  background: url('./button.png') !important;
+  z-index: 1500;
+  font-size: 16px;
+  text-align: center;
+  line-height: 26px;
+  padding:0 !important;
+}
+#slideshowButton a {
+  text-decoration:none;
+  color: #FFFFFF;
+}

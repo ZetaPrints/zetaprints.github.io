@@ -1,0 +1,733 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="verify-v1" content="GACnn9+1c3JzusKbMwxWr+f9dKvqx8As8sbHI8tNyxA=" />
+  <meta name="keywords" content="web-to-print, online printing, zetaprints, online print ordering" />
+  <meta name="generator" content="ZetaPrints"/> <!-- leave this for stats -->
+
+  <title>Web-to-Print &amp; Dynamic Imaging |  - Part 8</title>
+  <!--<script type="text/javascript" src="/wp-content/themes/zetaprints-3.0/jslib.js"></script>-->
+
+  <link rel="stylesheet" href="/wp-content/themes/zetaprints-3.0/css/reset-min.css" type="text/css" />
+  <link rel="stylesheet" href="/wp-content/themes/zetaprints-3.0/style.css" type="text/css" media="all" />
+  <!--<link rel="stylesheet" href="/wp-content/themes/zetaprints-3.0/style-fixed.css" type="text/css" />-->
+
+  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed/" />
+  <link rel="alternate" type="text/xml" title="RSS .92" href="/feed/rss/" />
+  <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="/feed/atom/" />
+  <!--link rel="pingback" href="/xmlrpc.php" /-->
+
+  
+  
+  
+<!-- All in One SEO Pack 2.2.7.5 by Michael Torbert of Semper Fi Web Design[519,560] -->
+<link rel='prev' href='/page/7/' />
+<link rel='next' href='/page/9/' />
+
+<!-- /all in one seo pack -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.zetaprints.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.1"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel='https://api.w.org/' href='/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.1" />
+
+  <script type='text/javascript' src="/wp-content/themes/zetaprints-3.0/js/jquery-cookie.js" ></script>
+
+  <!--<link media="screen" type="text/css" href="/wp-content/themes/zetaprints-3.0/grid.css" rel="stylesheet"/>-->
+  <!--<script type='text/javascript' src="/wp-content/themes/zetaprints-3.0/js/grid.js" ></script>-->
+
+  <!--<script type="text/javascript" src="/wp-content/themes/zetaprints-3.0/assets/javascript/swfobject.js"></script>-->
+
+  <!-- slideshow stuff -->
+  <link type="text/css" rel="stylesheet" href="/common/slideshow/css/slideshow.css"/>
+  <script src="/common/slideshow/js/slideshow.js" type="text/javascript"></script>
+  <!-- end slideshow stuff -->
+  
+</head>
+
+<body>
+  <div class="header-wrapper">
+    <div class="header-top">
+      <div class="content-wrapper clearfix">
+        <a class="logo" href="/"><img src="/wp-content/themes/zetaprints-3.0/images/logo.gif" alt="ZetaPrints Web-to-print home" /></a>
+        <div class="text-wrapper">
+          <h1><a href="/">ZetaPrints</a></h1>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom">
+      <div class="content-wrapper clearfix">
+        <div class="text-wrapper">
+          <h3>Web-to-Print &amp; dynamic imaging</h3>
+        </div>
+        <div class="menu-wrapper">
+          
+<div class="top-level-menu clearfix">
+  <ul class="main-menu">
+    <li class="zetaprints-technology ">
+      <a href="/zetaprints-technology">Technology</a>
+    </li>
+    <li class="industry-web-to-print-solutions selected-item">
+      <a href="/industry-web-to-print-solutions">Solutions</a>
+    </li>
+    <li class="tmpackages ">
+      <a href="/tmpackages">Packages</a>
+    </li>
+  </ul>
+
+  <div class="menu clearfix">
+    <div class="menu-item first-item">
+      <a href="/web-to-print-and-dynamic-imaging-pricing" title="Web-to-print pricing">Pricing</a>
+    </div>
+
+    <div class="menu-item items-separator">|</div>
+
+    <div class="menu-item">
+      <a href="/web-to-print-demo-sites" title="Web-to-print demo sites">Demo</a>
+    </div>
+
+    <div class="menu-item items-separator">|</div>
+
+    <div class="menu-item">
+      <a href="/packages/sign-up-for-web-to-print/" title="Sign up for web-to-print">Sign up</a>
+    </div>
+
+    <div class="menu-item items-separator">|</div>
+
+    <div id="menu-help" class="menu-item last-item sub-menu">
+      <a href="/help/" class="drop-down-link">Help</a>
+      <ul class="panel">
+        <li>
+          <a href="/help/">Web-to-print help</a>
+        </li>
+        <li>
+          <a href="/magentohelp/">Magento help</a>
+        </li>
+        <li>
+          <a href="/directory/">Resources</a>
+        </li>
+        <li>
+          <a href="/userhelp/">End user help</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<div class="second-level-menu menu">
+  <ul id="zetaprints-technology" class="clearfix" >
+    <li class="first-item"><a href="/category/web-to-print-software/">Web-to-Print</a></li>
+    <li class="items-separator">|</li>
+    <li class="last-item"><a href="/category/dynamic-imaging/">Dynamic imaging</a></li>
+  </ul>
+
+  <ul id="industry-web-to-print-solutions" class="clearfix" style="display: block">
+    <li class="first-item"><a href="/category/printers/">Printers</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/category/designers/">Designers</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/category/publications/">Publishers</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/category/magento-web-to-print/">Magento</a></li>
+    <li class="items-separator">|</li>
+    <li class="last-item"><a href="/category/businesses/">Business</a></li>
+  </ul>
+
+  <ul id="tmpackages" class="clearfix" >
+    <li class="first-item"><a href="/packages/hosted-by-us/">Core</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/packages/hosted-by-you/">E-Commerce</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/packages/enterprise-web-to-print/">Enterprise</a></li>
+    <li class="items-separator">|</li>
+    <li class="last-item"><a href="/packages/open-source-web-to-print-2/">Open source</a></li>
+  </ul>
+</div>
+
+<script> 
+
+jQuery(document).ready(function ($) {
+  var $li = $('.main-menu li');
+  var $ul = $('.second-level-menu ul')
+
+  //$li.mouseenter(function () {
+  $li.hoverIntent(
+    function () {
+      $current = $(this);
+
+      if ($current.hasClass('selected-item'))
+        return;
+
+      $li.removeClass('selected-item');
+
+      var id = $current.attr('class');
+      $current.addClass('selected-item');
+
+      $ul
+        .css('display', 'none')
+        .filter('#' + id)
+        .css('display', 'block');
+
+      $.cookie('zp-menu-selected', id, { path: '/' });
+    },
+
+    function () {}
+
+  );
+}); 
+
+</script>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<script>
+jQuery(document).ready(function ($) {
+  $("#featuretabs").tabs();
+});
+</script>
+
+  <div id="content-container" class="container clearfix">
+    <div class="post-wrapper">
+                      <div class="post" id="post-419">
+        <h1 class="posttitle"><a href="/businesses/web-to-print-trial-business/" rel="bookmark" title="Permanent Link: Quick trial">Quick trial</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <h2>Test print buyer account</h2>
+<p>You can register with our demo storefront and place a few test orders. This is a good way to get a feel of what your staff will experience using your web-to-print website.<!--more--></p>
+<p style="text-align: center;"><a href="http://demo.zetaprints.com/?page=user-rego;CorporateIDRego=D96E74EA-28F1-4738-846E-1701F16E8827/" target="_blank"><img class="aligncenter" style="border: medium none ; margin-top: 15px" title="Try it now..." src="/wp-content/themes/zetaprints/_img/bt-user_demo.gif" alt="Try it now..." /><br />
+</a></p>
+<h2>Site appearance</h2>
+<p>Note that your web-to-print site will need to be branded to match the look and feel of your main website. Read more about our <a title="Web-to-print branding" href="/printers/web-to-print-branding/" target="_self">branding and customization options</a>.</p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-417">
+        <h1 class="posttitle"><a href="/publications/web-to-print-ads-trial/" rel="bookmark" title="Permanent Link: Quick trial">Quick trial</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <h2>Test advertiser account</h2>
+<p>You can register with our demo storefront and book a few test ads as well as create other printed and digital products. This is a good way to get a feel of what your advertisers will experience using your site.<!--more--></p>
+<p style="text-align: center;"><a href="http://demo.zetaprints.com/?page=user-rego;CorporateIDRego=D96E74EA-28F1-4738-846E-1701F16E8827/" target="_blank"><img class="aligncenter" style="border: medium none ; margin-top: 15px" title="Try it now..." src="/wp-content/themes/zetaprints/_img/bt-user_demo.gif" alt="Try it now..." width="134" height="29" /><br />
+</a></p>
+<h2>Site appearance</h2>
+<p>Note that your web-to-print site will need to be branded to match the look and feel of your main website. Read more about our <a title="Web-to-print branding" href="/publications/web-to-print-branded/" target="_self">branding and customisation options</a>.</p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-407">
+        <h1 class="posttitle"><a href="/publications/file-uploading/" rel="bookmark" title="Permanent Link: File uploading">File uploading</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p>ZetaPrints provides a free file transfer service for publishers to accept graphic files from advertisers of up to 50MB. Larger files can be uploaded via <a title="Amazon Simple Storage Service (S3)" href="http://aws.amazon.com/s3/" target="_self">Amazon S3 storage</a>.</p>
+<p>This service is provided as part of the overall package for publishers, but can be used on its own without template-based ad booking.<!--more--></p>
+<h2>How it works &#8230;</h2>
+<ul>
+<li> <a title="Free signup for unlimited trial" href="/publications/web-to-print-signup/" target="_self">Sign up</a> as a publisher (free, no obligations, no strings attached)</li>
+<li>Ask your web admin to <a title="Web-to-print help: How to set up a subdomain" href="/help/custom-access-url/" target="_self">set up a sub-domain</a> for your file transfer site, e.g. orders.mysite.com</li>
+<li> <a title="Web-to-print help: How to upload your custom banner" href="/help/custom-banner/" target="_self">Upload your banner</a></li>
+<li>Create a customer, e.g. ACME Corp</li>
+<li><a title="Web-to-print help: Adding new users" href="/help/adding-new-users/" target="_self">Add users</a> to ACME Corp as needed</li>
+</ul>
+<p>Any user added to ACME Corp will get a confirmation email and will be able to upload files to you after clicking on a URL in the email.</p>
+<p>You will get a notification email every time an ad file is uploaded, which is available for you to download straight away.</p>
+<h2>Features &#8230;</h2>
+<ul>
+<li>Works in any web browser</li>
+<li>You control who can upload files</li>
+<li>Instant email notifications about new uploads</li>
+<li>Extremely easy to use</li>
+</ul>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-401">
+        <h1 class="posttitle"><a href="/publications/web-to-print-branded/" rel="bookmark" title="Permanent Link: Branding">Branding</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p>We assume you already have a news website with information for advertisers. ZetaPrints web-to-print would come under it as your online ad booking system. It is important to make the booking part look similar to the main website.<!--more--></p>
+<p style="text-align: center;"><a title="Web-to-print help: Skins collection" href="/help/category/skins/" target="_self"><img class="aligncenter" title="Free web-to-print skins" src="/wp-content/themes/zetaprints/_img/web-to-print_branding.gif" alt="Free website themes" width="640" height="180" /></a></p>
+<p><a href="/help/category/skins/"></a> <a href="/help/category/skins/"></a></p>
+<h2>Basic customization</h2>
+<p>With our <a title="Web-to-print help: Branding" href="/help/category/branding/" target="_self">basic customization</a>, you can <strong>change the colors</strong> on all screens and <strong>upload your logo or banner</strong> which will appear on every page of the site. Basic customization is a simple process that can be done online by you or your web designer.</p>
+<h2>Custom skins</h2>
+<p>By default, our web-to-print system comes in a &#8220;skeleton&#8221; mode. It has a very basic look, but you can apply a custom style sheet (CSS) and change the layout completely. We provide a number of <a title="Free web-to-print skins" href="/help/custom-skins/" target="_self">free skins</a> or you can always <a title="Web-to-print help: Custom CSS" href="/help/custom-css/" target="_self">make your own</a>.</p>
+<h2>Domain name</h2>
+<p>ZetaPrints web-to-print service is accessible through <a title="ZetaPrints web-to-print service" href="http://zetaprints.com/" target="_self">http://zetaprints.com</a>, initially. We strongly recommend that you <a title="Web-to-print help: Setting up a subdomain" href="/help/custom-access-url/" target="_self">set up a sub-domain</a> (e.g. http://orders.my-newspaper.com) for your online print ordering store so that it appears under your top domain name. You and your advertisers will be accessing our web-to-print system through your own domain name as if it was hosted on your own server.</p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-128">
+        <h1 class="posttitle"><a href="/publications/web-to-print-pricing/" rel="bookmark" title="Permanent Link: Pricing">Pricing</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p><strong>This pricing applies to holders of &#8220;</strong><strong><a title="Web-to-print printers" href="/category/printers/" target="_self">printer</a></strong><strong> / <a title="Web-to-print publishers" href="/category/publications/" target="_self">publisher</a>&#8221; account.</strong><!--more--></p>
+<h2>No booking &#8211; no charge</h2>
+<p>The only service you pay for is when a new ad is submitted for publishing.</p>
+<ul>
+<li><strong>Australia</strong><span> &#8211; $2.2 or less per booking</span></li>
+<li><strong>EU</strong><span> &#8211; €1.3 or less per booking<br />
+</span></li>
+<li><strong>New Zealand</strong><span> &#8211; $2.5 or less per booking<br />
+</span></li>
+<li><strong>UK</strong> &#8211; £0.85 or less per booking</li>
+<li><strong>USA</strong><span> &#8211; $1.7 or less per booking<br />
+</span></li>
+<li><strong>Other countries</strong><span> &#8211; US$1.7 or less per booking<br />
+</span></li>
+</ul>
+<p><a href="mailto:support@zetaprints.com" target="_blank">Contact us</a> with your volume requirements over 1000 orders a month for special pricing.</p>
+<h2>Free services</h2>
+<ul>
+<li>Pre-press file transfer</li>
+<li>Quoting service</li>
+<li>Directory listing</li>
+</ul>
+<h2>Our price promise</h2>
+<p>We will try adjust the price so that the overall annual cost for you is lower than of any other similar service or software.</p>
+<h2>Payment options</h2>
+<ul>
+<li>Credit card</li>
+<li>Direct payments to our bank account</li>
+<li>PayPal</li>
+</ul>
+<p>All charges are billed monthly to you as a printer / publisher. Read more in the <a title="Web-to-print help: Billing" href="/help/category/billing/" target="_self">billing section</a>.</p>
+<h2>Free unlimited trial</h2>
+<p>We offer free unlimited use of the website until it really works for you. Get those ad bookings rolling in first. Free assistance for setting up and artwork conversion is available on request.</p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-125">
+        <h1 class="posttitle"><a href="/designers/we-buy-designs/" rel="bookmark" title="Permanent Link: We buy designs">We buy designs</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p><strong>ZetaPrints buys selected graphic designs in bulk. The graphic designs sitting idle on your disks can be a treasure find for many of our customers if converted into web-to-print templates. </strong><!--more--></p>
+<h2>Design types</h2>
+<p>We buy almost any designs as long as they are <strong><a title="Designs for web-to-print " href="/help/from-image-to-web-to-print-template/" target="_self"><span style="text-decoration: underline;">practical and can be converted into templates</span></a></strong>.</p>
+<p>Some common web-to-print designs include:</p>
+<ul>
+<li><a title="Web-to-print help: Business cards guide" href="/help/business-cards-guide/" target="_self">business cards</a></li>
+<li><a title="Web-to-print help: Greeting cards guide" href="/help/greeting-cards-guide/" target="_self">greeting </a>and <a title="Web-to-print help: Postcards guide" href="/help/postcards-guide/" target="_self">postal</a> cards</li>
+<li><a title="Web-to-print calendar templates" href="http://order.greeting-cards.co.nz/?page=catalogue;CorporateID=1D82C946-9F49-42DC-B1AE-08AA383A94D8/" target="_self">calendars</a></li>
+<li><a title="Web-to-print help: Brochures guide" href="/help/brochures-guide/" target="_self">leaflets, brochures, booklets</a></li>
+<li><a title="Web-to-print help: Posters guide" href="/help/poster-guide/" target="_self">posters</a></li>
+<li><a title="Web-to-print logo templates" href="http://zetaprints.com/?page=catalogue;CorporateID=67FEB451-3E0B-489A-BC00-807D922B0D28/" target="_self">logos</a></li>
+<li><a title="Web-to-print help: Newspaper ads guide" href="/help/newspaper-ads-guide/" target="_self">print advertisements</a></li>
+<li><a title="Web-to-print help: Books guide" href="/help/books-guide/" target="_self">illustrated books</a></li>
+</ul>
+<p><strong>Practical</strong>: the web-to-print design is a complete product for an end user, not just a pretty picture. E.g. an illustrated book where users may type in their own story is practical, but a single book illustration is not. Refer to our <a title="Web-to-print help: Product guides" href="/help/category/product-guides/" target="_self">product guides</a>.</p>
+<p><strong>Convertible</strong>:  the design was produced using vector application (<a title="Adobe FreeHand" href="http://www.adobe.com/products/freehand/" target="_blank">Freehand</a>, <a title="Adobe Illustrator" href="http://www.adobe.com/products/illustrator/" target="_blank">AI</a>, <a title="Adobe InDesign" href="http://www.adobe.com/products/indesign/" target="_self">InDD</a>, <a title="CorelDRAW" href="http://www.adobe.com/products/illustrator/" target="_blank">CorelDRAW</a>, <a title="Quark XPress" href="http://www.quark.com/" target="_blank">Quark XPress</a>, etc) and the variable texts are stored as texts, not images nor curves.</p>
+<h2>Buying process</h2>
+<p>Email your designs as images to <a href="mailto:support@zetaprints.com">support@zetaprints.com</a> for consideration. We may also need to see the vector files to ensure they are convertible.</p>
+<p><strong>Option 1 &#8211; sale as a design</strong></p>
+<p>We can purchase a design before it is converted into a template and give it to another designer to do the conversion. Your authorship will be acknowledged, but the commission on sales will be paid to the other designer. You get paid within a few days after the designs have been checked.</p>
+<p><strong>Option 2 &#8211; sale as a template</strong></p>
+<p>You <strong><a title="Web-to-print help: PDF to template conversion" href="/help/category/pdf-conversion/" target="_self">convert your designs into templates</a></strong> and upload them to ZetaPrints website. We pay within a few days after the template has been tested by us. You retain full copyright and our standard commission on all sales.</p>
+<p>This is the preferred option. We will give you necessary assistance to understand <a title="Web-to-print help section" href="/help/" target="_self">how to</a> convert your designs into templates.</p>
+<h2>Payments</h2>
+<p>We prefer to pay via Paypal upon completion of your assignment.</p>
+<p>The prices range between $3-$10 per page of design or per single item.</p>
+<p><strong>Sample design prices</strong> (option #1):</p>
+<ul>
+<li>Simple logo &#8211; $3</li>
+<li>Really cool logo &#8211; $5</li>
+<li>One-side business card &#8211; $5</li>
+<li>Double-side business card &#8211; $5 x 2 = $10</li>
+<li>A4 leaflet &#8211; $7</li>
+<li>A4 double-side tri-fold brochure &#8211; $7 x 6 = $42</li>
+</ul>
+<p><strong>Sample template prices</strong> (option #2):</p>
+<ul>
+<li>Logo &#8211; $5 to $7</li>
+<li>Everything else &#8211; $7 to $10 per page</li>
+</ul>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-124">
+        <h1 class="posttitle"><a href="/printers/free-websites/" rel="bookmark" title="Permanent Link: Free websites">Free websites</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p>Having a good website is a must for any printing business. ZetaPrints web-to-print is only an online ordering system. It cannot be used as a front-window website to tell the story about your business. We created a tutorial how you can build a free or very inexpensive website that looks as professional as any other.<!--more--></p>
+<h2>Websites for printers</h2>
+<p>Websites for printing companies have several essential features, like <a title="Free website for printers" href="/freesite" target="_blank"><strong>this demo site</strong></a>:</p>
+<ul>
+<li>Information about the business</li>
+<li><a title="Web-to-print help: Large file upload" href="/help/large-file-upload/" target="_self">Large file upload</a></li>
+<li>Quote request</li>
+<li>Link to web-to-print service</li>
+<li>Downloads library</li>
+</ul>
+<p>We have several options based on a very popular open source platform &#8211; <a href="http://wordpress.org" target="_blank">WordPress</a>.</p>
+<p>The website is easily <a title="Web-to-print help: Printer's website customization" href="/help/wordpress-themes-find/" target="_self">customizable</a>. New features can be easily <a title="Web-to-print help: Printer's website - add-ons" href="/help/wordpress-plugins-basic/" target="_self">added</a> by anyone, any time. The look and feel of the website is based on themes you can purchase on the Internet or download for free. There are literally thousands of them.</p>
+<h2>Time to go D.I.Y. ?</h2>
+<p>The times of paying big money to a web design company for hosting and maintaining a basic website are over. You or any of your computer savvy staff can do it with ease at an annual cost of under $90.</p>
+<p>Read our <strong><a title="Web-to-print help: Free websites for printers" href="/help/website-builder/" target="_self">free printer&#8217;s website manual</a></strong> on how to build and maintain a website. It is not for &#8220;geeks&#8221; or &#8220;nerds&#8221; any more &#8211; anyone can do it. A bit of effort, some computer knowledge and a few hours of your time will buy you a great looking and fully functional website.</p>
+<p><strong></strong></p>
+<h2>No copycat content ever</h2>
+<p>It makes no sense to have a website with the content identical to someone&#8217;s else as many &#8220;<a title="Get copycat stuff there" href="http://www.google.co.nz/search?hl=en&amp;q=websites+for+printers&amp;btnG=Google+Search&amp;meta=/">websites for printers</a>&#8221;  companies do. Search engines recognize duplicate content and mark such websites as spam or mirrors. They will never come up high in search results as a consequence. What&#8217;s the point of having a website no one can find?</p>
+<p>We help you set up a great looking and functional website, but you need to spend some time telling the world about your business. It&#8217;s easy, it&#8217;s fun and <strong><a title="Web-to-print help: How to provide great content" href="/help/website-content/" target="_self">no one can do it better than you</a></strong>!</p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-106">
+        <h1 class="posttitle"><a href="/uncategorized/hosted-web-to-print-disadvantages/" rel="bookmark" title="Permanent Link: Disadvantages of &#8220;hosted&#8221;">Disadvantages of &#8220;hosted&#8221;</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p><strong>Our hosted web-to-print software has many advantages: low cost, low maintenance, instant roll-out, free upgrades, no up-front investment, etc. On the other hand, &#8220;hosted&#8221; may be not your best option.<!--more--></strong></p>
+<h2>Interface</h2>
+<p>It&#8217;s not always possible to make the site look exactly the way you want. We offer some <a title="web-to-print branding" href="/help/category/branding/">extensive customization features</a>, but it may not be enough for you. An alternative is for you to produce a custom web-to-print interface linked to our back-end.</p>
+<h2>Workflow</h2>
+<p>The workflow for preparing a book using web-to-print is slightly different from the one for postcards or internet banners. Our web-to-print workflow is generic enough and is designed to be as simple as possible. An alternative would be for you to develop your own web-to-print workflow connected to our back-end. An easier options is to tell us what is missing from our web-to-print workflow and we may add it in for you.</p>
+<h2>Cost</h2>
+<p>A large business may see purchasing and installing their own web-to-print system as a more viable option <em>because they can afford it</em>. Whether they are going to be better off going that route is another question.</p>
+<h2>Data security</h2>
+<p>Keeping your data on someone&#8217;s else server may be a frightening proposition for some. Many software vendors have unfair privacy and copyright policies where they become the owners of any data uploaded to their servers.</p>
+<p><strong>Anything you upload to ZetaPrints belongs to you.</strong> We will never share your data with anyone else, nor we will ever contact your customers, except for technical support matters.<br />
+See our <a title="Web-to-print privacy policy" href="/about-us/privacy-policy/">privacy policy</a>.</p>
+<h2>&#8220;Not under my control&#8221;</h2>
+<p>Some business managers need the absolute control over their operations and cannot delegate it to anyone. We will appreciate a chance to prove our worth as a trusted partner you can rely on. There is no expense in setting up, so why not <a title="Web-to-print sign-up" href="http://zetaprints.com/?page=printer-new;/"><strong>give it a try</strong></a>?</p>
+<p style="text-align: center;">
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-87">
+        <h1 class="posttitle"><a href="/blogpaper/blogpapers/" rel="bookmark" title="Permanent Link: Case study: Flying Pickle">Case study: Flying Pickle</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p><strong>Blogs are re-defining the old media, but only a few attract a following. This case study demonstrates how a locally-focused blog attracted a following, advertisers and turned itself into a print publication.<!--more--></strong></p>
+<h2>The blog</h2>
+<p><a title="Flying pickle" href="http://flyingpickle.co.nz/"><img style="padding: 10px 10px 40px 0pt; float: left;" src="/wp-content/uploads/2008/03/logo.thumbnail.jpg" alt="Flying pickle logo" /></a></p>
+<p><a href="http://flyingpickle.co.nz">FlyingPickle.co.nz</a> was set up as a community blog by a small group of residents. The aim of the blog was to give the community a voice without the editorial bias of the local newspaper.<br />
+The project was envisaged as a not-for-profit community effort with minimal amount of advertising to cover the costs.</p>
+<p>Anyone living, working or just being connected to the area could join the blog and contribute some content, be it an announcement, garage sale ad, news or opinion.</p>
+<h2>The tools</h2>
+<p><strong>Blogging platform:</strong> <a href="http://wordpress.org">WordPress</a></p>
+<p><strong>Publishing platform:</strong> <a href="/">ZetaPrints</a></p>
+<p><strong>WordPress theme:</strong> <a href="http://www.wpthemesfree.com/">WP Themes Free</a></p>
+<p><strong>Theme customization:</strong> <a href="http://www.zackdesign.biz/">Zack Design</a></p>
+<p><strong>Hosting:</strong> <a href="http://www.hostican.com">Host I Can</a></p>
+<p><strong>Setting up cost:</strong> <a href="http://flyingpickle.co.nz/2007/09/19/200-for-a-website-like-flying-pickle/">US$200</a></p>
+<p><strong>Monthly cost:</strong> $7 (hosting)</p>
+<p>Setting up was a very easy process, but did take a few iterations of trying different WordPress <a title="Web-to-print help: WordPress plugins" href="/help/wordpress-plugins-basic/" target="_self">plugins</a> to get the site right.</p>
+<h2>The print edition</h2>
+<p><strong>Coming out in print was the key to the success of the project.</strong> There are literally millions of blogs, but only a few get any readership. Trying to attract the local population to your blog may be a very difficult task. Trying to make them participate is even harder.<br />
+Flying Pickle used ZetaPrints <a href="/">web-to-print software</a> to produce a print edition and take advertising.<br />
+The most popular posts and comments were selected on Wednesday night, cut and pasted into the layout of an A5 flyer, printed on Thursday morning by a <a href="http://www.selfpublish.co.nz/">local printer</a> and distributed to approximately 2,300 letterboxes in the community by end of the day. Most people would pick it up on their return from work. Initially the distribution was done by supporters and volunteers, but was changed to paid distributors later on.</p>
+<h2>Demographics</h2>
+<p>The print edition was limited to 3 suburbs on the outskirts of Wellington, New Zealand. with approximate population of 6,500 people: <a href="http://maps.google.com/maps?f=q&amp;hl=en&amp;q=Korokoro,+Wellington,+New+Zealand&amp;ie=UTF8&amp;cd=2&amp;geocode=0,-41.218815,174.865747&amp;ll=-41.21608,174.868484&amp;spn=0.017174,0.047035&amp;t=h&amp;z=15&amp;iwloc=addr" target="_blank">Korokoro</a>, <a href="http://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=maungaraki,+Wellington,+New+Zealand&amp;ie=UTF8&amp;ll=-41.20901,174.883461&amp;spn=0.017176,0.047035&amp;t=h&amp;z=15&amp;iwloc=addr" target="_blank">Maungaraki</a> and <a href="http://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=normandale,+Wellington,+New+Zealand&amp;ie=UTF8&amp;ll=-41.20281,174.891636&amp;spn=0.010591,0.020084&amp;t=h&amp;z=16&amp;iwloc=addr" target="_blank">Normandale</a>. These are peaceful, sleepy, middle class suburbs with a handful of local shops, 3 schools, 3 kindys, reasonable broadband penetration, a good deal of home-based businesses and a local arts gallery. Every suburb has it&#8217;s own official monthly newsletter. 2 free weekly newspapers had much much larger coverage.</p>
+<h2>Blog popularity and traffic</h2>
+<p>At first, the website was advertised on community noticeboards and in several shop windows. It scored several hundred hits from curious locals. The first print edition resulted in a surge of traffic, posts and comments from the residents. <em> </em></p>
+<p>NOTE: <em>The figures below are for 3 months only.</em></p>
+<p><a title="Flying Pickle traffic, Oct 2007" href="/wp-content/uploads/2008/04/daily_usage_200710.png"><img style="margin: 10px;" src="/wp-content/uploads/2008/04/daily_usage_200710.thumbnail.png" alt="Flying Pickle traffic, Oct 2007" /></a><a title="Flying Pickle traffic Nov 2007" href="/wp-content/uploads/2008/04/daily_usage_200711.png"><img style="margin: 10px;" src="/wp-content/uploads/2008/04/daily_usage_200711.thumbnail.png" alt="Flying Pickle traffic Nov 2007" /></a><a title="Flying Pickle traffic Dec 2007" href="/wp-content/uploads/2008/04/daily_usage_200712.png"><img style="margin: 10px;" src="/wp-content/uploads/2008/04/daily_usage_200712.thumbnail.png" alt="Flying Pickle traffic Dec 2007" /></a><br />
+<strong>Users registered:</strong> 126<br />
+<strong>Users posted:</strong> 105<br />
+<strong>Comments posted:</strong> 293<br />
+<strong>Total population:</strong> ~6,500<br />
+<strong>Participation rate:</strong> 6% of the total local population<br />
+<strong>Pages served:</strong> ~11,000 per month</p>
+<table style="font-size: 0.8em;" border="0">
+<tbody>
+<tr>
+<th colspan="11" align="center">Summary by Month</th>
+</tr>
+<tr>
+<th rowspan="2" align="left">Month</th>
+<th colspan="4" align="center">Daily Avg</th>
+<th colspan="6" align="center">Monthly Totals</th>
+</tr>
+<tr>
+<th align="center">Hits</th>
+<th align="center">Files</th>
+<th align="center">Pages</th>
+<th align="center">Visits</th>
+<th align="center">Sites</th>
+<th align="center">KBytes</th>
+<th align="center">Visits</th>
+<th align="center">Pages</th>
+<th align="center">Files</th>
+<th align="center">Hits</th>
+</tr>
+<tr>
+<td>Dec 2007</td>
+<td align="right">992</td>
+<td align="right">613</td>
+<td align="right">384</td>
+<td align="right">110</td>
+<td align="right">1155</td>
+<td align="right">437190</td>
+<td align="right">3440</td>
+<td align="right">11908</td>
+<td align="right">19012</td>
+<td align="right">30775</td>
+</tr>
+<tr>
+<td>Nov 2007</td>
+<td align="right">1381</td>
+<td align="right">833</td>
+<td align="right">473</td>
+<td align="right">121</td>
+<td align="right">1238</td>
+<td align="right">668056</td>
+<td align="right">3648</td>
+<td align="right">14200</td>
+<td align="right">25010</td>
+<td align="right">41433</td>
+</tr>
+<tr>
+<td>Oct 2007</td>
+<td align="right">1978</td>
+<td align="right">1162</td>
+<td align="right">550</td>
+<td align="right">131</td>
+<td align="right">709</td>
+<td align="right">372212</td>
+<td align="right">1709</td>
+<td align="right">7160</td>
+<td align="right">15114</td>
+<td align="right">25716</td>
+</tr>
+<tr>
+<th colspan="6" align="left">Totals</th>
+<th align="right">2375035</th>
+<th align="right">19237</th>
+<th align="right">62605</th>
+<th align="right">101876</th>
+<th align="right">165159</th>
+</tr>
+</tbody>
+</table>
+<p><strong>We believe it is an astonishing result for a tiny hyper-local blog</strong> launched by people without any special status in the community. Such outcome with sustained traffic would not be possible without support of the <a href="http://flyingpickle.co.nz/print-edition/">print edition</a>.</p>
+<h2>Recognition in the community</h2>
+<p>There were several <strong>positive indicators</strong> to state that the publication was well respected:</p>
+<ol>
+<li>no shortage of volunteers to deliver a hundred or so copies to their street</li>
+<li>many residents were taking the copy into their hands, rather than waiting for it to land in the letterbox with all the other junk mail</li>
+<li>deliverers always asked residents if they wanted a copy &#8211; very few said &#8220;no&#8221;</li>
+<li>other local publications started printing the content from the website</li>
+<li>advertisers were happy to place their ads in there</li>
+</ol>
+<h2>Lessons and challenges</h2>
+<p>We identified a number of difficulties facing any similar project.</p>
+<ul>
+<li>Starting a <strong>commercial publication</strong> may not get such a wide support FlyingPickle enjoyed due to its not-for-profit status.</li>
+<li><strong>Editorial policies</strong> should be liberal enough to foster an open discussion and variety of opinions.</li>
+<li>Be prepared to <strong>hostile behavior</strong> by those disagreeing with the content.</li>
+<li><a href="/blogpaper/blogpaper-advertising/"><strong>Preparing advertising</strong></a> takes a lot of time and effort, often making it uneconomical, unless the process is automated.</li>
+<li><a href="/blogpaper/blogpaper-layout/"><strong>Preparing print-ready files</strong></a> requires special tools, knowledge and time, unless the process is automated.</li>
+<li>Gaining trust and recognition in the community is <strong>critical to attracting local advertisers</strong>.</li>
+<li><strong>Active news gathering</strong> brings the publication to a completely new quality level.</li>
+</ul>
+<p>None of these challenges are too hard to overcome. We have to note, though, that projects of this type need to find <strong>their own niche</strong> to succeed, be it a topical publication posted to certain type of professionals or just a community blog like Flying Pickle.<br />
+ZetaPrints assisted the project in two key areas: <a title="Web-to-print for advertising" href="/blogpaper/blogpaper-advertising/"><strong>advertising</strong></a> and <a title="Web-to-print for layouts" href="/blogpaper/blogpaper-layout/"><strong>print layout</strong></a> work.</p>
+<h2>Conclusion</h2>
+<p><strong><a href="http://flyingpickle.co.nz">FlyingPickle</a> experiment proved it is entirely possible for a blogger to produce a regular print edition and attract advertising as a commercial venture.</strong> One of the strengths of the approach was to minimize the pre-press effort needed to prepare the print edition and adverts. Use of ZetaPrints technology made it possible for the whole project to be run by one person as a part-time activity.</p>
+<p>Read out <strong><a title="Web-to-print for blogpapers" href="/publications/start-a-blogpaper/">Blogpaper Manual</a></strong> to get started.</p>
+<p><img class="alignnone size-full wp-image-1038" title="daily_usage_200710.thumbnail" src="/wp-content/uploads/2008/04/daily_usage_200710.thumbnail.png" alt="daily_usage_200710.thumbnail" width="128" height="100" /></p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-95">
+        <h1 class="posttitle"><a href="/blogpaper/blogpaper-advertising/" rel="bookmark" title="Permanent Link: Blogpaper advertising">Blogpaper advertising</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p><strong>Launching your own blog in print is a challenging project. One of the difficulties you may encounter is dealing with print advertising.<!--more--></strong></p>
+<p><img title="Property to view ad" src="http://zetaprints.com/thumb/C63EAA2C-F748-4F0C-986F-1228896CEF70-0.jpg" alt="Realestate ad" width="150" height="95" hspace="5" /> <img title="Accounting ad" src="http://zetaprints.com/thumb/12543ff2-a847-442b-aa92-554d981375b7-0.jpg" alt="Accounting advertisement" width="150" height="95" hspace="30" /><img title="Black &amp; White ad" src="http://zetaprints.com/thumb/8a14584d-b0a7-4b63-8b58-38f91a605ba1-0.jpg" alt="B/w ad" width="150" height="95" hspace="5" /></p>
+<h2>Print advertising reality</h2>
+<p>Running ads on a blog is a trivial process. Google AdSense, DoubleClick or any other advertising network will provide you with ads from advertisers at a market rate. Print advertising is different. Print advertising in a blogpaper is even more specific.</p>
+<ul>
+<li>Do your own sales</li>
+<li>Help advertisers with their ad designs</li>
+<li>Remind advertisers to place an ad before the due date</li>
+<li>Collect payments</li>
+</ul>
+<p>None of these would be your worry in an online-only edition. On the upside, you can command a much higher price in print than what AdSense would ever offer you. Also, ZetaPrints <a href="/">web-to-print software</a> can fully automate most of the processes to help you concentrate on the content of the blogpaper.</p>
+<h2>Sales</h2>
+<p>The sales approach really depends on the focus of your blogpaper. In any case, your advertisers will be businesses and organisations you can identify and approach directly. Long term advertising deals will save you a lot of time, but a constant stream of small advertisers can be much more profitable.</p>
+<p>Unlike online advertising, print has a publishing deadline. You do need to get ads ready and approved before the due date. In reality, casual advertisers need constant reminders and courtesy phone calls to make sure the ads are ready on time. ZetaPrints helps you minimize this effort with our FREE reminder service.</p>
+<h2>Designs</h2>
+<p>Do not expect your advertisers to come to you with their ads in a print-ready format. On the contrary, most will expect you to provide them with an attractive ad design at no additional cost. Usually it takes several design-proof-design iterations before the client is fully satisfied. Many businesses require changes to their ads on a regular basis (specials, new stock, etc). ZetaPrints helps you minimize this time consuming activity as well.</p>
+<h2>Problems solved</h2>
+<p><strong>ZetaPrints provides you with a simple and powerful <em>web-to-print platform</em> to help with sales and design tasks. Preparing page layouts and advetisements manually requires staff and infrastructure. We offer you an agile solution with pay-as-you-go model.</strong></p>
+<h3>For casual advertisers</h3>
+<p>Our extensive <a title="Newspaper ads designs and templates" href="http://zetaprints.com/?page=templates;Keywords=Print%20advertisement/">design collection</a> is a good starting point for your casual advertisers to choose a design, customize it with their name, products, specials etc. The collection consists of designs submitted by an open community of graphic designers, so there is always something fresh to choose from. It is constantly growing in size and quality.</p>
+<p>Your advertisers would find a design they like, customize it and you get a print-ready PDF file to insert into your print edition. You will be charged $5 for the design (passed onto the designer as royalties) + $1.7 for ad booking (<a title="Web-to-print pricing" href="/publications/web-to-print-pricing/">full pricing</a>).</p>
+<p>In case your advertiser can&#8217;t find a suitable design just let us know and we will inform the designers about the need. Alternatively, you can commission the design to a designer with most suitable templates already on the site. Usually it is a matter of adjusting an existing design.</p>
+<h3>For regular advertisers</h3>
+<p>Regular advertisers may run the same ad over a long period of time or require constant changes. It is very easy to set up their templates on ZetaPrints and let them change their ads themselves any time they need. You download a PDF file to insert into your print edition. The setting up process can be done by you or outsourced to any designer from our online community. The cost is $1.7 per ad booking (<a title="Web-to-print pricing" href="/publications/web-to-print-pricing/">full pricing</a>).</p>
+<h3>Payments collection</h3>
+<p>ZetaPrints can help you collect payments from your advertisers when they prepare the artwork. The advertising cost will be added to their total bill. They will not be able to access their PDF files until the payment is completed. This is a FREE service. We charge no commission and all payments go <a title="Web-to-print payments collection" href="/help/prices-and-payments/">directly to your account</a>.</p>
+<h3>Deadline reminders</h3>
+<p>We have a complimentary service to remind your advertisers about your publishing deadlines. Reminders are served via email (free) or text messages (rates vary). We also remind you if they are going to miss the deadline so you can contact them before it&#8217;s too late.</p>
+<h2>Competition</h2>
+<p>It is always better to be a niche player with no direct competition. The reality may be different. Your strengths can be the very open and social nature of your publication, ease of advertising with you and extremely low costs of production. <strong></strong></p>
+<p><strong><a title="Web-to-print case study" href="/blogpaper/blogpapers/">Flying Pickle</a> became possible only because we slashed their costs and pre-press activity to the minimum.</strong></p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+              </div>
+
+    <div id="sidebar" class="minicat">
+          </div>
+  </div>
+
+
+<div id="footer-container" class="container">
+
+  <div id="footer">
+    <div id="bottomnav">
+      <ul>
+        <li class="first"><a href="/about-us/" title="About ZetaPrints">About ZetaPrints</a></li>
+        <li><a href="/about-us/contact-us/" title="Contact us">Contact us</a></li>
+        <li><a href="http://zetaprints.com/" title="Log in">Log in</a></li>
+        <li><a href="/about-us/privacy-policy/" title="Privacy policy">Privacy</a></li>
+        <li><a href="/sitemap" title="Sitemap">Sitemap</a></li>
+        <li><a href="/about-us/summary-of-terms-and-conditions/" title="Terms and conditions">Terms of Service</a></li>
+        <li><a href="/blog" title="Web-to-print Blog">Web-to-print Blog</a></li>
+        <li><a href="/help/" title="Web-to-print Help">Web-to-print Help</a></li>
+      </ul>
+    </div>
+    <p><a href="/blog" title="Web-to-print Blog"><img class="footer-icon" alt="Blog" src="/wp-content/themes/zetaprints-3.0/images/blog.png"/></a>&nbsp;
+<a href="http://twitter.com/zetaprints/" title="Follow us on twitter"><img class="footer-icon" alt="Twitter" src="/wp-content/themes/zetaprints-3.0/images/twitter_16.png"/></a>&nbsp;
+&copy; 2006-2012 ZetaPrints Ltd. All rights reserved. Powered by <a href="http://wordpress.org">WordPress</a>.</p>
+    <a href="#header" title="Back to Top" class="top-btn">Back to Top</a>
+  </div>
+</div>
+
+<script type='text/javascript' src='/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='/wp-includes/js/wp-embed.min.js?ver=4.4.1'></script>
+
+<script type="text/javascript">
+    (function(){
+        var ga = document.createElement('script');
+        ga.type="text/javascript";
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })
+</script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1132851-1']);
+    _gaq.push(['_trackPageview']);
+</script>
+</body>
+</html>

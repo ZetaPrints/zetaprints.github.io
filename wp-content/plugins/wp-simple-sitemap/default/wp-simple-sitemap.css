@@ -1,0 +1,19 @@
+#wp_simple_sitemap ul, #wp_simple_sitemap ul li, #wp_simple_sitemap ul li:before {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	content: "";
+}
+#wp_simple_sitemap  ul li {
+	display: block;
+}
+#wp_simple_sitemap ul li a {
+	display: block;
+	line-height: 18px;
+	background: url('img/sitemap-post.gif') center left no-repeat;
+	padding-left: 25px;
+	text-indent: -10px;
+	width: 100%;
+	font-family: Arial;
+	font-size: 12px;
+}

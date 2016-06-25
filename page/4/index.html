@@ -1,0 +1,799 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="verify-v1" content="GACnn9+1c3JzusKbMwxWr+f9dKvqx8As8sbHI8tNyxA=" />
+  <meta name="keywords" content="web-to-print, online printing, zetaprints, online print ordering" />
+  <meta name="generator" content="ZetaPrints"/> <!-- leave this for stats -->
+
+  <title>Web-to-Print &amp; Dynamic Imaging |  - Part 4</title>
+  <!--<script type="text/javascript" src="/wp-content/themes/zetaprints-3.0/jslib.js"></script>-->
+
+  <link rel="stylesheet" href="/wp-content/themes/zetaprints-3.0/css/reset-min.css" type="text/css" />
+  <link rel="stylesheet" href="/wp-content/themes/zetaprints-3.0/style.css" type="text/css" media="all" />
+  <!--<link rel="stylesheet" href="/wp-content/themes/zetaprints-3.0/style-fixed.css" type="text/css" />-->
+
+  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed/" />
+  <link rel="alternate" type="text/xml" title="RSS .92" href="/feed/rss/" />
+  <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="/feed/atom/" />
+  <!--link rel="pingback" href="/xmlrpc.php" /-->
+
+  
+  
+  
+<!-- All in One SEO Pack 2.2.7.5 by Michael Torbert of Semper Fi Web Design[519,560] -->
+<link rel='prev' href='/page/3/' />
+<link rel='next' href='/page/5/' />
+
+<!-- /all in one seo pack -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.zetaprints.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.1"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel='https://api.w.org/' href='/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.1" />
+
+  <script type='text/javascript' src="/wp-content/themes/zetaprints-3.0/js/jquery-cookie.js" ></script>
+
+  <!--<link media="screen" type="text/css" href="/wp-content/themes/zetaprints-3.0/grid.css" rel="stylesheet"/>-->
+  <!--<script type='text/javascript' src="/wp-content/themes/zetaprints-3.0/js/grid.js" ></script>-->
+
+  <!--<script type="text/javascript" src="/wp-content/themes/zetaprints-3.0/assets/javascript/swfobject.js"></script>-->
+
+  <!-- slideshow stuff -->
+  <link type="text/css" rel="stylesheet" href="/common/slideshow/css/slideshow.css"/>
+  <script src="/common/slideshow/js/slideshow.js" type="text/javascript"></script>
+  <!-- end slideshow stuff -->
+  
+</head>
+
+<body>
+  <div class="header-wrapper">
+    <div class="header-top">
+      <div class="content-wrapper clearfix">
+        <a class="logo" href="/"><img src="/wp-content/themes/zetaprints-3.0/images/logo.gif" alt="ZetaPrints Web-to-print home" /></a>
+        <div class="text-wrapper">
+          <h1><a href="/">ZetaPrints</a></h1>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom">
+      <div class="content-wrapper clearfix">
+        <div class="text-wrapper">
+          <h3>Web-to-Print &amp; dynamic imaging</h3>
+        </div>
+        <div class="menu-wrapper">
+          
+<div class="top-level-menu clearfix">
+  <ul class="main-menu">
+    <li class="zetaprints-technology ">
+      <a href="/zetaprints-technology">Technology</a>
+    </li>
+    <li class="industry-web-to-print-solutions selected-item">
+      <a href="/industry-web-to-print-solutions">Solutions</a>
+    </li>
+    <li class="tmpackages ">
+      <a href="/tmpackages">Packages</a>
+    </li>
+  </ul>
+
+  <div class="menu clearfix">
+    <div class="menu-item first-item">
+      <a href="/web-to-print-and-dynamic-imaging-pricing" title="Web-to-print pricing">Pricing</a>
+    </div>
+
+    <div class="menu-item items-separator">|</div>
+
+    <div class="menu-item">
+      <a href="/web-to-print-demo-sites" title="Web-to-print demo sites">Demo</a>
+    </div>
+
+    <div class="menu-item items-separator">|</div>
+
+    <div class="menu-item">
+      <a href="/packages/sign-up-for-web-to-print/" title="Sign up for web-to-print">Sign up</a>
+    </div>
+
+    <div class="menu-item items-separator">|</div>
+
+    <div id="menu-help" class="menu-item last-item sub-menu">
+      <a href="/help/" class="drop-down-link">Help</a>
+      <ul class="panel">
+        <li>
+          <a href="/help/">Web-to-print help</a>
+        </li>
+        <li>
+          <a href="/magentohelp/">Magento help</a>
+        </li>
+        <li>
+          <a href="/directory/">Resources</a>
+        </li>
+        <li>
+          <a href="/userhelp/">End user help</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<div class="second-level-menu menu">
+  <ul id="zetaprints-technology" class="clearfix" >
+    <li class="first-item"><a href="/category/web-to-print-software/">Web-to-Print</a></li>
+    <li class="items-separator">|</li>
+    <li class="last-item"><a href="/category/dynamic-imaging/">Dynamic imaging</a></li>
+  </ul>
+
+  <ul id="industry-web-to-print-solutions" class="clearfix" style="display: block">
+    <li class="first-item"><a href="/category/printers/">Printers</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/category/designers/">Designers</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/category/publications/">Publishers</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/category/magento-web-to-print/">Magento</a></li>
+    <li class="items-separator">|</li>
+    <li class="last-item"><a href="/category/businesses/">Business</a></li>
+  </ul>
+
+  <ul id="tmpackages" class="clearfix" >
+    <li class="first-item"><a href="/packages/hosted-by-us/">Core</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/packages/hosted-by-you/">E-Commerce</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/packages/enterprise-web-to-print/">Enterprise</a></li>
+    <li class="items-separator">|</li>
+    <li class="last-item"><a href="/packages/open-source-web-to-print-2/">Open source</a></li>
+  </ul>
+</div>
+
+<script> 
+
+jQuery(document).ready(function ($) {
+  var $li = $('.main-menu li');
+  var $ul = $('.second-level-menu ul')
+
+  //$li.mouseenter(function () {
+  $li.hoverIntent(
+    function () {
+      $current = $(this);
+
+      if ($current.hasClass('selected-item'))
+        return;
+
+      $li.removeClass('selected-item');
+
+      var id = $current.attr('class');
+      $current.addClass('selected-item');
+
+      $ul
+        .css('display', 'none')
+        .filter('#' + id)
+        .css('display', 'block');
+
+      $.cookie('zp-menu-selected', id, { path: '/' });
+    },
+
+    function () {}
+
+  );
+}); 
+
+</script>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<script>
+jQuery(document).ready(function ($) {
+  $("#featuretabs").tabs();
+});
+</script>
+
+  <div id="content-container" class="container clearfix">
+    <div class="post-wrapper">
+                      <div class="post" id="post-1482">
+        <h1 class="posttitle"><a href="/magento-web-to-print/installation/" rel="bookmark" title="Permanent Link: Installation">Installation</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p>Installation of Magento web-to-print and dynamic imaging extension consists of two parts:</p>
+<ul>
+<li>signing up for a ZetaPrints <a title="Sign up a web-to-print printer account" href="/printers/web-to-print-sign-up/" target="_self">printer account</a></li>
+<li>installing and configuring a <a title="Magento ecommerce platform" href="http://www.magentocommerce.com/" target="_self">Magento storefront</a></li>
+</ul>
+<p><!--more-->Our web-to-print <a title="Magento web-to-print and dynamic imaging extension" href="https://www.magentocommerce.com/magento-connect/web-to-print-and-dynamic-imaging.html" target="_self">extension</a> connects these two parts once it is installed and configured.</p>
+<h3>Express demo installation</h3>
+<p>Want to quickly try our <a title="Magento web-to-print extension page" href="https://www.magentocommerce.com/magento-connect/web-to-print-and-dynamic-imaging.html" target="_self">web-to-print extension</a> for Magento in your online store? Follow these <a title="Quick demo install of web-to-print extension" href="/magentohelp/web-to-print-demo-installation-on-magento/">express installation steps</a> and end up with a web-to-print enabled Magento store connected to a demo ZetaPrints account.</p>
+<h3>Installation process overview</h3>
+<p>This table gives the full overview of what is required to get your Magento web-to-print shop ready to take orders.</p>
+<table class="magento_table" border="0">
+<tbody>
+<tr>
+<td style="width: 300px; height: 50px; background-repeat: no-repeat; padding-left: 65px; padding-top: 10px; font-weight: bold; background-image: url('/help/img/magento_icons/demo.png');">Watch a <a href="/help/flash/magento_demo/magento_demo.html">video presentation</a></td>
+<td style="width: 300px; height: 50px; background-repeat: no-repeat; padding-left: 65px; padding-top: 10px; font-weight: bold; background-image: url('/help/img/magento_icons/api_key.png');"><a href="/help/how-to-get-api-key/">Get an API key</a>, <a href="/magentohelp/zetaprints-synchronization-settings/">configure</a> w2p extension</td>
+</tr>
+<tr>
+<td style="width: 300px; height: 50px; background-repeat: no-repeat; padding-left: 65px; padding-top: 10px; font-weight: bold; background-image: url('/help/img/magento_icons/printer_signup.png');"><a href="http://zetaprints.com/?page=printer-new;/">Sign up</a> for ZetaPrints printer account</td>
+<td style="width: 300px; height: 50px; background-repeat: no-repeat; padding-left: 65px; padding-top: 10px; font-weight: bold; background-image: url('/help/img/magento_icons/create_template.png');"><a href="/help/category/template-preparation/">Create templates</a>, <a href="/help/upload-your-first-template/">upload to ZP</a> and <a href="/help/test-web-to-print-template/">test</a></td>
+</tr>
+<tr>
+<td style="width: 300px; height: 50px; background-repeat: no-repeat; padding-left: 65px; padding-top: 10px; font-weight: bold; background-image: url('/help/img/magento_icons/subdomain.png');">Get a <a href="/help/domain-name-set-up/">subdomain</a>, link to ZP, login to claim it</td>
+<td style="width: 300px; height: 50px; background-repeat: no-repeat; padding-left: 65px; padding-top: 10px; font-weight: bold; background-image: url('/help/img/magento_icons/import_template.png');"><a href="/magentohelp/import-web-to-print-data/">Import templates</a> into Magento</td>
+</tr>
+<tr>
+<td style="width: 300px; height: 50px; background-repeat: no-repeat; padding-left: 65px; padding-top: 10px; font-weight: bold; background-image: url('/help/img/magento_icons/instal_magento.png');"><a href="http://www.magentocommerce.com/knowledge-base/entry/magento-installation-guide/">Instal Magento</a></td>
+<td style="width: 300px; height: 50px; background-repeat: no-repeat; padding-left: 65px; padding-top: 10px; font-weight: bold; background-image: url('/help/img/magento_icons/conf_prices.png');">Configure prices, <a href="/magentohelp/magento-access-control-for-dynamic-imaging/">access control</a>, etc</td>
+</tr>
+<tr>
+<td style="width: 300px; height: 50px; background-repeat: no-repeat; padding-left: 65px; padding-top: 10px; font-weight: bold; background-image: url('/help/img/magento_icons/instal_w2p.png');"><a href="/magentohelp/web-to-print-magento-install/">Install</a> web-to-print <a href="https://www.magentocommerce.com/magento-connect/web-to-print-and-dynamic-imaging.html">extension</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong> </strong>Setting up and maintaining a Magento website takes a bit of time and IT skill. Try any of our trusted <a title="Magento partners" href="/magento-web-to-print/magento-partners/" target="_self">partners</a> to get help.</p>
+<p>Read detailed installation instructions in <a title="Magento installation help" href="/magentohelp/category/installation-steps/" target="_self">Magento web-to-print help</a>.</p>
+<h3 class="all_topics_link">Access control</h3>
+<div class="all_topics_link">By default all Magento stores are open to the public. We have an additional Magento extension to limit access to some products to a select group of customers, e.g. products for a particular business are available to employees of that business only.</div>
+<table class="accesstable" border="0">
+<tbody>
+<tr>
+<td class="accesstcell" style="text-align: center; width: 40%; background-color: #fdfae9;"><strong><span style="font-size: small;">Public site</span></strong></td>
+<td class="accesstcell" style="text-align: center; width: 40%; background-color: #fdfae9;"><strong><span style="font-size: small;">Corporate site</span></strong></td>
+<td class="accesstcell_ico" style="text-align: center; width: 20%;" rowspan="2"><a title="Magento category access control extension" href="https://www.magentocommerce.com/magento-connect/category-access-control.html" target="_self"><strong><span style="font-size: small;">Access control extension</span></strong></a></td>
+</tr>
+<tr>
+<td class="accesstcell">All customers have access to all of your products.</td>
+<td class="accesstcell">A corporate site requires access control. This feature is available in Magento <a title="compare editions" href="http://www.magentocommerce.com/product/compare/">Enterprise Edition</a>. We also created a simple <a title="Magento access control" href="https://www.magentocommerce.com/magento-connect/category-access-control.html">extension for access control</a> to help you get it going before upgrading to Enterprise Edition.</td>
+</tr>
+</tbody>
+</table>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-1479">
+        <h1 class="posttitle"><a href="/magento-web-to-print/features/" rel="bookmark" title="Permanent Link: Features &#8211; Magento">Features &#8211; Magento</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p>ZetaPrints web-to-print and dynamic imaging complements already powerful Magento e-commerce platform. We add <a title="Magento web-to-print interactive personalization" href="/magento-web-to-print/magento-interactive-personalization/" target="_self">personalization</a> and <a title="Magento web-to-print interactive image editing" href="/magento-web-to-print/magento-interactive-image-editing/" target="_self">image editing</a> features to the native Magento interface without sending users to another site.</p>
+<p><!--more--></p>
+<table class="feattbl" border="0">
+<tbody>
+<tr>
+<td><strong>Template / product synchronization</strong></td>
+<td>Your <a title="Web-to-print and dynamic imaging template creation" href="/help/template-creation/" target="_self">design templates</a> reside within ZetaPrints and can be <a title="Magento web-to-print linking products to templates" href="/magentohelp/linking-magento-products-to-web-to-print-templates/" target="_self">linked to Magento products</a> manually or via an automated re-sync. We support simple, configurable and other product types. All pricing, shipping and additional product information is managed in Magento. <a title="Magento web-to-print synchronization settings" href="/magentohelp/zetaprints-synchronization-settings/" target="_self"><img class="alignnone" src="/help/img/external_link_icon_on.png" alt="" width="10" height="10" /></a></td>
+<td><a href="/help/img/magento_w2p_images/sync.png"><img class="alignnone" title="Magento template / product synchronization" src="/help/img/magento_w2p_images/sync_th.png" alt="" width="122" height="90" /></a></td>
+</tr>
+<tr>
+<td><strong>Interactive personalization</strong></td>
+<td>Configure different web-to-print products to use different personalization forms:</p>
+<ul>
+<li>a simple web form</li>
+<li>point and click interactive editing</li>
+<li>a mix of the two</li>
+</ul>
+<p>Different types of dynamic imaging products require different approach. <a title="Magento web-to-print interactive personalization" href="/magento-web-to-print/magento-interactive-personalization/" target="_self"><img class="alignnone" src="/help/img/external_link_icon_on.png" alt="" width="10" height="10" /></a></td>
+<td><a href="/help/img/magento_w2p_images/personalization.png"><img class="alignnone" title="Magento web-to-print interactive personalization" src="/help/img/magento_w2p_images/personalization_th.png" alt="" width="122" height="90" /></a></td>
+</tr>
+<tr>
+<td><strong>Interactive image editing</strong></td>
+<td>Users can upload and edit images right on the product page. The image editor features rotation, cropping and the <a title="Fit-in-field image editong feature" href="/magentohelp/fit-in-field-image-editing/">Fit-in-field</a> tool for smart cropping. All the images are stored on our servers to minimize your Magento hosting fees and simplify maintenance. <a title="Magento web-to-print interactive image editing" href="/magento-web-to-print/magento-interactive-image-editing/" target="_self"><img class="alignnone" src="/help/img/external_link_icon_on.png" alt="" width="10" height="10" /></a></td>
+<td><a href="/help/img/magento_w2p_images/editing.png"><img class="alignnone" title="Magento web-to-print interactive image editing" src="/help/img/magento_w2p_images/editing_th.png" alt="" width="122" height="90" /></a></td>
+</tr>
+<tr>
+<td><strong>Order management</strong></td>
+<td>Personalized orders are managed directly inside Magento. Order details have user generated previews, <a title="Magento web-to-print order status" href="/magentohelp/magento-order-status/" target="_self">order status</a>, links to <a title="Magento PDF proofs" href="/magentohelp/magento-pdf-proof/" target="_self">proofs</a> and the output files for web-to-print printing / publishing. Control <a title="Allow customers to download output files" href="/magentohelp/allow-file-download-in-magento/" target="_self">customer access to output files</a> and organize an order <a title="Magento order approval" href="/magentohelp/magento-order-approval/" target="_self">approval</a> process. <a title="Magento web-to-print order management" href="/magentohelp/magento-order-management/" target="_self"><img class="alignnone" src="/help/img/external_link_icon_on.png" alt="" width="10" height="10" /></a></td>
+<td><a href="/help/img/magento_w2p_images/order.png"><img class="alignnone" title="Magento web-to-print order management" src="/help/img/magento_w2p_images/order_th.png" alt="" width="122" height="90" /></a></td>
+</tr>
+<tr>
+<td><strong>Access control and security<br />
+</strong></td>
+<td>Additional <a title="Magento web-to-print access control" href="/magentohelp/magento-access-control-for-dynamic-imaging/" target="_self">access control</a> features separate products into groups that can be assigned to different customers or opened up to the public. You can can sell public and corporate products through the same web-to-print website. Full HTTPS support.  <a title="Magento web-to-print access control" href="/magentohelp/magento-access-control-for-dynamic-imaging/" target="_self"><img class="alignnone" src="/help/img/external_link_icon_on.png" alt="" width="10" height="10" /></a></td>
+<td><a href="/help/img/magento_w2p_images/access.png"><img class="alignnone" title="Magento web-to-print access control" src="/help/img/magento_w2p_images/access_th.png" alt="" width="122" height="90" /></a></td>
+</tr>
+<tr>
+<td><strong>Store localization</strong></td>
+<td>Magento has been translated into many languages. It is easy to replace the texts and labels with your own or <a title="Magento web-to-print store localization" href="/magentohelp/magento-web-to-print-localization/" target="_self">add another translation</a>. You can have more than one language pack installed making your shop truly international. <a title="Magento web-to-print localization" href="/magentohelp/magento-web-to-print-localization/" target="_self"><img class="alignnone" src="/help/img/external_link_icon_on.png" alt="" width="10" height="10" /></a></td>
+<td><a href="/help/img/magento_w2p_images/localization.png"><img class="alignnone" title="Magento web-to-print store localization" src="/help/img/magento_w2p_images/localization_th.png" alt="" width="122" height="90" /></a></td>
+</tr>
+<tr>
+<td><strong>Open Source</strong></td>
+<td>The extension is developed as open source software under <a title="Open source MIT license" href="http://www.opensource.org/licenses/mit-license.php" target="_self">MIT license</a>. You are free to reuse or modify the code. Visit our development site for more. <a title="Magento web-to-print open source code" href="http://code.google.com/p/magento-w2p/issues/list/" target="_self"><img class="alignnone" src="/help/img/external_link_icon_on.png" alt="" width="10" height="10" /></a></td>
+<td><a href="/help/img/magento_w2p_images/opensource.png"><img class="alignnone" title="Magento web-to-print Open Source extension" src="/help/img/magento_w2p_images/opensource_th.png" alt="" width="122" height="90" /></a></td>
+</tr>
+<tr>
+<td><strong>Product presentation</strong></td>
+<td>Multiple ways to present your products:</p>
+<ul>
+<li>one step ordering (all options on one page)</li>
+<li>two step ordering (choose options, then personalize)</li>
+<li>base image and additional product views <a title="Magento product presentation" href="/magentohelp/magento-product-presentation/" target="_self"><img class="alignnone" src="/help/img/external_link_icon_on.png" alt="" width="10" height="10" /></a></li>
+<li>single page, multipage</li>
+</ul>
+</td>
+<td><a href="/help/img/magento_w2p_images/base_image.png"><img class="alignnone" title="Magento product presentation" src="/help/img/magento_w2p_images/base_image_th.png" alt="" width="122" height="90" /></a></td>
+</tr>
+<tr>
+<td><strong>Preview sharing</strong></td>
+<td>Once a preview is generated, the customer is able to get a direct link to the preview image and share it with anyone.</td>
+<td><a href="/help/img/magento_w2p_images/preview_sharing.png"><img class="alignnone" title="Magento preview sharing" src="/help/img/magento_w2p_images/preview_sharing_th.png" alt="" width="122" height="90" /></a></td>
+</tr>
+<tr>
+<td><strong>Simplified reordering</strong></td>
+<td>Order details pages contain reordering links which take returning customers to the corresponding product page and automatically activate the personalization process using the stored data provided by the customer for that particular order.</td>
+<td><a href="/help/img/magento_w2p_images/re-order.png"><img class="alignnone" title="Magento automated reordering" src="/help/img/magento_w2p_images/re-order_th.png" alt="" width="122" height="90" /></a></td>
+</tr>
+<tr>
+<td><strong>Up-sell and Cross-sell</strong></td>
+<td>Customer input that was provided while ordering products can be stored and used to automatically personalize cross-sell products and prepare previews. <a title="Magento product relationships" href="/magentohelp/magento-product-relations/" target="_self"><img class="alignnone" src="/help/img/external_link_icon_on.png" alt="" width="10" height="10" /></a></td>
+<td><a href="/help/img/magento_w2p_images/cross_sell.png"><img class="alignnone" title="Magento web-to-print cross sells" src="/help/img/magento_w2p_images/cross_sell_th.png" alt="" width="122" height="90" /></a></td>
+</tr>
+<tr>
+<td><strong>Datasets</strong></td>
+<td>Text fields can also be populated using a datasets table on the product page. You can allow customers to click on individual cells or entire rows of preset values and populate the text fields. Datasets can be used to simply speed up the personalization process or restrict customer input to a choice of preset values. <a title="Magento web-to-print datasets" href="/magentohelp/datasets-in-magento-web-to-print-products/" target="_self"><img class="alignnone" src="/help/img/external_link_icon_on.png" alt="" width="10" height="10" /></a></td>
+<td><a href="/help/img/magento_w2p_images/web-to-print_datasets.png"><img class="alignnone" title="Magento web-to-print datasets" src="/help/img/magento_w2p_images/web-to-print_datasets_th.png" alt="Magento web-to-print datasets" width="122" height="90" /></a></td>
+</tr>
+</tbody>
+</table>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-1474">
+        <h1 class="posttitle"><a href="/magento-web-to-print/what-it-costs/" rel="bookmark" title="Permanent Link: Pricing">Pricing</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <h3>One flat fee per per order<!--more--></h3>
+<ul>
+<li><strong>Australia</strong><span> – $2.2 or less per order</span></li>
+<li><strong>EU</strong><span> – </span>€<span>1.3 or less per order</span></li>
+<li><strong>New Zealand</strong><span> – $2.5 or less per order</span></li>
+<li><strong>UK</strong> – £0.85 or less per order</li>
+<li><strong>USA</strong><span> – $1.7 or less per order</span></li>
+<li><strong>Other countries</strong><span> – US$1.7 or less per order</span></li>
+</ul>
+<p>A charge is applied when your Magento site requests <a title="Web-to-print output file generation" href="/help/output-files-generation/" target="_self">output file generation</a>. You can configure at what stage this happens. E.g. after a payment was made or order approved or some other condition.</p>
+<h3>Other costs</h3>
+<p>There are no other charges from us, but you may need to pay for Magento hosting or seek help of IT professionals and designers to set up, configure and maintain your Magento store. Additional costs may be as low as a few dollars a month.</p>
+<h3>Non-personalized products</h3>
+<p>There is no charge for selling products through your Magento site. We charge for generating output files, not for the fact of sale or some other use of your website.</p>
+<h3>Free trial</h3>
+<p>You can explore our services <a title="Web-to-print trial use" href="/help/trail-use/" target="_self">free of charge</a> until you are sure they work for you. Customer testing ZetaPrints web-to-print software or preparing their own web-to-print portals can request a <a title="Web-to-print  payment wavers" href="/help/web-to-print-wavers/" target="_self">waver</a> on a monthly basis.</p>
+<h3>Billing rules</h3>
+<p>We have a number of <a title="Web-to-print billing rules" href="/help/billing-rules/" target="_self">rules</a> and exception in our billing process. For example you don&#8217;t need to pay for test orders, we can wave some of the charges, etc.</p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-1472">
+        <h1 class="posttitle"><a href="/magento-web-to-print/how-it-works/" rel="bookmark" title="Permanent Link: How it works">How it works</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p>Our web-to-print and dynamic imaging <a title="Magento web-to-print extension" href="https://www.magentocommerce.com/magento-connect/web-to-print-and-dynamic-imaging.html" target="_self">extension</a> puts <a title="Magento ecommerce" href="http://www.magentocommerce.com/" target="_self">Magento</a> and ZetaPrints together to enable <a title="Magento web-to-print interactive personalization" href="/magento-web-to-print/magento-interactive-personalization/" target="_self">product personalization</a> directly within Magento.<!--more--></p>
+<h3>Role separation</h3>
+<p>ZetaPrints is a <a title="About web-to-print as SaaS" href="/category/about-web-to-print-software/">fully hosted web-to-print and dynamic imaging</a> system. It has its own user interface that can be <a title="Web-to-print branding" href="/help/branding/" target="_self">customized</a>. It also has an open architecture and <a title="ZetaPrints web-to-print API" href="/packages/api-and-integration/">API</a> (Application Programming Interface) to let other systems replace its default user interface with their own.</p>
+<p>Magento E-Commerce system uses ZetaPrints API to generate preview images and <a title="Web-to-print output file generation" href="/help/output-files-generation/" target="_self">output files</a>. The rest of the sales process takes place within Magento.</p>
+<p style="text-align: center;"><img class="aligncenter" title="Magento web-to-print and dynamic imaging" src="/wp-content/uploads/2010/04/magento_diagram.png" alt="" width="424" height="254" /></p>
+<h3>ZetaPrints and design templates</h3>
+<p>All design templates for Magento products are uploaded to ZetaPrints and organized into <a title="Web-to-print catalogs" href="/help/category/catalogs/" target="_self">catalogs</a>. <a title="Web-to-print fonts" href="/help/category/fonts/" target="_self">Fonts</a> and <a title="Web-to-print and dynamic imaging selection of images" href="/help/image-selection/" target="_self">stock images</a> are uploaded to ZetaPrints as well. Your customers can access and use the templates directly in ZetaPrints, <a title="Web-to-print public access" href="/help/public-access/" target="_self">if you allow so</a>.</p>
+<h3>Magento E-Commerce</h3>
+<p>Our web-to-print and dynamic imaging extension <a title="Magento web-to-print data import" href="/magentohelp/import-web-to-print-data/" target="_self">imports template data</a> into Magento. Products linked to the imported templates can be <a title="Magento web-to-print interactive personalization" href="/magento-web-to-print/magento-interactive-personalization/" target="_self">personalized</a> by users directly in Magento. Your Magento store performs all the other functions required to make a sale:</p>
+<ul>
+<li>user management</li>
+<li>product management</li>
+<li>prices, quantities, shipping</li>
+<li><a title="Magento order management" href="/magentohelp/magento-order-management/" target="_self">order management</a></li>
+<li><a title="Magento access control extension" href="/magentohelp/magento-access-control-for-dynamic-imaging/" target="_self">access control</a></li>
+<li>payments and transactions</li>
+</ul>
+<h3>Personalization, image and PDF generation</h3>
+<p>Magento doesn&#8217;t do any image processing of its own. It collects the user data and sends it to ZetaPrints in the background via <a title="ZetaPrints web-to-print API" href="/help/category/api/" target="_self">API</a>. ZetaPrints web-to-print system processes the requests and returns either a preview image, a <a title="Magento saved orders with PDF proof" href="/magentohelp/magento-pdf-proof/" target="_self">low resolution PDF proof</a> or the <a title="Web-to-print output file generation" href="/help/output-files-generation/" target="_self">final PDF</a> file. Magento presents the images and files to the user as if they were generated by your own server.</p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-1469">
+        <h1 class="posttitle"><a href="/magento-web-to-print/magento-partners/" rel="bookmark" title="Permanent Link: Partners">Partners</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p>Setting up and maintaining a Magento website in your own <a title="Magento web-to-print hosting" href="/magento-web-to-print/hosting/" target="_self">hosting</a> takes a bit of time and IT skill. You may be just too busy for this, so have people to help. Try any of our partners or go to the market place to find a freelancer up to the task.<!--more--></p>
+<h3 class="sectiontxt">Trusted partners</h3>
+<p>We value our partners and guarantee quality of their workmanship. They are familiar with our solutions, Magento and have direct access to our development team to get the best result for you.</p>
+<div style="display: table; margin: 5px; margin-top: 20px; margin-right: 10px; float: left; clear: left;"><a title="Top quality Magento themes" href="http://www.hellothemes.com"><img class="alignnone size-full wp-image-2880" title="Top quality Magento themes" src="/wp-content/uploads/2010/04/hellothemes-logo.png" alt="magento themes" width="129" height="39" /></a></div>
+<div style="position: relative; top: 15px; display: inline; clear: right;">
+<p><strong><a title="Top quality Magento themes" href="http://www.hellothemes.com">HelloThemes</a></strong>: <em>makers of top quality Magento themes.</em> Purchase their themes <a title="Magento themes pricing" href="http://www.hellothemes.com/pricing/">off the shelf</a> or call them for any custom Magento design and store management tasks  <a title="Top quality Magento themes" href="http://www.hellothemes.com"><img class="alignnone" title="Magento themes" src="/help/img/external_link_icon_on.png" alt="" width="10" height="10" /></a></p>
+</div>
+<div style="display: table; margin: 5px; margin-top: 20px; margin-right: 10px; float: left; clear: left;"><a title="Amazon Web Services" href="http://aws.amazon.com/solutions/solution-providers/zetaprints/"><img class="alignnone size-full wp-image-2880" title="Top quality Magento themes" src="/wp-content/uploads/2010/04/AWS_partner_logo_crop.png" alt="Amazon Web Services" width="129" height="39" /></a></div>
+<div style="position: relative; top: 15px; display: inline; clear: right;">
+<p><strong><a title="Amazon Web Services" href="http://aws.amazon.com/solutions/solution-providers/zetaprints/">Amazon Web Services</a></strong>: <em>a powerful and flexible hosting platform for web-to-print and dynamic imaging.</em> Launch your site from a free machine image. <a title="Top quality Magento themes" href="http://aws.amazon.com/solutions/solution-providers/zetaprints/"><img class="alignnone" title="Amazon Web Services" src="/help/img/external_link_icon_on.png" alt="" width="10" height="10" /></a></p>
+</div>
+<h3 class="sectiontxt"></h3>
+<h3 class="sectiontxt">Freelance websites</h3>
+<p>Feel free to shop around. Finding the right service provider is a delicate affair. Freelance websites can be a good source of inexpensive and quality IT professionals. We recommend posting detailed, thought through project descriptions to attract the right response. A correctly specified task is 1/2 of the success.</p>
+<div style="margin-bottom: 30px;">
+<div style="display: table; margin: 5px; float: left;"><a href="http://www.magentocommerce.com/jobs/"><img class="alignnone" title="Magento job board" src="/help/img/magento_w2p_images/magento.png" alt="" width="130" height="50" /></a></div>
+<div style="position: relative; top: 5px; display: inline;">This job board can be your primary point of call because this is where Magento programmers hang out. We highly recommend to start your search there. <a href="http://www.magentocommerce.com/jobs/"><img class="alignnone" title="Magento job board" src="/help/img/external_link_icon_on.png" alt="" width="10" height="10" /></a></div>
+</div>
+<div style="margin-bottom: 30px;">
+<div style="display: table; margin: 5px; float: left;"><a href="http://www.freelancer.com/"><img class="alignnone" title="Freelancer.com" src="/help/img/magento_w2p_images/freelancer.png" alt="" width="130" height="50" /></a></div>
+<div style="position: relative; top: 5px; display: inline;">Populated by a large number of low quality and casual service providers. Many are beginners. The site can bring surprisingly good deals if your budget is limited. <a href="http://www.freelancer.com/"><img class="alignnone" title="Freelancer.com" src="/help/img/external_link_icon_on.png" alt="" width="10" height="10" /></a></div>
+</div>
+<div style="margin-bottom: 50px;">
+<div style="display: table; margin: 5px; float: left;"><a href="http://www.elance.com/"><img class="alignnone" title="Elance.com" src="/help/img/magento_w2p_images/elance.png" alt="" width="130" height="50" /></a></div>
+<div style="position: relative; top: 5px; display: inline;">We recommend this website if your budget is over US$700. <a href="http://www.elance.com/"><img class="alignnone" title="Elance.com" src="/help/img/external_link_icon_on.png" alt="" width="10" height="10" /></a></div>
+</div>
+<div style="margin-bottom: 30px;">
+<div style="display: table; margin: 5px; float: left;"><a href="http://www.odesk.com/"><img class="alignnone" title="oDesk.com" src="/help/img/magento_w2p_images/odesk.png" alt="" width="130" height="50" /></a></div>
+<div style="position: relative; top: 5px; display: inline;">This website is a good option if you are prepared to pay on an hourly basis. There are many high quality providers for any type of IT tasks. <a href="http://www.odesk.com/"><img class="alignnone" title="oDesk.com" src="/help/img/external_link_icon_on.png" alt="" width="10" height="10" /></a></div>
+</div>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-1418">
+        <h1 class="posttitle"><a href="/magento-web-to-print/magento-interactive-personalization/" rel="bookmark" title="Permanent Link: Interactive personalization">Interactive personalization</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p>ZetaPrints  <a title="Magento web-to-print and dynamic imaging extension" href="https://www.magentocommerce.com/magento-connect/web-to-print-and-dynamic-imaging.html" target="_self">web-to-print extension</a> for Magento takes products personalization to the next level. The &#8220;point and click&#8221; method implemented in our extension turns your store into a user-friendly environment for your customers.<!--more--></p>
+<div style="display: table;">
+<p><img style="margin: 5px; float: left;" title="Magento web-to-print field highlighter" src="/help/wp-content/uploads/2010/04/magento_web-to-print_field_highlighter.png" alt="Magento web-to-print field highlighter" width="277" height="407" /></p>
+<div style="position: relative; top: 35px; display: inline;">Variable <a title="Web-to-print variable text fields" href="/help/simple-text-frame/" target="_self">text</a> and <a title="Web-to-print variable image fields" href="/help/image-placeholder/" target="_self">image</a> fields are highlighted when users hover the mouse cursor over the template preview.</div>
+</div>
+<div style="display: table;">
+<p><img style="margin: 5px; float: right;" title="Magento web-to-print variable images" src="/wp-content/uploads/2010/04/magento_web-to-print_variable_images.png" alt="Magento web-to-print variable images" width="455" height="638" /></p>
+<div style="position: relative; top: 35px; display: inline;">
+<p>Clicking on an variable image area opens the image input form allowing customers to <a title="Web-to-print user uploaded images" href="/help/user-uploaded-images/" target="_self">upload</a> their own image, select an image from a <a title="Web-to-print and dynamic imaging selection of images" href="/help/image-selection/" target="_self">selection of images</a> you provided or <a title="Web-to-print and dynamic imaging color picker" href="/help/color-picker/" target="_self">pick a color</a> to fill the area with.</p>
+<p><strong>Note.</strong> Users are also allowed to <a title="Magento interactive image editing" href="/magento-web-to-print/magento-interactive-image-editing/" target="_self">edit their images</a> directly on the product page.</p>
+</div>
+</div>
+<div style="display: table;">
+<p><img style="margin: 5px; float: left;" title="Magento web-to-print variable text" src="/wp-content/uploads/2010/04/magento_web-to-print_variable_text.png" alt="Magento web-to-print variable text" width="455" height="638" /></p>
+<div style="position: relative; top: 35px; display: inline;">Same goes for variable text fields, fill in the pop-up text form to replace the dummy text in the template.</div>
+</div>
+<div style="display: table;">
+<p><img style="margin: 5px; float: right;" title="Magento web-to-print overlapping fields" src="/wp-content/uploads/2010/04/magento_web-to-print_overlapping_fields.png" alt="Magento web-to-print overlapping fields" width="455" height="638" /></p>
+<div style="position: relative; top: 35px; display: inline;">When there are overlapping fields (Ex. Text on top of a background image), the pop-up editor shows all fields as separate tabs.</div>
+</div>
+<div style="display: table;">
+<img style="margin: 5px; float: left;" title="Magento web-to-print personalized fields" src="/wp-content/uploads/2010/04/magento_web-to-print_personalized_fields.png" alt="" width="277" height="399" /></p>
+<div style="position: relative; top: 35px; display: inline;">Populated variable fields are highlighted differently to help users see which fields have been edited and which are still empty.</div>
+</div>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-1415">
+        <h1 class="posttitle"><a href="/magento-web-to-print/magento-interactive-image-editing/" rel="bookmark" title="Permanent Link: Interactive image editing">Interactive image editing</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p>Users can upload and edit images right on the product page. All the images are stored on our servers to minimize your Magento hosting fees and simplify maintenance.<!--more--></p>
+<div style="display: table;">
+<p><img style="margin: 5px; float: left;" title="Magento web-to-print image editing" src="/help/wp-content/uploads/2010/04/magento_web-to-print_image_editing.png" alt="Magento web-to-print image editing" width="336" height="172" /></p>
+<div style="position: relative; top: 35px; display: inline;"><a title="Web-to-print user uploaded images" href="/help/user-uploaded-images/" target="_self">User-uploaded images</a> remain in the customer&#8217;s image library and are available for use. Each image can be edited by clicking on the &#8220;edit&#8221; button in its bottom right corner.</div>
+</div>
+<p>The editor comes in handy when images need a bit of tweaking prior to their use in the product. Available image editing tools are rotation, cropping and a <a title="Fit-in-field image editing feature" href="/magentohelp/fit-in-field-image-editing/">Fit-in-field</a> tool.</p>
+<p><img class="aligncenter size-full wp-image-3051" title="Magento web-to-print image editing options" src="/wp-content/uploads/2010/04/magento_web-to-print_image_editing_options.png" alt="" width="647" height="580" /></p>
+<p>&nbsp;</p>
+<div style="display: table;">
+<p><a title="Magento Fit-in-field web-to-print tool" href="/magentohelp/wp-content/uploads/2011/11/fit-in-field_selection.png"><img style="margin: 5px; float: left;" title="Web-to-print Fit-in-field selection area" src="/magentohelp/wp-content/uploads/2011/11/fit-in-field_selection.png" alt="Web-to-print Fit-in-field selection area" width="343" height="321" /></a></p>
+<div style="position: relative; top: 35px; display: inline;">
+<p>The “<strong>Fit-in-field</strong>” tool is basically a smart crop tool that has its selection area shape locked to a proportional shape according to the image placeholder of the template.</p>
+<p>This helps users get an exact idea of what part of their uploaded image will be visible in the template they’re personalizing.
+</p></div>
+</div>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-1238">
+        <h1 class="posttitle"><a href="/about-us/sign-up/" rel="bookmark" title="Permanent Link: Sign up">Sign up</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p>Signing up is quick. No payments or credit card details are required. Only a simple form to fill in.<!--more--></p>
+<table border="0" cellspacing="8px">
+<tbody>
+<tr>
+<td style="width: 210px;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/dot.png) 0% 0% repeat-x;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/dot.png) 100% 0% repeat-y;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/dot.png) 0% 100% repeat-x;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/dot.png) 0% 0% repeat-y;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/top_left.png) 0% 0% no-repeat;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/top_right.png) 100% 0% no-repeat;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/bottom_left.png) 0% 100% no-repeat;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/bottom_right.png) 100% 100% no-repeat;">
+<div style="padding:5px; margin:5px;">
+<p style="font-size: 14pt; font-weight: bold; color: #00adef; text-align: center;margin-top:15px;">Printer</p>
+<p style="text-align: left;">The master account is a <a title="Web-to-print printer role" href="/help/role-printer/" target="_self">printer </a>/ <a title="web-to-print publisher" href="/category/publications/">publisher</a> account that offers full access to all web-to-print features. Once registered, you will be able to register designers and users. Also, you will be able to <a title="Web-to-print branding" href="/printers/web-to-print-branding/" target="_self">add branding</a> and put your website under your own domain name.</p>
+<p style="text-align: left;"><strong>No payments or credit cards details are required to sign up.</strong> You will <a title="web-to-print billing" href="/help/category/billing/">pay</a> only when real orders start rolling in.</p>
+</div>
+<p style="text-align: center;">I accept the<br />
+<a title="Web-to-print terms and conditions" href="/about-us/summary-of-terms-and-conditions/" target="_self">terms and conditions</a></p>
+<p style="text-align: center;"><a href="http://zetaprints.com/?page=printer-new;/" target="_blank"><img style="margin-top: 15px;margin-bottom: 10px;" title="Web-to-print printer signup" src="/wp-content/themes/zetaprints/_img/bt-signup.gif" alt="Web-to-print printer signup" /></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td style="width: 210px;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/dot.png) 0% 0% repeat-x;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/dot.png) 100% 0% repeat-y;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/dot.png) 0% 100% repeat-x;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/dot.png) 0% 0% repeat-y;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/top_left.png) 0% 0% no-repeat;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/top_right.png) 100% 0% no-repeat;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/bottom_left.png) 0% 100% no-repeat;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/bottom_right.png) 100% 100% no-repeat;">
+<div style="padding:5px; margin:5px;">
+<p style="font-size: 14pt; font-weight: bold; color: #00adef; text-align: center;margin-top:15px;">Designer</p>
+<p>You need to register as a <a title="Web-to-print designer role" href="/help/role-designer/" target="_self">designer</a> to upload web-to-print templates. It is a quick and simple process. We will want to know your location, brief profile details and your email. Most of the information is optional.</p>
+<p><strong>There are no fees to pay if you sign up as a web to print designer</strong> – <a title="We buy web-to-print designs" href="/designers/we-buy-designs/" target="_self">we pay you.</a></div>
+<p style="text-align: center;margin-top: 63px;">I accept the<br />
+<a title="Web-to-print terms and conditions" href="/about-us/summary-of-terms-and-conditions/" target="_self">terms and conditions</a></p>
+<p style="text-align: center;"><a href="http://zetaprints.com/?page=designer-selfrego/" target="_blank"><img style="margin-top: 15px;margin-bottom: 10px;" title="Web-to-print designer signup" src="/wp-content/themes/zetaprints/_img/bt-signup.gif" alt="Web-to-print designer signup" /></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td style="width: 210px;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/dot.png) 0% 0% repeat-x;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/dot.png) 100% 0% repeat-y;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/dot.png) 0% 100% repeat-x;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/dot.png) 0% 0% repeat-y;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/top_left.png) 0% 0% no-repeat;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/top_right.png) 100% 0% no-repeat;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/bottom_left.png) 0% 100% no-repeat;">
+<div style="background:url(/wp-content/themes/zetaprints/_img/bottom_right.png) 100% 100% no-repeat;">
+<div style="padding:5px; margin:5px;">
+<p style="font-size: 14pt; font-weight: bold; color: #00adef; text-align: center;margin-top:15px;">User</p>
+<p>This is the default account type. <a title="Web-to-print user role" href="/help/role-user/" target="_self">Users</a> browse products, customise them and place orders. A “user” account is automatically created when a new user attempts to personalise a template. Users can subsequently register to retain their personal information, access past orders, etc.</p>
+<p><strong>This sign-up link takes you to a <a title="Web-to-print demo" href="http://demo.zetaprints.com">demo web-to-print</a> site.</strong></div>
+<p style="text-align: center;margin-top: 26px;">I accept the<br />
+<a title="Web-to-print terms and conditions" href="/about-us/summary-of-terms-and-conditions/" target="_self">terms and conditions</a></p>
+<p style="text-align: center;"><a href="http://zetaprints.com/" target="_blank"><img style="margin-top: 15px;margin-bottom: 10px;" title="Web-to-print user signup" src="/wp-content/themes/zetaprints/_img/bt-signup.gif" alt="Web-to-print user signup" /></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><!--Session data--></p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-1140">
+        <h1 class="posttitle"><a href="/about-web-to-print-software/web-to-print-marketing/" rel="bookmark" title="Permanent Link: Web-to-print marketing">Web-to-print marketing</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <div>
+<p><strong>Getting a web-to-print website is easy. Getting it to make you money is not. We have a few do-s and don’t-s for you to consider before you take a plunge.<!--more--></strong></p>
+<h2>Web-to-print &amp; new customers</h2>
+<p>Having a fancy website without good sales people and smart marketing won’t bring new customers. The technology is only one of components of the service a printer provides. Do not oversell it. Price, quality, delivery times, etc are more important to the customer. Web-to-print adds convenience to the overall process and reduces costs at both ends. <strong>The technology is only beneficial when both price and time are a priority consideration</strong>.</p>
+<h2>End consumer products</h2>
+<p>The competition in this market is fierce. Several established players like VistaPrint, Click Business Cards, 123 Print and many-many others have large scale operations, rock-bottom prices and huge advertising budgets. It will be very difficult for a small player to get noticed.</p>
+<h3>Google search results</h3>
+<p>“<em>business cards</em>” &#8211; <span>36,400,000 results</span></p>
+<p>“<em>business cards plumber</em>” &#8211; 479,00 results</p>
+<p>The first 10 pages are taken by old, well-optimized websites. It will take time and effort to move your website to the top of search results.</p>
+<h3>Google advertising</h3>
+<p>Search engine advertising is very expensive for popular keywords.</p>
+<p><a href="/wp-content/uploads/2008/04/new-11.gif"><img title="Google advertising statistics" src="/wp-content/uploads/2008/04/new-11.gif" alt="Web-to-print Google advertising statistics" width="648" height="95" /></a><br />
+Assume that optimistic 10% of clicks result in an order.<br />
+284 clicks * 0.1= <strong>28 orders a day at a cost of $127.5 per order</strong> ($3,570 / 28).</p>
+<h2>Corporate products</h2>
+<p>Web-to-print is an excellent sales tool. It gives your sales people a good excuse to call a potential corporate customer because you can offer what others cannot. Businesses with large number of customer-facing staff or those who order and re-order often are your best bet. Remember that their time spent ordering a product from you costs them money and lost productivity, but don’t be surprised if they don’t like doing it online. There are plenty of people who prefer the old way.</p>
+<p>Charging a premium for your online services is risky, because your competitors don’t</p>
+<p>The effort of setting up a template is roughly equivalent to processing 2 orders manually. Will they order often enough?</p>
+<h2>Brands and franchises</h2>
+<p>A deal with a franchise head office or a brand name holder is an excellent opportunity to get high order volumes at very little customer acquisition cost. Web-to-print is perfectly suited for this type of customers. The technology does make a big difference here.</p>
+<h2>Brands and franchises &#8211; partisan approach</h2>
+<p>A lot of master franchises and brand name holders neglect the printing and advertising aspect of their business or demand exuberant prices though “preferred suppliers”. It leaves the franchisees unhappy and looking for better alternatives. Usually it is not difficult to identify individual franchise holders and approach them directly with your offer. It should be very easy for you to beat the prices demanded by the “preferred supplier”.</p>
+<p>A good service, low prices and the convenience of web-to-prit will quickly bring you more franchise members through word of mouth. You can achieve the same low customer acquisition cost and web-to-print technology makes all the difference.</p>
+<p><a href="http://designsthatsell.biz/"><img style="margin: 10px;" title="web-to-print-franchise1" src="/wp-content/uploads/2008/04/web-to-print-franchise1.jpg" alt="web-to-print-franchise" /></a><a href="http://designsthatsell.biz/"><img style="margin: 10px;" title="web-to-print-franchise2" src="/wp-content/uploads/2008/04/web-to-print-franchise2.jpg" alt="web-to-print-franchise" /></a><a href="http://designsthatsell.biz/"><img style="margin: 10px;" title="web-to-print-franchise3" src="/wp-content/uploads/2008/04/web-to-print-franchise3.jpg" alt="web-to-print-franchise" /></a></p>
+<p>Consider copyright and trademark issues. Their head offices may not like your approach.</p>
+<h2>Niche consumer products</h2>
+<p>We see some incredible examples of web-to-print being used for niche products of all sorts and kinds. It is all about knowing that niche market and having access to the customer base. A simple example &#8211; greeting cards. Who would think that apart from a few big players there are successful printers servicing tiny micro-markets where good service, right price, excellent designs and the convenience of web-to-print bring very good order volumes.</p>
+<h2>Conclusion</h2>
+<p>Web-to-print is only a tool and will not replace your sales and marketing. You can extract only as much value out of it as you put into promoting and selling your services.</p>
+<p>No matter how good your web-to-print software is, but if the price is too high or the quality is too low it cannot not help you get more business through the door.</p>
+</div>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-979">
+        <h1 class="posttitle"><a href="/ad-networks/open-source-imaging/" rel="bookmark" title="Permanent Link: Open source tools">Open source tools</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <div>
+<p>Integration into popular CMS, e-commerce and ad management platforms is easy. We have lots of open source tools, plug-ins and extensions to help you bring dynamic imaging to other websites.<!--more--></p>
+<h2>Content embedding</h2>
+<p>Our Flash <a title="image generator" href="../../help/tools/image-generation-plugin/">dynamic imaging widget</a> can be embedded into any web page like a YouTube video. Just cut and paste a small HTML snippet. You can use it with your own banner templates and promote your new cool service through other websites. A banner can be created within someone&#8217;s else web page and submitted to your ad manager with one click.<br />
+<object id="e-cards-plugin" width="650" height="300" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowScriptAccess" value="sameDomain" /><param name="allowFullScreen" value="false" /><param name="quality" value="high" /><param name="FlashVars" value="params=http://magento.zetaprints.com/RssTemplates.aspx?c=912495F4-B770-41BA-868C-AA72C27D1402" /><param name="src" value="/flash/e-cards-plugin.swf" /><param name="allowscriptaccess" value="sameDomain" /><param name="allowfullscreen" value="false" /><param name="pluginspage" value="http://www.macromedia.com/go/getflashplayer" /><param name="flashvars" value="params=http://magento.zetaprints.com/RssTemplates.aspx?c=912495F4-B770-41BA-868C-AA72C27D1402" /><embed id="e-cards-plugin" width="650" height="300" type="application/x-shockwave-flash" src="/flash/e-cards-plugin.swf" allowScriptAccess="sameDomain" allowFullScreen="false" quality="high" FlashVars="params=http://magento.zetaprints.com/RssTemplates.aspx?c=912495F4-B770-41BA-868C-AA72C27D1402" allowscriptaccess="sameDomain" allowfullscreen="false" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="params=http://magento.zetaprints.com/RssTemplates.aspx?c=912495F4-B770-41BA-868C-AA72C27D1402" /></object></p>
+<h2>WordPress</h2>
+<p>We have a bunch of <a title="Web-to-print plugins" href="http://wordpress.org/extend/plugins/profile/zetaprints/" target="_self">web-to-print plug-ins</a> for <a title="Web-to-print help: WordPress" href="/help/category/wordpress/" target="_self">WordPress</a>.</p>
+<h3>E-cards plug-in</h3>
+<p>Generate virtual cards right inside a WordPress page and email them as images. Just another way to promote your new cool banner generator or run a viral campaign.</p>
+<h3>PayPal Pro payments</h3>
+<p>PayPal Pro is a good solution if you want your advertisers to pay for banner creation on the spot. We have a <a title="Web-to-print help: PayPal Pro gateway" href="/help/paypal-pro-gateway-for-wordpress/" target="_self">plugin</a> that can do it out of the box.</p>
+<h2>Magento</h2>
+<p>Magento is a popular and growing e-commerce platform to act as a shopping window of your ad management store. Just add our <a title="web-to-print extension" href="https://www.magentocommerce.com/magento-connect/web-to-print-and-dynamic-imaging.html">web-to-print store extension</a> and you can sell banner designs straight away. Watch a <a title="Watch a video demonstration of the Magento web-to-print extension" href="/help/flash/magento_demo/magento_demo.html" target="_self">video presentation</a>.</p>
+<h2>OpenX</h2>
+<p>Our <a title="OpenX extension" href="http://code.google.com/p/openx-banner-creator/">OpenX extension</a> helps advertisers create banners from within OpenX.</p>
+<h2>Dynamic imaging API wrappers</h2>
+<p>Developers will save time integrating web-to-print into your existing website if they use our <a title="web-to-print PHP" href="http://code.google.com/p/magento-w2p/source/browse/#svn/trunk/zp_api_lib/">web-to-print wrappers for PHP5</a>.</p>
+</div>
+<p><input id="gwProxy" type="hidden" /> <input id="jsProxy" onclick="jsCall();" type="hidden" /></p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+              </div>
+
+    <div id="sidebar" class="minicat">
+          </div>
+  </div>
+
+
+<div id="footer-container" class="container">
+
+  <div id="footer">
+    <div id="bottomnav">
+      <ul>
+        <li class="first"><a href="/about-us/" title="About ZetaPrints">About ZetaPrints</a></li>
+        <li><a href="/about-us/contact-us/" title="Contact us">Contact us</a></li>
+        <li><a href="http://zetaprints.com/" title="Log in">Log in</a></li>
+        <li><a href="/about-us/privacy-policy/" title="Privacy policy">Privacy</a></li>
+        <li><a href="/sitemap" title="Sitemap">Sitemap</a></li>
+        <li><a href="/about-us/summary-of-terms-and-conditions/" title="Terms and conditions">Terms of Service</a></li>
+        <li><a href="/blog" title="Web-to-print Blog">Web-to-print Blog</a></li>
+        <li><a href="/help/" title="Web-to-print Help">Web-to-print Help</a></li>
+      </ul>
+    </div>
+    <p><a href="/blog" title="Web-to-print Blog"><img class="footer-icon" alt="Blog" src="/wp-content/themes/zetaprints-3.0/images/blog.png"/></a>&nbsp;
+<a href="http://twitter.com/zetaprints/" title="Follow us on twitter"><img class="footer-icon" alt="Twitter" src="/wp-content/themes/zetaprints-3.0/images/twitter_16.png"/></a>&nbsp;
+&copy; 2006-2012 ZetaPrints Ltd. All rights reserved. Powered by <a href="http://wordpress.org">WordPress</a>.</p>
+    <a href="#header" title="Back to Top" class="top-btn">Back to Top</a>
+  </div>
+</div>
+
+<script type='text/javascript' src='/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='/wp-includes/js/wp-embed.min.js?ver=4.4.1'></script>
+
+<script type="text/javascript">
+    (function(){
+        var ga = document.createElement('script');
+        ga.type="text/javascript";
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })
+</script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1132851-1']);
+    _gaq.push(['_trackPageview']);
+</script>
+</body>
+</html>

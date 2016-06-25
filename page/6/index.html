@@ -1,0 +1,941 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="verify-v1" content="GACnn9+1c3JzusKbMwxWr+f9dKvqx8As8sbHI8tNyxA=" />
+  <meta name="keywords" content="web-to-print, online printing, zetaprints, online print ordering" />
+  <meta name="generator" content="ZetaPrints"/> <!-- leave this for stats -->
+
+  <title>Web-to-Print &amp; Dynamic Imaging |  - Part 6</title>
+  <!--<script type="text/javascript" src="/wp-content/themes/zetaprints-3.0/jslib.js"></script>-->
+
+  <link rel="stylesheet" href="/wp-content/themes/zetaprints-3.0/css/reset-min.css" type="text/css" />
+  <link rel="stylesheet" href="/wp-content/themes/zetaprints-3.0/style.css" type="text/css" media="all" />
+  <!--<link rel="stylesheet" href="/wp-content/themes/zetaprints-3.0/style-fixed.css" type="text/css" />-->
+
+  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed/" />
+  <link rel="alternate" type="text/xml" title="RSS .92" href="/feed/rss/" />
+  <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="/feed/atom/" />
+  <!--link rel="pingback" href="/xmlrpc.php" /-->
+
+  
+  
+  
+<!-- All in One SEO Pack 2.2.7.5 by Michael Torbert of Semper Fi Web Design[519,560] -->
+<link rel='prev' href='/page/5/' />
+<link rel='next' href='/page/7/' />
+
+<!-- /all in one seo pack -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.zetaprints.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.1"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel='https://api.w.org/' href='/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.1" />
+
+  <script type='text/javascript' src="/wp-content/themes/zetaprints-3.0/js/jquery-cookie.js" ></script>
+
+  <!--<link media="screen" type="text/css" href="/wp-content/themes/zetaprints-3.0/grid.css" rel="stylesheet"/>-->
+  <!--<script type='text/javascript' src="/wp-content/themes/zetaprints-3.0/js/grid.js" ></script>-->
+
+  <!--<script type="text/javascript" src="/wp-content/themes/zetaprints-3.0/assets/javascript/swfobject.js"></script>-->
+
+  <!-- slideshow stuff -->
+  <link type="text/css" rel="stylesheet" href="/common/slideshow/css/slideshow.css"/>
+  <script src="/common/slideshow/js/slideshow.js" type="text/javascript"></script>
+  <!-- end slideshow stuff -->
+  
+</head>
+
+<body>
+  <div class="header-wrapper">
+    <div class="header-top">
+      <div class="content-wrapper clearfix">
+        <a class="logo" href="/"><img src="/wp-content/themes/zetaprints-3.0/images/logo.gif" alt="ZetaPrints Web-to-print home" /></a>
+        <div class="text-wrapper">
+          <h1><a href="/">ZetaPrints</a></h1>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom">
+      <div class="content-wrapper clearfix">
+        <div class="text-wrapper">
+          <h3>Web-to-Print &amp; dynamic imaging</h3>
+        </div>
+        <div class="menu-wrapper">
+          
+<div class="top-level-menu clearfix">
+  <ul class="main-menu">
+    <li class="zetaprints-technology ">
+      <a href="/zetaprints-technology">Technology</a>
+    </li>
+    <li class="industry-web-to-print-solutions selected-item">
+      <a href="/industry-web-to-print-solutions">Solutions</a>
+    </li>
+    <li class="tmpackages ">
+      <a href="/tmpackages">Packages</a>
+    </li>
+  </ul>
+
+  <div class="menu clearfix">
+    <div class="menu-item first-item">
+      <a href="/web-to-print-and-dynamic-imaging-pricing" title="Web-to-print pricing">Pricing</a>
+    </div>
+
+    <div class="menu-item items-separator">|</div>
+
+    <div class="menu-item">
+      <a href="/web-to-print-demo-sites" title="Web-to-print demo sites">Demo</a>
+    </div>
+
+    <div class="menu-item items-separator">|</div>
+
+    <div class="menu-item">
+      <a href="/packages/sign-up-for-web-to-print/" title="Sign up for web-to-print">Sign up</a>
+    </div>
+
+    <div class="menu-item items-separator">|</div>
+
+    <div id="menu-help" class="menu-item last-item sub-menu">
+      <a href="/help/" class="drop-down-link">Help</a>
+      <ul class="panel">
+        <li>
+          <a href="/help/">Web-to-print help</a>
+        </li>
+        <li>
+          <a href="/magentohelp/">Magento help</a>
+        </li>
+        <li>
+          <a href="/directory/">Resources</a>
+        </li>
+        <li>
+          <a href="/userhelp/">End user help</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<div class="second-level-menu menu">
+  <ul id="zetaprints-technology" class="clearfix" >
+    <li class="first-item"><a href="/category/web-to-print-software/">Web-to-Print</a></li>
+    <li class="items-separator">|</li>
+    <li class="last-item"><a href="/category/dynamic-imaging/">Dynamic imaging</a></li>
+  </ul>
+
+  <ul id="industry-web-to-print-solutions" class="clearfix" style="display: block">
+    <li class="first-item"><a href="/category/printers/">Printers</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/category/designers/">Designers</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/category/publications/">Publishers</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/category/magento-web-to-print/">Magento</a></li>
+    <li class="items-separator">|</li>
+    <li class="last-item"><a href="/category/businesses/">Business</a></li>
+  </ul>
+
+  <ul id="tmpackages" class="clearfix" >
+    <li class="first-item"><a href="/packages/hosted-by-us/">Core</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/packages/hosted-by-you/">E-Commerce</a></li>
+    <li class="items-separator">|</li>
+    <li><a href="/packages/enterprise-web-to-print/">Enterprise</a></li>
+    <li class="items-separator">|</li>
+    <li class="last-item"><a href="/packages/open-source-web-to-print-2/">Open source</a></li>
+  </ul>
+</div>
+
+<script> 
+
+jQuery(document).ready(function ($) {
+  var $li = $('.main-menu li');
+  var $ul = $('.second-level-menu ul')
+
+  //$li.mouseenter(function () {
+  $li.hoverIntent(
+    function () {
+      $current = $(this);
+
+      if ($current.hasClass('selected-item'))
+        return;
+
+      $li.removeClass('selected-item');
+
+      var id = $current.attr('class');
+      $current.addClass('selected-item');
+
+      $ul
+        .css('display', 'none')
+        .filter('#' + id)
+        .css('display', 'block');
+
+      $.cookie('zp-menu-selected', id, { path: '/' });
+    },
+
+    function () {}
+
+  );
+}); 
+
+</script>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<script>
+jQuery(document).ready(function ($) {
+  $("#featuretabs").tabs();
+});
+</script>
+
+  <div id="content-container" class="container clearfix">
+    <div class="post-wrapper">
+                      <div class="post" id="post-858">
+        <h1 class="posttitle"><a href="/about-us/complaints/" rel="bookmark" title="Permanent Link: Complaints">Complaints</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p>Trusting your data and day to day operation to a hosting company is a big ask.<!--more--></p>
+<p>We are transparent in our customer relations and want to make sure out customers have an independent channel for voicing their opinion about us.</p>
+<h2>Ask us a question</h2>
+<p>Please, send your web-to-print and dynamic imaging questions to <a href="mailto:support@zetaprints.com">support@zetaprints.com</a>. We do answer them all, but some may take longer than others.</p>
+<h2>Technical difficulties</h2>
+<p>If something doesn&#8217;t work the way it should we&#8217;d like to hear about it.  Email the details to <a href="mailto:support@zetaprints.com">support@zetaprints.com</a>.</p>
+<h2>Unresolvable issues</h2>
+<p>We teamed up with <a title="Independent complaints board" href="http://www.getsatisfaction.com/zetaprints/">GetSatisfaction.com</a> in case you think you are being treated badly by ZetaPrints and want the world to know.</p>
+<p>GetSatisfaction is an independent customer service board where you can post your complaints. This way we provide our customers with a sure way to inform others in case we let them down big time.</p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-856">
+        <h1 class="posttitle"><a href="/about-us/contact-us/" rel="bookmark" title="Permanent Link: Contact us">Contact us</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p><strong>Email us at</strong><strong>:</strong> <a href="mailto:support@zetaprints.com">support@zetaprints.com</a><!--more--></p>
+<p><strong>Technical emergency only:</strong></p>
+<ul>
+<li><strong>NZ </strong> (04) &#8211; 889 &#8211; 22 &#8211; 15</li>
+<li><strong>AU</strong> (02) &#8211; 8005 &#8211; 49 &#8211; 34</li>
+<li><strong>USA</strong> (206) &#8211; 923 &#8211; 94 &#8211; 66</li>
+<li><strong>UK</strong> (141) &#8211; 416 &#8211; 2152</li>
+</ul>
+<p>These numbers are routed to the nearest available team member to resolve any service outages only. <strong>The duty admin won&#8217;t deal with sales or non-urgent queries.</strong></p>
+<p>&nbsp;</p>
+<p><strong>Postal address</strong><br />
+PO Box 30715<br />
+Wellington 5040<br />
+New Zealand</p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-833">
+        <h1 class="posttitle"><a href="/ad-networks/image-generator-features/" rel="bookmark" title="Permanent Link: Features">Features</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <div id="featuretabs"><div class="featurepretxt"><p>ZetaPrints <a title="About dynamic imaging" href="/category/dynamic-imaging/" target="_self">dynamic imaging</a> service was designed to make banner creation process quick an painless. We give you full control over your virtual banner creator, any time anywhere.<!--more--></p>
+</div><ul><li ><a href="#fragment-0"><span>Volumes</span></a></li><li ><a href="#fragment-1"><span>Templates</span></a></li><li ><a href="#fragment-2"><span>Variable fields</span></a></li><li ><a href="#fragment-3"><span>UI</span></a></li><li ><a href="#fragment-4"><span>System</span></a></li><li ><a href="#fragment-5"><span>Access control</span></a></li></ul><div id="fragment-0">
+<p>We do not place limits on you. Use as much of our service as you need to grow and meet your demand.</p>
+<table class="w2p_feat_tbl">
+<tbody>
+<tr>
+<td class="list_title_last" colspan="2"><strong>Unlimited</strong></td>
+</tr>
+<tr>
+<td>Number of banner templates</td>
+<td class="check_icon_feat"></td>
+</tr>
+<tr>
+<td>Number of banner catalogs</td>
+<td class="check_icon_feat"></td>
+</tr>
+<tr>
+<td>Number of users</td>
+<td class="check_icon_feat"></td>
+</tr>
+<tr>
+<td>Disk space</td>
+<td class="check_icon_feat"></td>
+</tr>
+<tr>
+<td>Traffic</td>
+<td class="check_icon_feat"></td>
+</tr>
+</tbody>
+</table>
+</div><div id="fragment-1">
+<p>Our templating system is simple, but powerful. It goes well beyond replacing straight lines of text in a PDF file.</p>
+<table class="w2p_feat_tbl">
+<tbody>
+<tr>
+<td class="list_title_last" colspan="2"><strong>Availability</strong></td>
+<td class="list_title_last_how"><strong>How to</strong></td>
+</tr>
+<tr>
+<td>Upload your own</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/upload-your-first-template/"><img title="Upload your first dynamic imaging template" src="/_img/help_on.png" alt="Upload your first dynamic imaging template" /></a></td>
+</tr>
+<tr>
+<td>Unbounded creativity limits</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/category/design-techniques/"><img title="Dynamic imaging design techniques" src="/_img/help_on.png" alt="Dynamic imaging design techniques" /></a></td>
+</tr>
+<tr>
+<td>No delay before a template becomes available</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><img src="/_img/help_off.png" alt="" /></td>
+</tr>
+<tr>
+<td>Font uploading</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/font-management/"><img title="Dynamic imaging font management" src="/_img/help_on.png" alt="Dynamic imaging font management" /></a></td>
+</tr>
+<tr>
+<td>Clipart and stock photo uploading</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/image-selection/"><img title="Image selection" src="/_img/help_on.png" alt="Dynamic imaging selection of images" /></a></td>
+</tr>
+<tr>
+<td>RGB color mode</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/color-management-for-dynamic-imaging/"><img title="RGB color management" src="/_img/help_on.png" alt="Dynamic imaging color management" /></a></td>
+</tr>
+<tr>
+<td colspan="3">Output files</td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">JPG, GIF, PNG</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/output-files-generation/"><img title="Dynamic imaging output file generation" src="/_img/help_on.png" alt="Dynamic imaging output file generation" /></a></td>
+</tr>
+</tbody>
+</table>
+</div><div id="fragment-2">
+<p><span>It is very simple to convert an ordinary ad design into a usable ad template – just name the fields for user texts and images.</span><br />
+<span>The system reads the field information directly from the file. There are numerous rules you can apply, such as alignment, horizontal and vertical shift, removal of elements if some other elements are not present, maximum and minimum length, recommended image resolution, etc.</span></p>
+<table class="w2p_feat_tbl">
+<tbody>
+<tr>
+<td class="list_title_last" colspan="2"><strong>Availability</strong></td>
+<td class="list_title_last_how"><strong>How to</strong></td>
+</tr>
+<tr>
+<td colspan="3">Variable text and images</td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Variable text</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/category/text-fields/"><img title="Dynamic imaging variable text fields" src="/_img/help_on.png" alt="Dynamic imaging text fields" /></a></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Variable images</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/category/image-fields/"><img title="Dynamic imaging variable image fields" src="/_img/help_on.png" alt="Dynamic imaging image fields" /></a></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Automatic text alignment</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><img src="/_img/help_off.png" alt="" /></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Automatic image alignment</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/image-alignment/"><img title="Image alignment" src="/_img/help_on.png" alt="Dynamic imaging image alignment" /></a></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Auto replacement</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><img src="/_img/help_off.png" alt="" /></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Auto removal</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/conditional-object-removal/"><img title="Dynamic imaging conditional object removal" src="/_img/help_on.png" alt="Dynamic imaging conditional object removal" /></a></td>
+</tr>
+</tbody>
+</table>
+</div><div id="fragment-3">
+<p>The user interface on our web-to-print and dynamic imaging portal is supported by all major web browsers and is customizable.</p>
+<table class="w2p_feat_tbl">
+<tbody>
+<tr>
+<td class="list_title_last" colspan="2"><strong>Availability</strong></td>
+<td class="list_title_last_how"><strong>How to</strong></td>
+</tr>
+<tr>
+<td colspan="3">User interface</td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">HTML</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><img src="/_img/help_off.png" alt="" /></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Minimal scripting, Flash or Active-X controls</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><img src="/_img/help_off.png" alt="" /></td>
+</tr>
+<tr>
+<td colspan="3">Branding</td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Custom access URL</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/custom-access-url/"><img title="Dynamic imaging custom access URL" src="/_img/help_on.png" alt="Custom access URL" /></a></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Free selection of skins</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/category/skins/"><img title="Free skin collection" src="/_img/help_on.png" alt="Free skin collection" /></a></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Custom CSS</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/custom-skins/"><img title="Custom CSS" src="/_img/help_on.png" alt="Custom CSS" /></a></td>
+</tr>
+<tr>
+<td colspan="3">Browser support</td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Mozilla Firefox</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><img src="/_img/help_off.png" alt="" /></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Microsoft Internet Explorer</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><img src="/_img/help_off.png" alt="" /></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Apple Safari</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><img src="/_img/help_off.png" alt="" /></td>
+</tr>
+<tr>
+<td class="feat_sub_lists_w2p">Google Chrome</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><img src="/_img/help_off.png" alt="" /></td>
+</tr>
+</tbody>
+</table>
+</div><div id="fragment-4">
+<p>We tend to make system management as easy as it can be so that you don&#8217;t have to be an expert to maintain your web-to-print portal.</p>
+<table class="w2p_feat_tbl">
+<tbody>
+<tr>
+<td class="list_title_last" colspan="2"><strong>Availability</strong></td>
+<td class="list_title_last_how"><strong>How to</strong></td>
+</tr>
+<tr>
+<td>No special IT skills required</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><img src="/_img/help_off.png" alt="" /></td>
+</tr>
+<tr>
+<td>Various reports</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/site-admin/"><img title="Website administrator" src="/_img/help_on.png" alt="Website administration" /></a></td>
+</tr>
+<tr>
+<td>Full control over your catalogs and templates</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/category/template-management/"><img title="Dynamic imaging template management" src="/_img/help_on.png" alt="Dynamic imaging template management" /></a></td>
+</tr>
+<tr>
+<td>Accept Credit Card payments online</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/prices-and-payments/"><img title="Prices and payments" src="/_img/help_on.png" alt="Prices and payments" /></a></td>
+</tr>
+<tr>
+<td>Manage prices and discounts</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/setting-up-prices-and-discounts/"><img title="Set up prices and discounts" src="/_img/help_on.png" alt="Set up prices and discounts" /></a></td>
+</tr>
+</tbody>
+</table>
+</div><div id="fragment-5">
+<p>You can assign different access control rules to each of your catalogs in order to allow or restrict access to them.</p>
+<table class="w2p_feat_tbl">
+<tbody>
+<tr>
+<td class="list_title_last" colspan="2"><strong>Availability</strong></td>
+<td class="list_title_last_how"><strong>How to</strong></td>
+</tr>
+<tr>
+<td>Access control</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/user-access-control/"><img title="User access control" src="/_img/help_on.png" alt="User access control" /></a></td>
+</tr>
+<tr>
+<td>Password protected catalogs</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/corporate-access/"><img title="Corporate access" src="/_img/help_on.png" alt="Corporate access" /></a></td>
+</tr>
+<tr>
+<td>Public catalogs</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/public-access/"><img title="Public access" src="/_img/help_on.png" alt="Public access" /></a></td>
+</tr>
+<tr>
+<td>User administration</td>
+<td class="check_icon_feat"></td>
+<td class="help_icon_feat"><a href="/help/user-administration/"><img title="User administration" src="/_img/help_on.png" alt="Dynamic imaging user administration" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>We value your <a title="ZetaPrints privacy policy" href="/about-us/privacy-policy/" target="_self">privacy</a>. <strong>We do not sell or share any information about you or your advertisers. Never.</strong></p>
+<p>No credit card details are stored by ZetaPrints. All user activities are logged and monitored. You have full control over <a title="Dynamic imaging help: User management" href="/help/category/user-management/" target="_self">access to your site</a> down to catalog level.</p>
+</div><div></div></div>
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-827">
+        <h1 class="posttitle"><a href="/ad-networks/image-generation-pricing/" rel="bookmark" title="Permanent Link: Pricing">Pricing</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p><span style="color: #ff0000;"><em>Note: Dynamic imaging pricing is only indicative – the service is free while we are ironing out the bugs. The pricing will be finalized once we are out of beta.</em></span></p>
+<p>This pricing structure applies to dynamic imaging service only. Products with output for printing are priced differently.<!--more--></p>
+<h2>Account types</h2>
+<h3>Single account</h3>
+<p>An ad network can be a single master account that gets a single monthly bill. The network would set its own prices and collect payments from customers. ZetaPrints provides a fully functional white-label dynamic imaging service.</p>
+<h3>Individual accounts</h3>
+<p>ZetaPrints can work directly with advertisers using our standard pricing. All charges will be billed directly to the advertisers bypassing the ad network. Advertisers will be in full control of their accounts.</p>
+<h2>Pricing options</h2>
+<h3>Option 1: pay per order</h3>
+<p>All previews are generated with a clearly visible watermark. The only service you pay for is when the final output files are generated free of the watermark. There are no other fees or charges.</p>
+<ul>
+<li><strong>Australia</strong><span> &#8211; $2.2 or less per order</span></li>
+<li><strong>EU</strong><span> &#8211; </span>€<span>1.3 or less per order</span></li>
+<li><strong>New Zealand</strong><span> &#8211; $2.5 or less per order</span></li>
+<li><strong>UK</strong> &#8211; £0.85 or less per order</li>
+<li><strong>USA</strong><span> &#8211; $1.7 or less per order</span></li>
+<li><strong>Other countries</strong><span> &#8211; US$1.7 or less per order</span></li>
+</ul>
+<h3>Option 2: pay per preview</h3>
+<p>Previews are generated in ready to use form: real size, required format (<em>jgp, png or gif</em>), no watermark. This option is suitable for automatic banner generation and campaign management. There are no other fees or charges.</p>
+<ul>
+<li><strong>Australia</strong><span> &#8211; $2.2 per 50 previews<br />
+</span></li>
+<li><strong>EU</strong><span> &#8211; </span>€<span>1.3</span><span> per 50 previews</span></li>
+<li><strong>New Zealand</strong><span> &#8211; $2.5 + GST</span><span> per 50 previews</span></li>
+<li><strong>UK</strong> &#8211; £0.85<span> per 50 previews</span></li>
+<li><strong>USA</strong><span> &#8211; $1.7</span><span> per 50 previews</span></li>
+<li><strong>Other countries</strong><span> &#8211; US$1.7</span><span> per 50 previews</span></li>
+</ul>
+<p>Preview files are stored on the site for several hours only.</p>
+<p>Banners cannot be served from our site. They need to be uploaded to your ad manager.</p>
+<h2>Our price promise</h2>
+<p>We will try adjust the price so that the overall annual cost for you is lower than of any other similar service or software.</p>
+<h2>Payment options</h2>
+<ul>
+<li>Credit card</li>
+<li>Direct payments to our bank account</li>
+<li>PayPal</li>
+</ul>
+<p>All charges are billed monthly to the master account. Read more in the <a title="Web-to-print help: Billing" href="../../help/category/billing/" target="_self">billing section</a>.</p>
+<h2>Free unlimited trial</h2>
+<p>We offer free unlimited use of the website until it really works for you. Free assistance for setting up and artwork conversion is available on request.</p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-822">
+        <h1 class="posttitle"><a href="/ad-networks/create-banners-on-the-fly/" rel="bookmark" title="Permanent Link: Create banners on the fly">Create banners on the fly</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p><strong>ZetaPrints dynamic imaging software combines image templates with user input and outputs personalized banner images ready to be served in your ad network.<!--more--></strong></p>
+<h2>Banner templates</h2>
+<p>Casual and small business advertisers can find a good choice of designs in our ever growing graphic design market place. They only need to enter their texts or upload images. They don&#8217;t need to be designers to get a professionally designed banner.</p>
+<p>Some advertisers may want to upload their own templates and use them exclusively. The result is still the same &#8211; anyone can prepare a professionally looking banner in seconds.</p>
+<h2>Dynamic banner generation</h2>
+<p>Our <a title="Dynamic imaging software" href="/">dynamic imaging system</a> can be used to create one banner manually or update an entire campaign automatically. Advertiser CMS and product databases can be connected directly to our back-end via <a title="web-to-print API" href="/help/category/api/">dynamic imaging API</a>. If the advertiser changes the daily special in the connected CMS from &#8220;<em>10% off</em>&#8221; to &#8220;<em>free shipping</em>&#8221; we can automatically update all their banners in just a few seconds saving them hours of work.</p>
+<h2>Part of your ad network</h2>
+<p>ZetaPrints is a hosted service, yet it can be easily integrated into your ad management system using our <a title="web-to-print API" href="/help/category/api/">dynamic imaging API</a>. It is up to you how our service is presented to your customers.</p>
+<h3>Pool of designs</h3>
+<p>Our market place is an optional feature and is only available under our own brand, where we collect the payments and set prices. You may create your own marketplace or only allow use of templates uploaded by your customers for their exclusive use.</p>
+<h3>Account management</h3>
+<p>You can choose between having a single master account for the entire ad network and take full control of all account management aspects, including registering your own customers, managing templates, setting prices and collecting payments.</p>
+<p>Alternatively, you can be &#8220;hands-off&#8221; and let your customers deal with us directly.</p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-780">
+        <h1 class="posttitle"><a href="/about-web-to-print-software/web-to-print-pitfalls-2/" rel="bookmark" title="Permanent Link: Web-to-print pitfalls">Web-to-print pitfalls</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <div class="the_content">
+<p><strong>A poof of a pudding is in eating it. A short trial isn’t enough to really understand what to expect. We give you some insider information on what to watch out for.<!--more--></strong></p>
+<h2>Basic websites</h2>
+<p>A website for a printing company should not cost you any more than a few hundred dollars, depending on how much custom design work you need. Read about our free <a title="Free printer's websites" href="../../printers/free-websites/124/"><strong>website for printers</strong></a> project. The time of paying thousands of dollars for it are in the past. Here are some questions you need to ask:</p>
+<ul>
+<li>How do you manage the content?</li>
+<li>How much storage do you get?</li>
+<li>Monthly traffic allowance?</li>
+<li>Can you add new functionality later (widgets)?</li>
+</ul>
+<h2>File uploading</h2>
+<p>File uploading is simple, but can be quite limiting if not done right.</p>
+<ul>
+<li>What’s the largest file size?</li>
+<li>How much storage?</li>
+<li>How long will the file be retained?</li>
+<li>What are the traffic limits?</li>
+<li>Will the transfer resume from the last known point If a connection breaks?</li>
+</ul>
+<h2>Quoting interface</h2>
+<p>The main question is usability. Ask a friend unfamiliar with printing and publishing to fill in the form. Most of those quote request forms are way too complex for the average print buyer. Potential customers will not even try to get a quote from you if the form looks complex.</p>
+<h2>Template preparation</h2>
+<p>The cost of preparing a template should be no more than the cost of making a design. Existing designs should be easy to convert into a template. Making templates can quickly become an impediment and a major cost center.</p>
+<ul>
+<li>How much work do you need to do to turn a design into a template?</li>
+<li>If you make changes to the design, do you need to start it all over with the template?</li>
+<li>How many different applications do you need to prepare a template?</li>
+<li>Do you need to start over if you give the design to someone else to make changes?</li>
+<li>What are file size limitations on the template file?</li>
+</ul>
+<h2>Pre-press</h2>
+<p>The files you get from your web-to-print site should be press-ready. The proofs users see should be a user-friendly representation of what the final product will look like, not a 6-up imposed PDF with crop-marks and densitometer scales.</p>
+<ul>
+<li>Do you have full control over color spaces and spot colors?</li>
+<li>Can you separate proofs shown to the customer from the imposed files you get for pre-press?</li>
+<li>What choice of PDF versions and features do you get?</li>
+</ul>
+<h2>Design limitations</h2>
+<p>Can you go beyond simple business card designs with straight lines and rectangular images?</p>
+<p>Most simple web-to-print systems have very limited design capabilities. The business card demo may look good, but few real life designs are that simple.</p>
+<ul>
+<li>What parts of design can you make variable?</li>
+<li>Can you use gradients, transparencies, drop-shadow, custom outlines, perspective, distortion, text on path, lens, blending, filters, clip-paths and other essential design techniques for the variable part?</li>
+<li>What are the maximum and minimum canvas sizes?</li>
+<li>What resolution can be used? Is it fixed or flexible?</li>
+</ul>
+<h2>Fonts</h2>
+<p>You will need to upload your own fonts sooner or later, no matter how many fonts are already installed on your web-to-print server.</p>
+<ul>
+<li>Can you upload your own fonts?</li>
+<li>Do you have to pay for uploading your font?</li>
+<li>Do they need to be manually installed?</li>
+<li>What if you upload two different looking fonts with the same name?</li>
+</ul>
+<h2>Rules and constraints</h2>
+<p>Templates need to have a certain level of flexibility for user input variations. Corporate designs require constraints to preserve the branding. On the other hand, making the rules too strict will mean lost business for you in special cases when the rules do not apply because the system will not accept the data and the user will give up.</p>
+<ul>
+<li>User image quality control: resolution, size, color space.</li>
+<li>Lengths: minimal, maximal.</li>
+<li>Automatic formatting and validation: phone numbers, emails, web addresses.</li>
+<li>Casing: automatic case change to lower case, UPPER CASE, Title Case, Sentence case.</li>
+<li>Drop downs with predefined values.</li>
+<li>Will the rules and constraints stay if the template is re-uploaded?</li>
+</ul>
+<p>Some software is made smarter than the users. It will not let the user do something it thinks is wrong, even if the user is right. For example, it wants to see all phone numbers as <em>(area code)-phone number</em> and the user wants to enter <em>1-800-number</em>.</p>
+<h2>Cost of maintenance</h2>
+<p>How big are you going to grow your web-to-print service? Will it be 20, 200 or 2000 templates?</p>
+<p>How many users?</p>
+<p>The maintenance of the product database, prices, user lists, discounts and other details becomes prohibitively expensive as soon as you get over a certain volume. There must be some ways of applying changes in bulk or through</p>
+<h2>Vendor consulting</h2>
+<p>Consulting services offered by software vendors are a sure sign you will need them to get their solution going and maintained. Add it to <strong><a title="Web-to-print cost of ownership" href="../../uncategorized/web-to-print-cost-of-ownership/82/">the cost</a></strong> even if you don’t expect to.</p>
+<ul>
+<li>Can you realistically install their software yourself?</li>
+<li>Do you need their help with template development?</li>
+<li>Do you need them to be involved every time you want: a new font, new template, new library image, new user, new something else?</li>
+</ul>
+</div>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-778">
+        <h1 class="posttitle"><a href="/about-web-to-print-software/types-of-web-to-print-2/" rel="bookmark" title="Permanent Link: Types of web-to-print">Types of web-to-print</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <div class="the_content">
+<p><strong>Web-to-print is a very generic term. The meaning changes depending on who you talk to. We attempt to categories it here.<!--more--></strong></p>
+<h2>Website for printers</h2>
+<p>It’s the most basic offer you can find. In the nutshell, it’s an informational website about your printing business. It would have information about your business, equipment, capabilities, contact details and so on.</p>
+<p><a href="/wp-content/uploads/2009/06/web-site-for-printers1.gif"><img class="size-thumbnail wp-image-794" title="Website for printers 1" src="/wp-content/uploads/2009/06/web-site-for-printers1-150x92.gif" alt="Web-to-print website example" width="150" height="92" /></a> <a href="/wp-content/uploads/2009/06/web-site-for-printers2.gif"><img class="size-thumbnail wp-image-795" title="Website for printers 2" src="/wp-content/uploads/2009/06/web-site-for-printers2-150x92.gif" alt="Web-to-print website example" width="150" height="92" srcset="/wp-content/uploads/2009/06/web-site-for-printers2-150x92.gif 150w, /wp-content/uploads/2009/06/web-site-for-printers2-300x184.gif 300w, /wp-content/uploads/2009/06/web-site-for-printers2.gif 1026w" sizes="(max-width: 150px) 100vw, 150px" /></a> <a href="/wp-content/uploads/2009/06/web-site-for-printers3.gif"><img class="size-thumbnail wp-image-796" title="Website for printers 3" src="/wp-content/uploads/2009/06/web-site-for-printers3-150x93.gif" alt="Web-to-print website example" width="150" height="93" srcset="/wp-content/uploads/2009/06/web-site-for-printers3-150x93.gif 150w, /wp-content/uploads/2009/06/web-site-for-printers3-300x186.gif 300w" sizes="(max-width: 150px) 100vw, 150px" /></a> <a href="/wp-content/uploads/2009/06/web-site-for-printers4.gif"><img class="size-thumbnail wp-image-797" title="Website for printers 4" src="/wp-content/uploads/2009/06/web-site-for-printers4-150x93.gif" alt="Web-to-print website example" width="150" height="93" /></a></p>
+<p>There is no need to pay for something as simple as this because <strong><a title="Free websites for printers" href="/printers/free-websites/124/">you can get it for FREE</a></strong>. We have <strong><a title="Website building manual" href="/help/website-builder/">detailed D.I.Y. instructions</a></strong> on how to put a really cool website together in a few hours and host it for $5 a month.</p>
+<h2>File transfer and quoting</h2>
+<p><a href="/wp-content/uploads/2008/04/quoting-and-file-transfer.gif"><img style="float: right;" title="quoting-and-file-transfer" src="/wp-content/uploads/2008/04/quoting-and-file-transfer-150x93.gif" alt="" width="150" height="93" /></a>File transfer and quoting can be bolted on top of your basic website structure. Customers can send you their files or fill in a form to request a quote. The price for this service has fallen through the floor and you can get <strong><a href="/help/large-file-upload/">free file transfer</a> </strong>and <strong><a href="/help/quotes-files/">free quoting</a></strong> in minutes.</p>
+<h2>Design it yourself</h2>
+<p>Anyone who can produce a design already has tools to do it. Most users do not want to design. They prefer to find a design they like and personalize it. This type of web-to-print software is only suitable for low end consumer products. The price for <em>a design-it-yourself</em> solution can be as low as $5. <strong><a title="5-dollar-web-to-print" href="/blog/2008/04/16/web-to-print-website-for-5/">Get one now</a></strong>.</p>
+<h2>Template based</h2>
+<p>Template based web-to-print is ideally suited for business printing.</p>
+<ul>
+<li>Corporate customers have to adhere to their branding.</li>
+<li>They re-order often enough to justify the investment in making a template.</li>
+<li>The simpler and quicker the ordering process is the more corporate customers like it.</li>
+</ul>
+<p>There are many flavours of template-based web-to-print software, but the essence is the same: choose from a list of templates, type in your text, upload images, press the button and it’s all done for you. The fundamental difference for the business is in the technology used to prepare the templates and the <strong><a title="Web-to-print cost per oder" href="/about-web-to-print-software/web-to-print-software-cost-per-order/83/">cost per order</a></strong>.</p>
+<h3>PDF templates</h3>
+<p>PDF is <a title="Inside PDF and why it can't really be edited." href="http://www.adobe.com/print/features/psvspdf/index.html" target="_blank">fixed layout format</a> designed to present the final output. Using PDF as your template is very limiting. Web-to-print systems have all sorts of PDF editing interfaces to make them usable as templates, but nonetheless there are too many limitations. This type of web-to-print is more than enough for simple products with straight text lines like business cards. It gets more difficult with creative designs where the variable elements undergo transformations like gradient fills, transparency, drop shadow, etc. The time it takes to explain what is what in your PDF to the web-to-print system may be more than what you save on taking a few orders.</p>
+<h3>InDesign and Quark Xpress templates</h3>
+<p>InDesign and Quark Xpress are the most advanced application used in pre-press and layout work. The cost of deploying their server solutions is very-very-very high. It is affordable to large printers or publishing houses only, but the ROI can still be questionable.</p>
+<h3>CorelDRAW templates</h3>
+<p>CorelDRAW is another well-known and respected vector graphic application. Our hosted <strong><a href="/">web-to-print software</a></strong> accepts CorelDRAW files. The great advantage is that all the field names, layout rules and other constraints are right there in the file. You simply upload it and it’s ready to go. The cost of building the templates is brought to the minimum. E.g. you can <strong><a title="demo: PDF to web-to-print template" href="/help/pdf-to-template-conversion/">convert a PDF file</a></strong> into a CorelDRAW template in about a minute.</p>
+<p>CorelDRAW templates provide the best value for money with minimal design limitations.</p>
+</div>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-776">
+        <h1 class="posttitle"><a href="/about-web-to-print-software/is-web-to-print-right-for-you-2/" rel="bookmark" title="Permanent Link: Is web-to-print right for you?">Is web-to-print right for you?</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <div class="the_content">
+<p><strong>There has been a lot of hype about web-to-print. The reality may be totally different. We collected some facts and observations of the industry and of our own customers.<!--more--></strong></p>
+<h2>Who’s behind the hype?</h2>
+<p>The vendors. We get on average 1 email a day with offers of web-to-print software of all sorts and kinds. Usually they promise a rosy future as soon as we buy and install their software. It is understandable &#8211; they need to sell. Read on to find out why this statement from one of the promotional emails is misleading:</p>
+<p><img class="size-full wp-image-800" title="web-to-print-promise" src="/wp-content/uploads/2009/06/web-to-print-promise.gif" alt="Your rosy web-to-print future starts here" width="459" height="165" /></p>
+<h2>Web-to-print flavors</h2>
+<p>There is no exact definition what web-to-print is. It presumes a website with some feature set to facilitate transactions between print buyers and a printing company or advertisers and a publication. Web-to-print solutions can be categorized by their features:</p>
+<ul>
+<li><strong>Basic</strong>: Website for a printing company</li>
+<li><strong>Useful</strong>: File transfer and quoting</li>
+<li><strong>Fancy</strong>: Design it yourself</li>
+<li><strong>Advanced</strong>: Template based</li>
+</ul>
+<p><strong><a title="Types of web-to-print" href="/about-web-to-print-software/types-of-web-to-print-2/">Read more</a></strong> what is behind each of these types and how to get them for FREE.</p>
+<h2>Build it and they will come</h2>
+<p>One of the main misconceptions about web-to-print is that it’s a magic technology to boost your sales the day you buy it. At least this is the picture software vendors portray to the industry, but nothing can be further from the reality. Read what it takes to <strong><a title="Web-to-print marketing" href="/about-web-to-print-software/web-to-print-marketing/">make your web-to-print a success</a></strong>.</p>
+<h2>Web-to-print is a growth tool</h2>
+<p>There are only 2 real benefits of web-to-print:</p>
+<ul>
+<li>convenience</li>
+<li>cost reduction</li>
+</ul>
+<p>Everything else is a flow-on effect. The real value of web-to-print technology is in supporting your growth, because you can do it at a faster pace without increasing your design and administration resources. The cost reduction benefit depends on the <strong><a title="Web-to-print cost of ownership" href="/about-web-to-print-software/web-to-print-software-cost-per-order/83/">Cost Per Order</a></strong>.</p>
+<h2>Is web-to-print right for you?</h2>
+<p>Answer these simple questions and decide for yourself if web-to-print software can help you.</p>
+<p><strong>Growth</strong>:</p>
+<ul>
+<li>Do you want to grow?</li>
+<li>Do you want to increase your market share?</li>
+<li>Do you want to explore new markets?</li>
+</ul>
+<p><strong>Product types</strong>:</p>
+<ul>
+<li>How many orders are alike?</li>
+<li>How many are repeating orders and re-orders?</li>
+<li>How many designs can be templated?</li>
+<li>Are most of your jobs unique or one-off?</li>
+</ul>
+<p><strong>Resources</strong>:</p>
+<ul>
+<li>Do you have sales and marketing capacity to promote your web-to-print service?</li>
+<li>Who will convert customer designs into templates for you?</li>
+</ul>
+<p><strong>Customer types</strong>:</p>
+<ul>
+<li>Do your customers need personal assistance and advice with every order?</li>
+<li>Are your customers capable of using the Internet?</li>
+</ul>
+<h2>Reasons to skip</h2>
+<p>Many printing and publishing businesses are quite happy the way they are and <strong>don’t want to grow</strong>. Some others <strong>do not see the Internet as an avenue for expansion</strong>.</p>
+<p>Not every printing business can benefit from what web-to-print has to offer at this stage of technological development, but <strong>watch out for your competition</strong>. They may figure out how to use the web and take over some of your customers before you realize what is happening.</p>
+<h2>Value for money</h2>
+<p>Purchasing a piece of web-to-print software is only one of many expenses a printing or publishing businesses will need to incur before any return on investment. Read about <strong><a title="web-to-print cost components" href="/about-web-to-print-software/web-to-print-cost-components/">hidden costs</a></strong> and many <strong><a title="Web-to-print pitfalls" href="/about-web-to-print-software/web-to-print-pitfalls-2/">pitfalls to avoid</a></strong>.</p>
+</div>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-774">
+        <h1 class="posttitle"><a href="/about-web-to-print-software/hosted-web-to-print-solution-2/" rel="bookmark" title="Permanent Link: Hosted web to print solution">Hosted web to print solution</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <div class="the_content">
+<p>ZetaPrints <strong>web-to-print solution</strong> is fully hosted. <a title="Sign up to web to print" href="http://zetaprints.com/?page=printer-new;/">Sign up</a> and you can be taking orders in minutes.<!--more--></p>
+<h2>Our success depends on yours</h2>
+<p>We only <a title="hosted web to print pricing" href="/printers/web-to-print-pricing-printer/">get paid</a> when you get an order.</p>
+<h2>Initial investment</h2>
+<p>Unlike buying <em>web to print software</em>, the first time you need to reach for your wallet is when the orders start rolling in and you are fully satisfied with our offer. Enjoy a free ride until then.</p>
+<h2>Your growing needs</h2>
+<p>We provide continuous stream of new <a title="New features blog category" href="/blog/category/zetaprints-features/printer-update-history/">web to print features</a>, bug fixes and improvements. We work closely with our customers to meet their needs and get more business through the door.</p>
+<h2>Performance and support</h2>
+<p>Our <em>web-to-print system</em> runs on a highly scalable cluster to ensure your customers do not get <a title="Web to print growth considerations" href="/uncategorized/web-to-print-growth-pains/78/">bottlenecks at peak hours</a>. We scale out to accommodate more business all the time.</p>
+<h2>Web to print pilot</h2>
+<p>Setting up with ZetaPrints web-to-print hosted system <a title="Sign up demo" href="/flash/printer-sing-up.html">takes minutes</a>. We invite you to use us as your <a title="Sign up to web to print" href="http://zetaprints.com/?page=printer-new;/">free web to print pilot</a> before you make the decision to purchase any <em>web-to-print software</em>. There is no time or volume limit on the trial. Use it as needed to prove the case and understand your real needs.</p>
+</div>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+                  <div class="post" id="post-772">
+        <h1 class="posttitle"><a href="/about-web-to-print-software/disadvantages-of-%e2%80%9chosted%e2%80%9d/" rel="bookmark" title="Permanent Link: Disadvantages of “hosted”">Disadvantages of “hosted”</a></h1>
+        <div class="pcont">
+          <!-- <div class="catfloat"><small></small></div>
+          <small>  by  </small> -->
+          <div class="entry">
+          <p><strong>Our hosted web-to-print software has many advantages: low cost, low maintenance, instant roll-out, free upgrades, no up-front investment, etc. On the other hand, “hosted” may be not your best option.<!--more--></strong></p>
+<h2>Interface</h2>
+<p>It’s not always possible to make the site look exactly the way you want. We offer some <a title="web-to-print branding" href="/help/category/branding/">extensive customization features</a>, but it may not be enough for you. An alternative is for you to produce a custom web-to-print interface <a title="web-to-print integration" href="/help/category/api/">linked to our back-end</a>.</p>
+<h2>Workflow</h2>
+<p>The workflow for preparing a book using web-to-print is slightly different from the one for postcards or internet banners. Our web-to-print workflow is generic enough and is designed to be as simple as possible. An alternative would be for you to develop your own web-to-print workflow <a title="web-to-print integration" href="/help/category/api/">connected to our back-end</a>. An easier options is to tell us what is missing from our web-to-print workflow and we may add it in for you.</p>
+<h2>Cost</h2>
+<p>A large business may see purchasing and installing their own web-to-print system as a more viable option <em>because they can afford it</em>. Whether they are going to be better off going that route is another question.</p>
+<h2>Data security</h2>
+<p>Keeping your data on someone’s else server may be a frightening proposition for some. Many software vendors have unfair privacy and copyright policies where they become the owners of any data uploaded to their servers.</p>
+<p><strong>Anything you upload to ZetaPrints belongs to you.</strong> We will never share your data with anyone else, nor we will ever contact your customers, except for technical support matters.<br />
+See our <a title="Web-to-print privacy policy" href="../../about-us/privacy-policy/22/">privacy policy</a>.</p>
+<h2>“Not under my control”</h2>
+<p>Some business managers need the absolute control over their operations and cannot delegate it to anyone. We will appreciate a chance to prove our worth as a trusted partner you can rely on. There is no expense in setting up, so why not <a title="Web-to-print sign-up" href="http://zetaprints.com/?page=printer-new;/"><strong>give it a try</strong></a>?</p>
+
+                      <div class="clear"></div>
+                  
+            <p class="postmetadata alt">
+              <small></small>
+            </p>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+              </div>
+
+    <div id="sidebar" class="minicat">
+          </div>
+  </div>
+
+
+<div id="footer-container" class="container">
+
+  <div id="footer">
+    <div id="bottomnav">
+      <ul>
+        <li class="first"><a href="/about-us/" title="About ZetaPrints">About ZetaPrints</a></li>
+        <li><a href="/about-us/contact-us/" title="Contact us">Contact us</a></li>
+        <li><a href="http://zetaprints.com/" title="Log in">Log in</a></li>
+        <li><a href="/about-us/privacy-policy/" title="Privacy policy">Privacy</a></li>
+        <li><a href="/sitemap" title="Sitemap">Sitemap</a></li>
+        <li><a href="/about-us/summary-of-terms-and-conditions/" title="Terms and conditions">Terms of Service</a></li>
+        <li><a href="/blog" title="Web-to-print Blog">Web-to-print Blog</a></li>
+        <li><a href="/help/" title="Web-to-print Help">Web-to-print Help</a></li>
+      </ul>
+    </div>
+    <p><a href="/blog" title="Web-to-print Blog"><img class="footer-icon" alt="Blog" src="/wp-content/themes/zetaprints-3.0/images/blog.png"/></a>&nbsp;
+<a href="http://twitter.com/zetaprints/" title="Follow us on twitter"><img class="footer-icon" alt="Twitter" src="/wp-content/themes/zetaprints-3.0/images/twitter_16.png"/></a>&nbsp;
+&copy; 2006-2012 ZetaPrints Ltd. All rights reserved. Powered by <a href="http://wordpress.org">WordPress</a>.</p>
+    <a href="#header" title="Back to Top" class="top-btn">Back to Top</a>
+  </div>
+</div>
+
+<script type='text/javascript' src='/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='/wp-includes/js/wp-embed.min.js?ver=4.4.1'></script>
+
+<script type="text/javascript">
+    (function(){
+        var ga = document.createElement('script');
+        ga.type="text/javascript";
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })
+</script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1132851-1']);
+    _gaq.push(['_trackPageview']);
+</script>
+</body>
+</html>
